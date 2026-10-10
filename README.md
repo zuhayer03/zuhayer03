@@ -44,6 +44,14 @@ I've studied **Java and Python** and am currently refreshing both while developi
 
 **Exploring:** AI agents · LLM applications · RAG · Blockchain · Developer tooling
 
+
+### 🌐 Interactive portfolio & working AI agent
+
+- **[Animated portfolio website source](https://github.com/zuhayer03/programming-journey/tree/main/docs)** — responsive single-page site with a custom particle background, interactive project cards, and reduced-motion support.
+- **[ToolPilot agent](https://github.com/zuhayer03/programming-journey/tree/main/agent)** — runnable Python tool router with a safe calculator, word statistics, TODO extraction, execution traces, and unit tests.
+
+**Website publishing:** GitHub Pages must be enabled for the `main` branch and `/docs` folder in repository Settings → Pages. Once enabled, the site should be available at `https://zuhayer03.github.io/programming-journey/`.
+
 ### 🚀 Explore my work
 
 <table>
