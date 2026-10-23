@@ -66,11 +66,44 @@ looking_for: co-op opportunities
 
 <a href="https://zuhayer03.github.io/programming-journey/lab.html"><img src="https://img.shields.io/badge/✳_THE_CREATIVE_ENGINEERING_LAB-LAUNCH_THE_EXPERIMENTS-D9FF65?style=for-the-badge&labelColor=171A15&color=D9FF65" alt="Launch interactive lab" /></a>
 
-**[ENTER THE LAB →](https://zuhayer03.github.io/programming-journey/lab.html)**
+**[ENTER THE LAB →](https://zuhayer03.github.io/programming-journey/lab.html)** · **[SEE THE TRUE 3D HERO →](https://zuhayer03.github.io/programming-journey/)**
 
-Explore three interactive browser experiments built to explain the ideas behind my CLI work: a **sorting visualizer**, a **synthetic login-event analyzer**, and a **fictional budget sandbox**. They're separate browser-side demos, not a claim that the Java/Python programs are web-hosted.
+Explore four interactive browser experiments built to explain the ideas behind my CLI work: a **sorting visualizer**, a **synthetic login-event analyzer**, a **fictional budget sandbox**, and a **simulated network monitor**. They're separate browser-side demos, not a claim that the Java/Python programs are web-hosted.
 
-### 03 / THE TECH & THE THINKING
+### 03 / A WHOLE TECH UNIVERSE ✳
+
+<div align="center">
+
+<a href="https://zuhayer03.github.io/programming-journey/#tools">
+<img src="assets/tool-universe.svg" width="100%" alt="Original illustrated universe of 29 programming, AI, agent, infrastructure, quality, creative and learning tools"/>
+</a>
+
+**[EXPLORE ALL 29 TOOLS IN THE INTERACTIVE 3D UNIVERSE ↗](https://zuhayer03.github.io/programming-journey/#tools)**
+
+<sub>Search, filter, inspect and rotate the tool constellation on the portfolio website.</sub>
+
+</div>
+
+<details>
+<summary><b>＋ THE COMPLETE TOOL DIRECTORY / 7 DOMAINS</b></summary>
+
+<br/>
+
+| Ecosystem | Tools and platforms |
+|:--|:--|
+| **Programming & development** | Java · Python · Git · GitHub · VS Code · IntelliJ IDEA |
+| **AI coding** | Cursor · GitHub Copilot · Claude Code · Google Antigravity |
+| **Agents & automation** | LangGraph · Google ADK · LiveKit Agents · Browser Use · Composio · Paperclip |
+| **Models & infrastructure** | Hugging Face · Ollama · Supabase AI · E2B |
+| **Review & observability** | CodeRabbit · LangSmith · Sentry Seer |
+| **Design, research & organization** | Figma · Notion · NotebookLM · Perplexity |
+| **Problem-solving practice** | LeetCode · NeetCode |
+
+These are tools I use, study or explore; inclusion **does not imply expert-level proficiency** in every framework. I value fundamentals and prefer showing real projects to making inflated claims.
+
+</details>
+
+### THE TECH & THE THINKING
 
 <div align="center">
 
