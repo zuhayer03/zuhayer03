@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-label="Zuhayer Alam Faiyaz, developer identity">
+<defs>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#070b18"/><stop offset=".54" stop-color="#101330"/><stop offset="1" stop-color="#060b18"/></linearGradient>
+<linearGradient id="accent" x2="1" y2="1"><stop stop-color="#56e7ff"/><stop offset=".52" stop-color="#9b7cff"/><stop offset="1" stop-color="#f387e7"/></linearGradient>
+<radialGradient id="orb"><stop stop-color="#7459ef" stop-opacity=".35"/><stop offset="1" stop-color="#7459ef" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" fill="none" stroke="#70b7ff" stroke-opacity=".09" stroke-width="1"/></pattern>
+<filter id="glow"><feGaussianBlur stdDeviation="6"/></filter>
+</defs>
+<rect width="1200" height="430" rx="22" fill="url(#bg)"/>
+<rect width="1200" height="430" rx="22" fill="url(#grid)"/>
+<circle cx="983" cy="215" r="250" fill="url(#orb)"/>
+<g stroke="#68dfff" fill="none" opacity=".43"><circle cx="978" cy="212" r="133"/><circle cx="978" cy="212" r="166" stroke-dasharray="3 13"/><ellipse cx="978" cy="212" rx="208" ry="73" transform="rotate(-28 978 212)" stroke="#bd86ff" opacity=".66"/><path d="M810 212h336M978 44v336" stroke-opacity=".22"/></g>
+<g fill="#7bdfff"><circle cx="854" cy="162" r="4"/><circle cx="1095" cy="123" r="3"/><circle cx="1003" cy="372" r="3"/></g>
+<path d="M934 133h97l-93 150h100" stroke="#5fcbff" stroke-width="26" opacity=".36" fill="none" filter="url(#glow)"/>
+<path d="M934 133h97l-93 150h100" stroke="url(#accent)" stroke-width="21" stroke-linejoin="round" fill="none"/>
+<g font-family="'Courier New',monospace">
+<text x="62" y="55" font-size="15" fill="#83dbef" letter-spacing="3">~/zuhayer03/identity</text>
+<circle cx="70" cy="104" r="5" fill="#5eebbd"/><text x="86" y="110" font-size="15" fill="#8da8bf">AVAILABLE FOR CO-OP COLLABORATION</text>
+<text x="62" y="194" font-size="51" font-weight="bold" fill="#f2f6ff" letter-spacing="-2">ZUHAYER ALAM</text>
+<text x="62" y="251" font-size="57" font-weight="bold" fill="url(#accent)" letter-spacing="2">FAIYAZ<tspan fill="#61e5e5">_</tspan></text>
+<text x="64" y="300" font-size="21" fill="#afc4d8">Computer Science  /  Software  /  Systems</text>
+<path d="M64 328H724" stroke="#536784" stroke-opacity=".7"/>
+<text x="64" y="360" font-size="16" fill="#71e2e1">JAVA</text><text x="137" y="360" fill="#687f9a">•</text><text x="164" y="360" font-size="16" fill="#bda4ff">PYTHON</text><text x="260" y="360" fill="#687f9a">•</text><text x="286" y="360" font-size="16" fill="#71e2e1">AI AUTOMATION</text><text x="456" y="360" fill="#687f9a">•</text><text x="482" y="360" font-size="16" fill="#bda4ff">NETWORKS</text>
+<text x="1100" y="403" font-size="12" fill="#70819c" text-anchor="end">SIGNAL // 001</text>
+</g>
+<rect x="1" y="1" width="1198" height="428" rx="21" stroke="#6479a7" stroke-opacity=".35" fill="none"/>
+</svg>
