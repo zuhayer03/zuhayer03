@@ -1,93 +1,100 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/zuhayer03/programming-journey/main/assets/banner.svg" width="100%" alt="Zuhayer Alam Faiyaz developer portfolio banner" />
+<img src="assets/identity.svg" width="100%" alt="Custom neon orbital banner for Zuhayer Alam Faiyaz" />
 
-# Zuhayer Alam Faiyaz
-### Computer Science Student · Software Development · AI & Automation
+<br/>
 
-**Kettering University** &nbsp;·&nbsp; **Flint, Michigan** &nbsp;·&nbsp; **Open to software engineering and IT co-op opportunities**
+<a href="https://www.linkedin.com/in/zuhayer-alam-faiyaz-8bb1a3442/"><img alt="LinkedIn" src="https://img.shields.io/badge/CONNECT-LINKEDIN-1b2844?style=for-the-badge&logo=linkedin&logoColor=65e5ef"/></a>
+<a href="https://github.com/zuhayer03/programming-journey"><img alt="Portfolio" src="https://img.shields.io/badge/EXPLORE-PORTFOLIO-1b2844?style=for-the-badge&logo=github&logoColor=c7a5ff"/></a>
+<a href="https://github.com/zuhayer03?tab=repositories"><img alt="Repositories" src="https://img.shields.io/badge/VIEW-SOURCE_CODE-1b2844?style=for-the-badge&logo=github&logoColor=65e5ef"/></a>
 
-<a href="https://www.linkedin.com/in/zuhayer-alam-faiyaz-8bb1a3442/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="https://github.com/zuhayer03/programming-journey"><img src="https://img.shields.io/badge/Explore-Portfolio-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Portfolio repository" /></a>
-<a href="https://github.com/zuhayer03?tab=repositories"><img src="https://img.shields.io/badge/View-My_Code-1F2937?style=for-the-badge&logo=github&logoColor=white" alt="Repositories" /></a>
-
-</div>
-
----
-
-## 👋 About me
-
-I'm a Computer Science undergraduate at **Kettering University**, building a stronger foundation in **Java, data structures, algorithms, and software engineering**. Before focusing on software development, I worked in **IT systems support and network infrastructure operations**. That hands-on background shaped how I think about reliability, troubleshooting, and practical engineering.
-
-I'm especially interested in **AI-powered development, automation, security tooling, and blockchain technology**. I like projects that connect clean code to real problems, and I'm actively developing my portfolio while pursuing co-op opportunities.
-
-- 🎓 **Education:** B.S. in Computer Science, Kettering University (2026–present)
-- 💻 **Currently working on:** Java, DSA, algorithm benchmarking, and portfolio-quality applications
-- 🔧 **Experience:** IT support, network infrastructure, and technical operations
-- 🤝 **Interested in:** Software engineering / IT co-ops, collaborative projects, and open source
-- 📍 **Based in:** Michigan, USA
-
-## 🛠️ Technical toolkit
-
-<div align="center">
-
-**Languages & fundamentals**
-
-<img src="https://skillicons.dev/icons?i=java,python,git,github&theme=dark" alt="Java, Python, Git and GitHub" />
-
-**Developer tools & platforms**
-
-<img src="https://skillicons.dev/icons?i=vscode,idea,figma,supabase&theme=dark" alt="VS Code, IntelliJ IDEA, Figma and Supabase" />
+<sub>BUILDING THINGS THAT WORK IN THE REAL WORLD · MICHIGAN, USA</sub>
 
 </div>
 
-**Core interests:** Object-oriented programming · Data structures & algorithms · Network monitoring · Security logs · AI tooling · Automation · Problem solving
+<br/>
 
-## 🚀 Projects from my current portfolio
+```text
+┌─ /about/me ───────────────────────────────────────────────────────┐
+│                                                                  │
+│  NAME        Zuhayer Alam Faiyaz                                 │
+│  UNIVERSITY  Kettering University  •  Computer Science           │
+│  BACKGROUND  IT support + network infrastructure                 │
+│  FOCUS       Java • DSA • Python • AI automation                 │
+│  NEXT        Software engineering / IT co-op                     │
+│                                                                  │
+└──────────────────────────────────────────────────────────────────┘
+```
 
-| Project | What it does | Status |
-|:--|:--|:--|
-| **Network Monitor** | Checks device connectivity and uptime, records downtime, and exports logs | Built |
-| **Finance Tracker** | Helps track budgets, savings, spending categories, and goals | Developed |
-| **AlgoArena — Algorithm Racing Simulator** | Java sorting comparisons, execution benchmarks, and algorithm visualization | In progress |
-| **ThreatTrace — Java Security Log Analyzer** | Processes sample login-event logs and identifies repeated failed attempts by IP | Prototype completed |
+### 01 / THE PERSON BEHIND THE CODE
 
-*These are projects from my CV. Links to individual code repositories will be added when their public GitHub locations are verified.*
+I'm a Computer Science student at **Kettering University** with hands-on experience in **IT support and network infrastructure**. I got interested in building software because I like understanding how systems work—and what happens when they don't.
 
-### Explore code that is already public
+Right now I'm sharpening my **Java and data structures fundamentals**, building practical projects, and exploring the intersection of **AI automation, software engineering, and blockchain**.
 
-- ☕ **[Java Code](https://github.com/zuhayer03/javaCode)** — Java practice, coursework, and programming fundamentals.
-- 🧭 **[Programming Journey](https://github.com/zuhayer03/programming-journey)** — Developer portfolio, experiments, and learning progress.
-- 🤖 **[ToolPilot](https://github.com/zuhayer03/programming-journey/tree/main/agent)** — A small rule-based Python tool router with tests (not an LLM agent).
+I care more about useful, understandable software than impressive-looking buzzwords.
 
-## 💼 Experience
-
-| Role | Organization | Dates |
-|:--|:--|:--|
-| Digital Media & Technology Operations Associate | The Schoolcraft Connection | Aug 2025 – Apr 2026 |
-| IT Systems & Network Support Specialist | SOL-BD | Mar 2023 – Jul 2024 |
-| Network Infrastructure Operations Associate | Sylhet Cable Systems | Jan 2022 – Feb 2023 |
-| IT & Network Operations Intern | Melody Cable System | Aug 2021 – Dec 2021 |
-
-## 📈 GitHub activity
+### 02 / WHAT'S IN MY TOOLBOX
 
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=zuhayer03&show_icons=true&hide_border=true&theme=tokyonight" height="165" alt="GitHub activity stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=zuhayer03&layout=compact&hide_border=true&theme=tokyonight" height="165" alt="Most used languages in public repositories" />
+
+<img src="https://skillicons.dev/icons?i=java,python,git,github,vscode,idea,figma,supabase&theme=dark" alt="Java, Python, Git, GitHub, VS Code, IntelliJ, Figma, Supabase" />
+
 </div>
 
-<sub>Activity cards use public GitHub data and depend on a third-party service being available.</sub>
+```yaml
+engineering:
+  fundamentals: [Java, Python, OOP, Data Structures, Algorithms]
+  background: [IT Troubleshooting, Network Operations, Monitoring]
+  exploring: [AI Agents, Developer Automation, Blockchain]
+  philosophy: "Learn deeply. Build practically. Improve continuously."
+```
 
-## 🌱 What I'm building toward
+### 03 / SELECTED BUILDS
 
-A portfolio of well-documented Java and Python software, stronger algorithmic problem-solving skills, and real engineering experience through co-op work. I'm especially interested in opportunities where **software, infrastructure, and intelligent automation** overlap.
+<table>
+<tr><th>PROJECT</th><th>WHAT IT EXPLORES</th><th>STATE</th></tr>
+<tr><td><b>Network Monitor</b></td><td>Connectivity checks, uptime and downtime logs, CSV/JSON export</td><td>Completed · repo link to follow</td></tr>
+<tr><td><b>Finance Tracker</b></td><td>Budgets, savings and spending categories</td><td>Completed · repo link to follow</td></tr>
+<tr><td><b>AlgoArena</b></td><td>Java sorting comparisons and algorithm timing</td><td>Planned / in development</td></tr>
+<tr><td><b>CyberShield</b></td><td>Server health, latency, alerts and trends</td><td>Planned</td></tr>
+</table>
 
----
+**Code you can actually inspect today**
+
+- **[ToolPilot →](https://github.com/zuhayer03/programming-journey/tree/main/agent)** A small rule-based Python tool router with tests; not an LLM agent.
+- **[Java Code →](https://github.com/zuhayer03/javaCode)** Java exercises and programming foundations.
+- **[Programming Journey →](https://github.com/zuhayer03/programming-journey)** My developer portfolio and experiments.
+
+### 04 / EXPERIENCE BEFORE SOFTWARE
+
+```text
+2025—2026   Schoolcraft Connection   | Digital Media & Technology Operations
+2023—2024   SOL-BD                   | IT Support & Network Support
+2022—2023   Sylhet Cable Systems     | Network Infrastructure Operations
+             Melody Cable System     | IT & Network Operations Internship
+```
+
+### 05 / THE NEXT CHAPTER
+
+**Currently learning:** Java, data structures & algorithms, problem-solving and building more complete software projects.
+
+**Looking for:** Opportunities to contribute to software engineering or IT teams through co-op work, collaborate with builders, and keep growing my technical foundation.
 
 <div align="center">
 
-**Build carefully. Keep learning. Ship real things.**
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=zuhayer03&layout=compact&hide_border=true&theme=tokyonight" alt="Language usage across public repositories" />
 
-[LinkedIn](https://www.linkedin.com/in/zuhayer-alam-faiyaz-8bb1a3442/) · [Portfolio repository](https://github.com/zuhayer03/programming-journey) · [All repositories](https://github.com/zuhayer03?tab=repositories)
+<br/>
+
+<sub>Public-repository language data, not a measure of proficiency. Third-party widget may occasionally be unavailable.</sub>
+
+<br/><br/>
+
+<code>zuhayer@github:~$ keep_building --with-purpose</code>
+
+<br/><br/>
+
+**[LINKEDIN](https://www.linkedin.com/in/zuhayer-alam-faiyaz-8bb1a3442/)** · **[PUBLIC REPOS](https://github.com/zuhayer03?tab=repositories)** · **[PORTFOLIO](https://github.com/zuhayer03/programming-journey)**
 
 </div>
