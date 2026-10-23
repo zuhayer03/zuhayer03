@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1140" height="120" viewBox="0 0 1140 120" role="img" aria-label="Stay curious. Build with intention. Keep shipping.">
+<defs><linearGradient id="g"><stop stop-color="#69e9ec"/><stop offset=".55" stop-color="#9b8cff"/><stop offset="1" stop-color="#69e9ec"/></linearGradient></defs>
+<rect width="1140" height="120" rx="14" fill="#0b1125"/><path d="M20 30h200l16 14h80l30-20 30 65 23-43h56l20 10h175l20-18 30 34 20-24h400" fill="none" stroke="url(#g)" stroke-width="2" opacity=".75"/>
+<text x="570" y="98" fill="#cedaf1" font-size="18" font-family="Consolas,monospace" letter-spacing="3" text-anchor="middle">STAY CURIOUS · BUILD WITH INTENTION · KEEP SHIPPING</text>
+</svg>
