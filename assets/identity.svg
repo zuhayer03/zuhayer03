@@ -1,34 +1,35 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="480" viewBox="0 0 1280 480" role="img" aria-labelledby="title desc">
-<title id="title">Zuhayer Alam Faiyaz / Z SIGNAL</title><desc id="desc">A custom midnight terminal identity banner with luminous planetary rings and a Z monogram.</desc>
+<title id="title">Zuhayer Alam Faiyaz — Creative Engineering</title><desc id="desc">A warm editorial design with oversized typographic identity, acid lime accent and abstract orbit sculpture.</desc>
 <defs>
-<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#070a17"/><stop offset=".58" stop-color="#10152f"/><stop offset="1" stop-color="#060a18"/></linearGradient>
-<linearGradient id="line" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#64f3ef"/><stop offset=".55" stop-color="#8c9bff"/><stop offset="1" stop-color="#e58cff"/></linearGradient>
-<radialGradient id="halo"><stop stop-color="#624af0" stop-opacity=".52"/><stop offset="1" stop-color="#624af0" stop-opacity="0"/></radialGradient>
-<pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" fill="none" stroke="#8dc0ff" stroke-width=".7" stroke-opacity=".12"/></pattern>
-<filter id="blur"><feGaussianBlur stdDeviation="13"/></filter>
-<clipPath id="frame"><rect width="1280" height="480" rx="24"/></clipPath>
+<linearGradient id="stage" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#dff6c6"/><stop offset=".55" stop-color="#bcdfb9"/><stop offset="1" stop-color="#9fcfb5"/></linearGradient>
+<radialGradient id="orb"><stop stop-color="#dcff85"/><stop offset=".35" stop-color="#98d2bf"/><stop offset=".72" stop-color="#6575b8"/><stop offset="1" stop-color="#184a4b"/></radialGradient>
+<pattern id="grid" width="33" height="33" patternUnits="userSpaceOnUse"><path d="M33 0H0V33" fill="none" stroke="#14241c" stroke-opacity=".08"/></pattern>
+<clipPath id="clip"><rect x="12" y="12" width="1256" height="456" rx="17"/></clipPath>
 </defs>
-<g clip-path="url(#frame)"><rect width="1280" height="480" fill="url(#bg)"/><rect width="1280" height="480" fill="url(#grid)"/>
-<circle cx="1030" cy="238" r="350" fill="url(#halo)"><animate attributeName="opacity" values=".5;.95;.5" dur="9s" repeatCount="indefinite"/></circle>
-<g stroke="url(#line)" fill="none"><circle cx="1030" cy="225" r="147" stroke-opacity=".62" stroke-width="1.5"/><circle cx="1030" cy="225" r="192" stroke-dasharray="4 13" stroke-opacity=".58"/><circle cx="1030" cy="225" r="225" stroke-dasharray="1 13" stroke-opacity=".22"/>
-<ellipse cx="1030" cy="225" rx="255" ry="77" transform="rotate(-31 1030 225)" stroke-width="2.5" stroke-opacity=".65"/>
-<ellipse cx="1030" cy="225" rx="247" ry="81" transform="rotate(31 1030 225)" stroke-opacity=".21"/>
+<rect width="1280" height="480" fill="#f3f2eb"/>
+<g clip-path="url(#clip)">
+<rect x="12" y="12" width="1256" height="456" rx="17" fill="#f3f2eb"/>
+<rect x="742" y="12" width="526" height="456" fill="url(#stage)"/>
+<rect x="742" y="12" width="526" height="456" fill="url(#grid)"/>
+<circle cx="1035" cy="240" r="194" fill="url(#orb)" opacity=".88"/>
+<g fill="none" stroke="#173d32">
+<ellipse cx="1035" cy="240" rx="210" ry="70" transform="rotate(-34 1035 240)" stroke-width="2.3" stroke-opacity=".8"><animateTransform attributeName="transform" type="rotate" values="-34 1035 240;326 1035 240" dur="60s" repeatCount="indefinite"/></ellipse>
+<ellipse cx="1035" cy="240" rx="210" ry="70" transform="rotate(53 1035 240)" stroke-width="1.6" stroke-opacity=".44"><animateTransform attributeName="transform" type="rotate" values="53 1035 240;413 1035 240" dur="74s" repeatCount="indefinite"/></ellipse>
+<circle cx="1035" cy="240" r="235" stroke-dasharray="2 14" stroke-opacity=".24"/>
 </g>
-<circle cx="1196" cy="129" r="7" fill="#73f8e5"><animate attributeName="opacity" values=".2;1;.2" dur="3s" repeatCount="indefinite"/></circle>
-<circle cx="916" cy="360" r="5" fill="#de9eff"/><circle cx="842" cy="174" r="3" fill="#80d8fa"/>
-<path d="M971 143H1097L958 310H1096" fill="none" stroke="#81b6ff" stroke-opacity=".40" stroke-width="42" filter="url(#blur)"/>
-<path d="M971 143H1097L958 310H1096" fill="none" stroke="url(#line)" stroke-width="25" stroke-linejoin="round"/>
-<g font-family="ui-monospace,SFMono-Regular,Consolas,monospace">
-<rect x="51" y="39" width="263" height="30" rx="15" fill="#132b3a" stroke="#5cf5e8" stroke-opacity=".35"/><circle cx="72" cy="54" r="5" fill="#53eabd"/><text x="88" y="59" font-size="13" fill="#9dfbf0" letter-spacing="1">IDENTITY / ONLINE</text>
-<text x="52" y="118" fill="#7389a8" font-size="15" letter-spacing="4">Z // SIGNAL · PORTFOLIO SYSTEM</text>
-<text x="47" y="201" fill="#f3f7ff" font-size="56" font-weight="bold" letter-spacing="-3">ZUHAYER ALAM</text>
-<text x="47" y="270" fill="url(#line)" font-size="68" font-weight="bold" letter-spacing="-2">FAIYAZ<tspan fill="#65eff0">_</tspan></text>
-<text x="52" y="314" fill="#c1d0e7" font-size="19">Software / Systems / Intelligent Automation</text>
-<path d="M52 341H740" stroke="#7080aa" stroke-opacity=".55"/>
-<text x="52" y="374" fill="#75efed" font-size="15">JAVA</text><text x="119" y="374" fill="#7485a3"> / </text><text x="150" y="374" fill="#ceb8ff" font-size="15">PYTHON</text><text x="244" y="374" fill="#7485a3"> / </text><text x="277" y="374" fill="#75efed" font-size="15">DSA</text><text x="331" y="374" fill="#7485a3"> / </text><text x="365" y="374" fill="#ceb8ff" font-size="15">AI AUTOMATION</text>
-<text x="52" y="445" fill="#617795" font-size="13">KETTERING UNIVERSITY  •  MICHIGAN, USA</text>
-<text x="1194" y="445" fill="#8295b5" text-anchor="end" font-size="13">MODE: BUILD / 001</text>
+<text x="1040" y="336" text-anchor="middle" fill="#0f2821" font-family="Arial,Helvetica,sans-serif" font-size="264" font-weight="900" letter-spacing="-42">Z</text>
+<text x="1135" y="198" fill="#e6ff6d" font-family="Arial" font-size="85">✳</text>
+<rect x="38" y="36" width="183" height="31" rx="16" fill="#d9ff65"/>
+<circle cx="57" cy="51" r="4" fill="#17201a"/>
+<text x="72" y="56" fill="#151a14" font-family="monospace" font-size="12" font-weight="bold">IDENTITY / ONLINE</text>
+<text x="41" y="116" font-family="monospace" font-size="15" fill="#747970" letter-spacing="2">HI THERE. I'M</text>
+<text x="34" y="208" font-family="Arial,Helvetica,sans-serif" font-size="92" font-weight="900" fill="#1a1c18" letter-spacing="-8">ZUHAYER</text>
+<text x="36" y="296" font-family="Arial,Helvetica,sans-serif" font-size="90" font-weight="900" fill="#1a1c18" letter-spacing="-7">ALAM FAIYAZ</text>
+<rect x="41" y="322" width="576" height="2" fill="#171c17"/>
+<text x="42" y="358" fill="#303630" font-family="monospace" font-size="19">IDEAS, MADE REAL. ✳</text>
+<text x="42" y="402" fill="#60675e" font-family="monospace" font-size="15">COMPUTER SCIENCE · SOFTWARE · SYSTEMS</text>
+<text x="42" y="446" fill="#8a8f83" font-family="monospace" font-size="13">KETTERING UNIVERSITY    /    MICHIGAN, USA</text>
+<text x="1241" y="446" text-anchor="end" fill="#234c3d" font-family="monospace" font-size="12">Z✳F / 2026</text>
 </g>
-<path d="M6 80V26Q6 6 26 6H80M1200 6H1254Q1274 6 1274 26V80M6 400V454Q6 474 26 474H80M1200 474H1254Q1274 474 1274 454V400" stroke="url(#line)" stroke-width="2" fill="none" opacity=".72"/>
-</g>
+<rect x="12" y="12" width="1256" height="456" rx="17" fill="none" stroke="#151a15" stroke-opacity=".22"/>
 </svg>
