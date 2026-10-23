@@ -1,0 +1,34 @@
+name: Animate Contribution Signal
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "19 6 * * *"
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/snake.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Build matching contribution snakes
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: zuhayer03
+          outputs: |
+            dist/snake.svg?palette=github-light&color_snake=#6b42c8
+            dist/snake-dark.svg?palette=github-dark&color_snake=#70e7ef&color_dots=#0b1125,#1c334b,#326b92,#8469ce,#c9a5ff
+      - name: Publish animation assets to output branch
+        uses: crazy-max/ghaction-github-pages@v5
+        with:
+          target_branch: output
+          build_dir: dist
+          keep_history: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
