@@ -110,25 +110,37 @@ The code lives in the [**Programming Journey project directory**](https://github
 
 </div>
 
-<details>
-<summary><b>＋ THE CONTRIBUTION SNAKE / LIVE GRID ANIMATION</b></summary>
-<br/>
-
-The animation is generated from my actual public GitHub contribution calendar by a [scheduled GitHub Action](https://github.com/zuhayer03/zuhayer03/actions/workflows/snake.yml).
+### `06` · LIVE CONTRIBUTION SIGNAL
 
 <div align="center">
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/snake-dark.svg"/>
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/snake.svg"/>
-  <img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/snake-dark.svg" alt="Animated GitHub contribution snake; available after the first workflow run"/>
+  <img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/snake-dark.svg" width="100%" alt="Animated snake generated from my real GitHub contribution graph"/>
 </picture>
+
+<sub>Real contribution calendar · automatic daily update via <a href="https://github.com/zuhayer03/zuhayer03/actions/workflows/snake.yml">GitHub Actions</a></sub>
+
+</div>
+
+<details>
+<summary><b>＋ MORE SIGNAL / STREAK &amp; ACTIVITY TROPHIES</b></summary>
+<br/>
+
+<div align="center">
+<img src="https://streak-stats.demolab.com?user=zuhayer03&theme=tokyonight&hide_border=true" alt="Public GitHub activity streak statistics"/>
+
+<br/>
+
+<img src="https://github-profile-trophy.vercel.app/?username=zuhayer03&theme=tokyonight&no-frame=true&no-bg=true&margin-w=10&row=1" alt="Dynamic trophies based on public GitHub activity"/>
 </div>
 
 </details>
 
-<sub>Stats, typing text and visitor badges are rendered by external services and may temporarily fail; the contribution animation appears after its first successful workflow run.</sub>
+<sub>Stats, typing text and visitor badges are rendered by external services and may temporarily fail; the contribution animation refreshes each day.</sub>
 
-### `06` · OPEN FOR THE NEXT MISSION
+### `07` · OPEN FOR THE NEXT MISSION
 
 I'm looking for **software engineering, IT, or systems co-op opportunities** where I can contribute, learn from engineers, and ship useful work.
 
