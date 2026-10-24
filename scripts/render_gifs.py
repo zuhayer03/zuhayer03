@@ -137,6 +137,55 @@ def tools_gif():
             frames.append(img)
     save(frames, "tool-reel.gif", 145)
 
+def build_pipeline_gif():
+    """Animated engineering storyboard: idea -> code -> tests -> ship."""
+    frames = []
+    stages = [
+        ("01 / THINK", "PROBLEM", CYAN),
+        ("02 / CODE", "BUILD", PURPLE),
+        ("03 / TEST", "VERIFY", PEACH),
+        ("04 / SHIP", "RELEASE", LIME),
+    ]
+    for t in range(64):
+        img = Image.new("RGB", (980, 248), BG)
+        d = ImageDraw.Draw(img)
+        grid(d, 980, 248, 35)
+        rounded(d, (8, 8, 971, 240), radius=18)
+        d.text((30, 24), "Z/F  //  IDEA TO REALITY", font=F_TITLE, fill=WHITE)
+        d.text((782, 29), "BUILD LOOP / 001", font=F_TINY, fill=MUTED)
+        stage_index = min(3, t // 16)
+        for index, (label, caption, col) in enumerate(stages):
+            x = 25 + 236*index
+            active = index == stage_index
+            complete = index < stage_index
+            border = col if active or complete else (45, 75, 58)
+            rounded(d, (x, 81, x+217, 184), radius=13,
+                    fill=(28, 48, 42) if active else PANEL,
+                    outline=border, width=3 if active else 1)
+            d.text((x+15, 99), label, font=F_SMALL, fill=col if active or complete else MUTED)
+            d.text((x+15, 130), caption, font=F_MED, fill=WHITE if active or complete else MUTED)
+            d.rectangle((x+15, 163, x+191, 167), fill=(43, 70, 57))
+            if complete:
+                width = 176
+            elif active:
+                width = max(8, int(176*((t % 16)+1)/16))
+            else:
+                width = 0
+            if width:
+                d.rectangle((x+15, 163, x+15+width, 167), fill=col)
+            if index < 3:
+                d.line((x+217, 130, x+235, 130), fill=MUTED, width=2)
+        # A luminescent packet moves along the four-stage pathway.
+        packet_x = int(55+(t / 63)*855)
+        packet_y = int(210+5*math.sin(t*.25))
+        d.ellipse((packet_x-6, packet_y-6, packet_x+6, packet_y+6), fill=LIME)
+        d.line((27, 211, 954, 211), fill=(47, 68, 57), width=2)
+        d.ellipse((packet_x-6, packet_y-6, packet_x+6, packet_y+6), fill=LIME)
+        d.text((30, 224), "LEARN DEEPLY  /  BUILD PRACTICALLY  /  SHIP BETTER", font=F_TINY, fill=MUTED)
+        frames.append(img)
+    save(frames, "build-pipeline.gif", 95)
+
 if __name__ == "__main__":
     terminal_gif()
     tools_gif()
+    build_pipeline_gif()
