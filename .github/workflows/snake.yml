@@ -68,7 +68,8 @@ jobs:
             dist/pacman-contribution-graph-dark.svg \
             dist/dev-console.gif \
             dist/tool-reel.gif \
-            dist/build-pipeline.gif; do
+            dist/build-pipeline.gif \
+            dist/tool-cosmos.gif; do
               test -s "$file" || { echo "Missing animation: $file"; exit 1; }
               echo "OK: $file"
           done
@@ -90,7 +91,6 @@ jobs:
           PY
 
       - name: Publish profile animations together
-
         uses: crazy-max/ghaction-github-pages@v5
         with:
           target_branch: output
