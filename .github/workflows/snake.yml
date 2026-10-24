@@ -30,7 +30,7 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Render original terminal and tool-reel GIFs
+      - name: Render three original portfolio GIF animations
         run: |
           python -m pip install --disable-pip-version-check pillow
           python scripts/render_gifs.py dist
@@ -58,7 +58,8 @@ jobs:
             dist/pacman-contribution-graph.svg \
             dist/pacman-contribution-graph-dark.svg \
             dist/dev-console.gif \
-            dist/tool-reel.gif; do
+            dist/tool-reel.gif \
+            dist/build-pipeline.gif; do
               test -s "$file" || { echo "Missing animation: $file"; exit 1; }
               echo "OK: $file"
           done
