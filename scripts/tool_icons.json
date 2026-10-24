@@ -1,0 +1,180 @@
+{
+  "version": 1,
+  "description": "Source logos for genuine per-tool animated GIF cards. Generated GIFs are illustrations and not endorsements.",
+  "tools": [
+    {
+      "id": "java",
+      "name": "Java",
+      "source": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg",
+      "style": "float"
+    },
+    {
+      "id": "python",
+      "name": "Python",
+      "source": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg",
+      "style": "orbit"
+    },
+    {
+      "id": "git",
+      "name": "Git",
+      "source": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg",
+      "style": "shine"
+    },
+    {
+      "id": "github",
+      "name": "GitHub",
+      "source": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg",
+      "style": "pulse"
+    },
+    {
+      "id": "vs-code",
+      "name": "VS Code",
+      "source": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg",
+      "style": "bob"
+    },
+    {
+      "id": "intellij-idea",
+      "name": "IntelliJ IDEA",
+      "source": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/intellij/intellij-original.svg",
+      "style": "sweep"
+    },
+    {
+      "id": "cursor",
+      "name": "Cursor",
+      "source": "assets/icons/cursor.svg",
+      "style": "tilt"
+    },
+    {
+      "id": "github-copilot",
+      "name": "GitHub Copilot",
+      "source": "assets/icons/githubcopilot.svg",
+      "style": "float"
+    },
+    {
+      "id": "claude-code",
+      "name": "Claude Code",
+      "source": "assets/icons/claude.svg",
+      "style": "orbit"
+    },
+    {
+      "id": "google-antigravity",
+      "name": "Google Antigravity",
+      "source": "https://www.google.com/s2/favicons?domain=antigravity.google&sz=128",
+      "style": "shine"
+    },
+    {
+      "id": "langgraph",
+      "name": "LangGraph",
+      "source": "assets/icons/langgraph.svg",
+      "style": "pulse"
+    },
+    {
+      "id": "google-adk",
+      "name": "Google ADK",
+      "source": "https://www.google.com/s2/favicons?domain=google.com&sz=128",
+      "style": "bob"
+    },
+    {
+      "id": "livekit-agents",
+      "name": "LiveKit Agents",
+      "source": "assets/icons/livekit.svg",
+      "style": "sweep"
+    },
+    {
+      "id": "browser-use",
+      "name": "Browser Use",
+      "source": "https://www.google.com/s2/favicons?domain=browser-use.com&sz=128",
+      "style": "tilt"
+    },
+    {
+      "id": "composio",
+      "name": "Composio",
+      "source": "https://www.google.com/s2/favicons?domain=composio.dev&sz=128",
+      "style": "float"
+    },
+    {
+      "id": "paperclip",
+      "name": "Paperclip",
+      "source": "https://www.google.com/s2/favicons?domain=paperclip.ing&sz=128",
+      "style": "orbit"
+    },
+    {
+      "id": "hugging-face",
+      "name": "Hugging Face",
+      "source": "assets/icons/huggingface.svg",
+      "style": "shine"
+    },
+    {
+      "id": "ollama",
+      "name": "Ollama",
+      "source": "assets/icons/ollama.svg",
+      "style": "pulse"
+    },
+    {
+      "id": "supabase-ai",
+      "name": "Supabase AI",
+      "source": "assets/icons/supabase.svg",
+      "style": "bob"
+    },
+    {
+      "id": "e2b",
+      "name": "E2B",
+      "source": "https://www.google.com/s2/favicons?domain=e2b.dev&sz=128",
+      "style": "sweep"
+    },
+    {
+      "id": "coderabbit",
+      "name": "CodeRabbit",
+      "source": "https://www.google.com/s2/favicons?domain=coderabbit.ai&sz=128",
+      "style": "tilt"
+    },
+    {
+      "id": "langsmith",
+      "name": "LangSmith",
+      "source": "https://www.google.com/s2/favicons?domain=smith.langchain.com&sz=128",
+      "style": "float"
+    },
+    {
+      "id": "sentry-seer",
+      "name": "Sentry Seer",
+      "source": "assets/icons/sentry.svg",
+      "style": "orbit"
+    },
+    {
+      "id": "leetcode",
+      "name": "LeetCode",
+      "source": "assets/icons/leetcode.svg",
+      "style": "shine"
+    },
+    {
+      "id": "neetcode",
+      "name": "NeetCode",
+      "source": "https://www.google.com/s2/favicons?domain=neetcode.io&sz=128",
+      "style": "pulse"
+    },
+    {
+      "id": "figma",
+      "name": "Figma",
+      "source": "assets/icons/figma.svg",
+      "style": "bob"
+    },
+    {
+      "id": "notion",
+      "name": "Notion",
+      "source": "assets/icons/notion.svg",
+      "style": "sweep"
+    },
+    {
+      "id": "notebooklm",
+      "name": "NotebookLM",
+      "source": "https://www.google.com/s2/favicons?domain=notebooklm.google.com&sz=128",
+      "style": "tilt"
+    },
+    {
+      "id": "perplexity",
+      "name": "Perplexity",
+      "source": "assets/icons/perplexity.svg",
+      "style": "float"
+    }
+  ]
+}
