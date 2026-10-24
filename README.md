@@ -142,9 +142,9 @@ My <a href="https://zuhayer03.github.io/programming-journey/">portfolio site</a>
 
 <table>
 <tr>
-<td width="25%" align="center" valign="middle"><a href="https://cursor.com"><img src="https://www.google.com/s2/favicons?domain=cursor.com&sz=128" width="46" height="46" alt="Cursor icon"/><br/><sub><b>Cursor</b></sub></a></td>
-<td width="25%" align="center" valign="middle"><a href="https://github.com/features/copilot"><img src="https://cdn.simpleicons.org/githubcopilot/8A8A8A" width="46" height="46" alt="GitHub Copilot icon"/><br/><sub><b>GitHub Copilot</b></sub></a></td>
-<td width="25%" align="center" valign="middle"><a href="https://www.anthropic.com/claude-code"><img src="https://www.google.com/s2/favicons?domain=claude.ai&sz=128" width="46" height="46" alt="Claude Code icon"/><br/><sub><b>Claude Code</b></sub></a></td>
+<td width="25%" align="center" valign="middle"><a href="https://cursor.com"><img src="assets/icons/cursor.svg" width="46" height="46" alt="Cursor icon"/><br/><sub><b>Cursor</b></sub></a></td>
+<td width="25%" align="center" valign="middle"><a href="https://github.com/features/copilot"><img src="assets/icons/githubcopilot.svg" width="46" height="46" alt="GitHub Copilot icon"/><br/><sub><b>GitHub Copilot</b></sub></a></td>
+<td width="25%" align="center" valign="middle"><a href="https://www.anthropic.com/claude-code"><img src="assets/icons/claude.svg" width="46" height="46" alt="Claude Code icon"/><br/><sub><b>Claude Code</b></sub></a></td>
 <td width="25%" align="center" valign="middle"><a href="https://antigravity.google"><img src="https://www.google.com/s2/favicons?domain=antigravity.google&sz=128" width="46" height="46" alt="Google Antigravity icon"/><br/><sub><b>Google Antigravity</b></sub></a></td>
 </tr>
 </table>
@@ -153,9 +153,9 @@ My <a href="https://zuhayer03.github.io/programming-journey/">portfolio site</a>
 
 <table>
 <tr>
-<td width="25%" align="center" valign="middle"><a href="https://www.langchain.com/langgraph"><img src="https://www.google.com/s2/favicons?domain=langchain.com&sz=128" width="46" height="46" alt="LangGraph icon"/><br/><sub><b>LangGraph</b></sub></a></td>
+<td width="25%" align="center" valign="middle"><a href="https://www.langchain.com/langgraph"><img src="assets/icons/langgraph.svg" width="46" height="46" alt="LangGraph icon"/><br/><sub><b>LangGraph</b></sub></a></td>
 <td width="25%" align="center" valign="middle"><a href="https://google.github.io/adk-docs/"><img src="https://www.google.com/s2/favicons?domain=google.com&sz=128" width="46" height="46" alt="Google ADK icon"/><br/><sub><b>Google ADK</b></sub></a></td>
-<td width="25%" align="center" valign="middle"><a href="https://livekit.io"><img src="https://www.google.com/s2/favicons?domain=livekit.io&sz=128" width="46" height="46" alt="LiveKit Agents icon"/><br/><sub><b>LiveKit Agents</b></sub></a></td>
+<td width="25%" align="center" valign="middle"><a href="https://livekit.io"><img src="assets/icons/livekit.svg" width="46" height="46" alt="LiveKit Agents icon"/><br/><sub><b>LiveKit Agents</b></sub></a></td>
 <td width="25%" align="center" valign="middle"><a href="https://browser-use.com"><img src="https://www.google.com/s2/favicons?domain=browser-use.com&sz=128" width="46" height="46" alt="Browser Use icon"/><br/><sub><b>Browser Use</b></sub></a></td>
 </tr>
 <tr>
@@ -168,9 +168,9 @@ My <a href="https://zuhayer03.github.io/programming-journey/">portfolio site</a>
 
 <table>
 <tr>
-<td width="25%" align="center" valign="middle"><a href="https://huggingface.co"><img src="https://www.google.com/s2/favicons?domain=huggingface.co&sz=128" width="46" height="46" alt="Hugging Face icon"/><br/><sub><b>Hugging Face</b></sub></a></td>
-<td width="25%" align="center" valign="middle"><a href="https://ollama.com"><img src="https://www.google.com/s2/favicons?domain=ollama.com&sz=128" width="46" height="46" alt="Ollama icon"/><br/><sub><b>Ollama</b></sub></a></td>
-<td width="25%" align="center" valign="middle"><a href="https://supabase.com"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/supabase/supabase-original.svg" width="46" height="46" alt="Supabase AI icon"/><br/><sub><b>Supabase AI</b></sub></a></td>
+<td width="25%" align="center" valign="middle"><a href="https://huggingface.co"><img src="assets/icons/huggingface.svg" width="46" height="46" alt="Hugging Face icon"/><br/><sub><b>Hugging Face</b></sub></a></td>
+<td width="25%" align="center" valign="middle"><a href="https://ollama.com"><img src="assets/icons/ollama.svg" width="46" height="46" alt="Ollama icon"/><br/><sub><b>Ollama</b></sub></a></td>
+<td width="25%" align="center" valign="middle"><a href="https://supabase.com"><img src="assets/icons/supabase.svg" width="46" height="46" alt="Supabase AI icon"/><br/><sub><b>Supabase AI</b></sub></a></td>
 <td width="25%" align="center" valign="middle"><a href="https://e2b.dev"><img src="https://www.google.com/s2/favicons?domain=e2b.dev&sz=128" width="46" height="46" alt="E2B icon"/><br/><sub><b>E2B</b></sub></a></td>
 </tr>
 </table>
@@ -181,7 +181,7 @@ My <a href="https://zuhayer03.github.io/programming-journey/">portfolio site</a>
 <tr>
 <td width="25%" align="center" valign="middle"><a href="https://www.coderabbit.ai"><img src="https://www.google.com/s2/favicons?domain=coderabbit.ai&sz=128" width="46" height="46" alt="CodeRabbit icon"/><br/><sub><b>CodeRabbit</b></sub></a></td>
 <td width="25%" align="center" valign="middle"><a href="https://smith.langchain.com"><img src="https://www.google.com/s2/favicons?domain=smith.langchain.com&sz=128" width="46" height="46" alt="LangSmith icon"/><br/><sub><b>LangSmith</b></sub></a></td>
-<td width="25%" align="center" valign="middle"><a href="https://sentry.io"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sentry/sentry-original.svg" width="46" height="46" alt="Sentry Seer icon"/><br/><sub><b>Sentry Seer</b></sub></a></td>
+<td width="25%" align="center" valign="middle"><a href="https://sentry.io"><img src="assets/icons/sentry.svg" width="46" height="46" alt="Sentry Seer icon"/><br/><sub><b>Sentry Seer</b></sub></a></td>
 </tr>
 </table>
 
@@ -189,10 +189,10 @@ My <a href="https://zuhayer03.github.io/programming-journey/">portfolio site</a>
 
 <table>
 <tr>
-<td width="25%" align="center" valign="middle"><a href="https://www.figma.com"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" width="46" height="46" alt="Figma icon"/><br/><sub><b>Figma</b></sub></a></td>
-<td width="25%" align="center" valign="middle"><a href="https://www.notion.so"><img src="https://www.google.com/s2/favicons?domain=notion.so&sz=128" width="46" height="46" alt="Notion icon"/><br/><sub><b>Notion</b></sub></a></td>
+<td width="25%" align="center" valign="middle"><a href="https://www.figma.com"><img src="assets/icons/figma.svg" width="46" height="46" alt="Figma icon"/><br/><sub><b>Figma</b></sub></a></td>
+<td width="25%" align="center" valign="middle"><a href="https://www.notion.so"><img src="assets/icons/notion.svg" width="46" height="46" alt="Notion icon"/><br/><sub><b>Notion</b></sub></a></td>
 <td width="25%" align="center" valign="middle"><a href="https://notebooklm.google.com"><img src="https://www.google.com/s2/favicons?domain=notebooklm.google.com&sz=128" width="46" height="46" alt="NotebookLM icon"/><br/><sub><b>NotebookLM</b></sub></a></td>
-<td width="25%" align="center" valign="middle"><a href="https://www.perplexity.ai"><img src="https://www.google.com/s2/favicons?domain=perplexity.ai&sz=128" width="46" height="46" alt="Perplexity icon"/><br/><sub><b>Perplexity</b></sub></a></td>
+<td width="25%" align="center" valign="middle"><a href="https://www.perplexity.ai"><img src="assets/icons/perplexity.svg" width="46" height="46" alt="Perplexity icon"/><br/><sub><b>Perplexity</b></sub></a></td>
 </tr>
 </table>
 
@@ -200,7 +200,7 @@ My <a href="https://zuhayer03.github.io/programming-journey/">portfolio site</a>
 
 <table>
 <tr>
-<td width="25%" align="center" valign="middle"><a href="https://leetcode.com"><img src="https://www.google.com/s2/favicons?domain=leetcode.com&sz=128" width="46" height="46" alt="LeetCode icon"/><br/><sub><b>LeetCode</b></sub></a></td>
+<td width="25%" align="center" valign="middle"><a href="https://leetcode.com"><img src="assets/icons/leetcode.svg" width="46" height="46" alt="LeetCode icon"/><br/><sub><b>LeetCode</b></sub></a></td>
 <td width="25%" align="center" valign="middle"><a href="https://neetcode.io"><img src="https://www.google.com/s2/favicons?domain=neetcode.io&sz=128" width="46" height="46" alt="NeetCode icon"/><br/><sub><b>NeetCode</b></sub></a></td>
 </tr>
 </table>
@@ -210,7 +210,7 @@ My <a href="https://zuhayer03.github.io/programming-journey/">portfolio site</a>
 
 **[✳ INTERACT WITH MY COMPLETE TOOL UNIVERSE ON THE PORTFOLIO ↗](https://zuhayer03.github.io/programming-journey/#tools)**
 
-<sub>These are products and frameworks I use, study, or experiment with. I don't claim expert-level proficiency in every one. Icons are sourced from Devicon, Simple Icons, and website favicons.</sub>
+<sub>These are products and frameworks I use, study, or experiment with. I don't claim expert-level proficiency in every one. Brand marks include self-hosted Simple Icons artwork, Devicon icons, and website favicons for tools without a verified vector source.</sub>
 
 </div>
 
