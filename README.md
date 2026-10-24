@@ -123,7 +123,7 @@ My <a href="https://zuhayer03.github.io/programming-journey/">portfolio site</a>
 
 <br/>
 
-<img src="https://skillicons.dev/icons?i=java,py,git,github,vscode,idea,figma,supabase&theme=dark&perline=8" alt="Icons for Java, Python, Git, GitHub, VS Code, IntelliJ IDEA, Figma and Supabase"/>
+<img src="https://skillicons.dev/icons?i=java,python,git,github,vscode,idea,figma,supabase&theme=dark&perline=8" alt="Icons for Java, Python, Git, GitHub, VS Code, IntelliJ IDEA, Figma and Supabase"/>
 
 <br/>
 
