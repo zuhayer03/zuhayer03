@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="610" height="320" viewBox="0 0 610 320" role="img" aria-labelledby="t d">
+<title id="t">THREAT TRACE — project showcase</title><desc id="d">FUNCTIONAL PROTOTYPE. SYNTHETIC AUTH LOGS.</desc>
+<defs><pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#183629" opacity=".10"/></pattern></defs>
+<rect x="1" y="1" width="608" height="318" rx="19" fill="#ceded6" stroke="#387455" stroke-width="2"/><rect x="1" y="1" width="608" height="318" rx="19" fill="url(#dots)"/>
+<g font-family="Consolas,'Courier New',monospace" fill="#183629">
+<rect x="22" y="22" width="95" height="28" rx="14" fill="#183629"/>
+<text x="37" y="41" font-size="12" font-weight="bold" fill="#ceded6">BUILD / 04</text>
+<text x="132" y="41" font-size="13" fill="#387455">JAVA / SECURITY</text>
+<text x="28" y="270" font-size="15" font-weight="bold">SYNTHETIC AUTH LOGS</text>
+<path d="M28 281H582" stroke="#183629" stroke-opacity=".35"/>
+<text x="28" y="302" font-size="11">FUNCTIONAL PROTOTYPE</text><text x="582" y="302" font-size="19" text-anchor="end">↗</text>
+</g>
+<g font-family="Arial,Helvetica,sans-serif" fill="#183629" font-weight="900" letter-spacing="-4">
+<text x="20" y="115" font-size="53">THREAT</text>
+<text x="20" y="164" font-size="53">TRACE</text></g>
+<path d="M472 41L565 76V170C565 218 527 253 472 275C417 253 379 218 379 170V76z" fill="#15382b"/><path d="M472 69L538 96V170C538 210 508 230 472 245C436 230 406 210 406 170V96z" fill="none" stroke="#91d4a5" opacity=".5" stroke-width="2"/><text x="472" y="203" text-anchor="middle" font-size="130" font-weight="bold" font-family="Arial" fill="#d9ff65">!</text></svg>
