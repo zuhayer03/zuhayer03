@@ -111,94 +111,118 @@ location: Michigan, USA
 
 My <a href="https://zuhayer03.github.io/programming-journey/">portfolio site</a> features a real WebGL 3D sculpture, interactive tool explorer, project effects, and searchable navigation. In the <a href="https://zuhayer03.github.io/programming-journey/lab.html">lab</a>, experiment with sorting, simulated network checks, synthetic login events, and sample budgets. The browser demos are separate from the original Java/Python CLIs.
 
-### 04 / MY COMPLETE TECH ARSENAL — 29 TOOLS ✳
+### 04 / MY TECH UNIVERSE — 29 VISUAL TOOLS
 
 <div align="center">
 
-<a href="https://zuhayer03.github.io/programming-journey/#tools"><img src="assets/tool-universe.svg" width="100%" alt="29 tools divided into seven domains in a custom orbital tech ecosystem"/></a>
+<a href="https://zuhayer03.github.io/programming-journey/#tools"><img src="assets/tool-universe.svg" width="100%" alt="My interactive engineering and AI tool universe"/></a>
 
-<br/>
+<img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/tool-reel.gif" width="100%" alt="Original animated tour of my eight development tool categories"/>
 
-<img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/tool-reel.gif" width="100%" alt="Custom animated GIF rotating through my coding tools, AI platforms, agents, and creative software" />
-
-<br/>
-
-<img src="https://skillicons.dev/icons?i=java,python,git,github,vscode,idea,figma,supabase&theme=dark&perline=8" alt="Icons for Java, Python, Git, GitHub, VS Code, IntelliJ IDEA, Figma and Supabase"/>
-
-<br/>
-
-**[EXPLORE ALL 29 TOOLS INTERACTIVELY IN MY 3D TOOL UNIVERSE ↗](https://zuhayer03.github.io/programming-journey/#tools)**
+**REAL LOGOS · CLICKABLE TOOLS · SEVEN ORGANIZED CATEGORIES**
 
 </div>
 
+#### 01 / PROGRAMMING & DEVELOPMENT
+
 <table>
 <tr>
-<td width="50%" valign="top">
-
-**01 / PROGRAMMING & DEV**
-
-Java · Python · Git · GitHub · VS Code · IntelliJ IDEA
-
-</td>
-<td width="50%" valign="top">
-
-**02 / AI-ASSISTED CODING**
-
-Cursor · GitHub Copilot · Claude Code · Google Antigravity
-
-</td>
+<td width="25%" align="center" valign="middle"><a href="https://www.java.com"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="46" height="46" alt="Java icon"/><br/><sub><b>Java</b></sub></a></td>
+<td width="25%" align="center" valign="middle"><a href="https://www.python.org"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="46" height="46" alt="Python icon"/><br/><sub><b>Python</b></sub></a></td>
+<td width="25%" align="center" valign="middle"><a href="https://git-scm.com"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="46" height="46" alt="Git icon"/><br/><sub><b>Git</b></sub></a></td>
+<td width="25%" align="center" valign="middle"><a href="https://github.com"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" width="46" height="46" alt="GitHub icon"/><br/><sub><b>GitHub</b></sub></a></td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-
-**03 / AGENTS & AUTOMATION**
-
-LangGraph · Google ADK · LiveKit Agents · Browser Use · Composio · Paperclip
-
-</td>
-<td width="50%" valign="top">
-
-**04 / MODELS & AI INFRA**
-
-Hugging Face · Ollama · Supabase AI · E2B
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**05 / QUALITY & OBSERVABILITY**
-
-CodeRabbit · LangSmith · Sentry Seer
-
-</td>
-<td width="50%" valign="top">
-
-**06 / DESIGN, RESEARCH & PRODUCTIVITY**
-
-Figma · Notion · NotebookLM · Perplexity
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**07 / PRACTICE & GROWTH**
-
-LeetCode · NeetCode
-
-</td>
-<td width="50%" valign="top">
-
-**CURRENT FOCUS**
-
-Java + DSA · Testable projects · Intelligent automation · Software & IT co-op
-
-</td>
+<td width="25%" align="center" valign="middle"><a href="https://code.visualstudio.com"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" width="46" height="46" alt="VS Code icon"/><br/><sub><b>VS Code</b></sub></a></td>
+<td width="25%" align="center" valign="middle"><a href="https://www.jetbrains.com/idea/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/intellij/intellij-original.svg" width="46" height="46" alt="IntelliJ IDEA icon"/><br/><sub><b>IntelliJ IDEA</b></sub></a></td>
 </tr>
 </table>
 
-<sub>These are tools I use, study, and explore at different levels. I'm not claiming expert-level experience with everything listed.</sub>
+#### 02 / AI-ASSISTED CODING
+
+<table>
+<tr>
+<td width="25%" align="center" valign="middle"><a href="https://cursor.com"><img src="https://www.google.com/s2/favicons?domain=cursor.com&sz=128" width="46" height="46" alt="Cursor icon"/><br/><sub><b>Cursor</b></sub></a></td>
+<td width="25%" align="center" valign="middle"><a href="https://github.com/features/copilot"><img src="https://cdn.simpleicons.org/githubcopilot/8A8A8A" width="46" height="46" alt="GitHub Copilot icon"/><br/><sub><b>GitHub Copilot</b></sub></a></td>
+<td width="25%" align="center" valign="middle"><a href="https://www.anthropic.com/claude-code"><img src="https://www.google.com/s2/favicons?domain=claude.ai&sz=128" width="46" height="46" alt="Claude Code icon"/><br/><sub><b>Claude Code</b></sub></a></td>
+<td width="25%" align="center" valign="middle"><a href="https://antigravity.google"><img src="https://www.google.com/s2/favicons?domain=antigravity.google&sz=128" width="46" height="46" alt="Google Antigravity icon"/><br/><sub><b>Google Antigravity</b></sub></a></td>
+</tr>
+</table>
+
+#### 03 / AGENTS & AUTOMATION
+
+<table>
+<tr>
+<td width="25%" align="center" valign="middle"><a href="https://www.langchain.com/langgraph"><img src="https://www.google.com/s2/favicons?domain=langchain.com&sz=128" width="46" height="46" alt="LangGraph icon"/><br/><sub><b>LangGraph</b></sub></a></td>
+<td width="25%" align="center" valign="middle"><a href="https://google.github.io/adk-docs/"><img src="https://www.google.com/s2/favicons?domain=google.com&sz=128" width="46" height="46" alt="Google ADK icon"/><br/><sub><b>Google ADK</b></sub></a></td>
+<td width="25%" align="center" valign="middle"><a href="https://livekit.io"><img src="https://www.google.com/s2/favicons?domain=livekit.io&sz=128" width="46" height="46" alt="LiveKit Agents icon"/><br/><sub><b>LiveKit Agents</b></sub></a></td>
+<td width="25%" align="center" valign="middle"><a href="https://browser-use.com"><img src="https://www.google.com/s2/favicons?domain=browser-use.com&sz=128" width="46" height="46" alt="Browser Use icon"/><br/><sub><b>Browser Use</b></sub></a></td>
+</tr>
+<tr>
+<td width="25%" align="center" valign="middle"><a href="https://composio.dev"><img src="https://www.google.com/s2/favicons?domain=composio.dev&sz=128" width="46" height="46" alt="Composio icon"/><br/><sub><b>Composio</b></sub></a></td>
+<td width="25%" align="center" valign="middle"><a href="https://paperclip.ing"><img src="https://www.google.com/s2/favicons?domain=paperclip.ing&sz=128" width="46" height="46" alt="Paperclip icon"/><br/><sub><b>Paperclip</b></sub></a></td>
+</tr>
+</table>
+
+#### 04 / MODELS & INFRASTRUCTURE
+
+<table>
+<tr>
+<td width="25%" align="center" valign="middle"><a href="https://huggingface.co"><img src="https://www.google.com/s2/favicons?domain=huggingface.co&sz=128" width="46" height="46" alt="Hugging Face icon"/><br/><sub><b>Hugging Face</b></sub></a></td>
+<td width="25%" align="center" valign="middle"><a href="https://ollama.com"><img src="https://www.google.com/s2/favicons?domain=ollama.com&sz=128" width="46" height="46" alt="Ollama icon"/><br/><sub><b>Ollama</b></sub></a></td>
+<td width="25%" align="center" valign="middle"><a href="https://supabase.com"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/supabase/supabase-original.svg" width="46" height="46" alt="Supabase AI icon"/><br/><sub><b>Supabase AI</b></sub></a></td>
+<td width="25%" align="center" valign="middle"><a href="https://e2b.dev"><img src="https://www.google.com/s2/favicons?domain=e2b.dev&sz=128" width="46" height="46" alt="E2B icon"/><br/><sub><b>E2B</b></sub></a></td>
+</tr>
+</table>
+
+#### 05 / CODE QUALITY & OBSERVABILITY
+
+<table>
+<tr>
+<td width="25%" align="center" valign="middle"><a href="https://www.coderabbit.ai"><img src="https://www.google.com/s2/favicons?domain=coderabbit.ai&sz=128" width="46" height="46" alt="CodeRabbit icon"/><br/><sub><b>CodeRabbit</b></sub></a></td>
+<td width="25%" align="center" valign="middle"><a href="https://smith.langchain.com"><img src="https://www.google.com/s2/favicons?domain=smith.langchain.com&sz=128" width="46" height="46" alt="LangSmith icon"/><br/><sub><b>LangSmith</b></sub></a></td>
+<td width="25%" align="center" valign="middle"><a href="https://sentry.io"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sentry/sentry-original.svg" width="46" height="46" alt="Sentry Seer icon"/><br/><sub><b>Sentry Seer</b></sub></a></td>
+</tr>
+</table>
+
+#### 06 / DESIGN, RESEARCH & ORGANIZATION
+
+<table>
+<tr>
+<td width="25%" align="center" valign="middle"><a href="https://www.figma.com"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" width="46" height="46" alt="Figma icon"/><br/><sub><b>Figma</b></sub></a></td>
+<td width="25%" align="center" valign="middle"><a href="https://www.notion.so"><img src="https://www.google.com/s2/favicons?domain=notion.so&sz=128" width="46" height="46" alt="Notion icon"/><br/><sub><b>Notion</b></sub></a></td>
+<td width="25%" align="center" valign="middle"><a href="https://notebooklm.google.com"><img src="https://www.google.com/s2/favicons?domain=notebooklm.google.com&sz=128" width="46" height="46" alt="NotebookLM icon"/><br/><sub><b>NotebookLM</b></sub></a></td>
+<td width="25%" align="center" valign="middle"><a href="https://www.perplexity.ai"><img src="https://www.google.com/s2/favicons?domain=perplexity.ai&sz=128" width="46" height="46" alt="Perplexity icon"/><br/><sub><b>Perplexity</b></sub></a></td>
+</tr>
+</table>
+
+#### 07 / CODING PRACTICE
+
+<table>
+<tr>
+<td width="25%" align="center" valign="middle"><a href="https://leetcode.com"><img src="https://www.google.com/s2/favicons?domain=leetcode.com&sz=128" width="46" height="46" alt="LeetCode icon"/><br/><sub><b>LeetCode</b></sub></a></td>
+<td width="25%" align="center" valign="middle"><a href="https://neetcode.io"><img src="https://www.google.com/s2/favicons?domain=neetcode.io&sz=128" width="46" height="46" alt="NeetCode icon"/><br/><sub><b>NeetCode</b></sub></a></td>
+</tr>
+</table>
+
+
+<div align="center">
+
+**[✳ INTERACT WITH MY COMPLETE TOOL UNIVERSE ON THE PORTFOLIO ↗](https://zuhayer03.github.io/programming-journey/#tools)**
+
+<sub>These are products and frameworks I use, study, or experiment with. I don't claim expert-level proficiency in every one. Icons are sourced from Devicon, Simple Icons, and website favicons.</sub>
+
+</div>
+
+### 04.5 / IDEA → CODE → TEST → SHIP
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/build-pipeline.gif" width="100%" alt="Original animated engineering pipeline GIF showing an idea turning into code, testing and a released project"/>
+
+<sub>An original looping illustration of my development process, generated in this repository.</sub>
+
+</div>
 
 <details>
 <summary><strong>＋ MY JOURNEY / EXPERIENCE TIMELINE</strong></summary>
