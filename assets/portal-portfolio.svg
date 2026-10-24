@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="610" height="205" viewBox="0 0 610 205" role="img" aria-label="ENTER THE 3D PORTFOLIO">
+<rect x="1" y="1" width="608" height="203" rx="19" fill="#d9ff65" stroke="#172016" stroke-opacity=".32" stroke-width="2"/>
+<text x="21" y="34" font-family="Consolas,monospace" font-size="14" fill="#638c37">PORTAL / 01</text>
+<g fill="#172016" font-family="Arial,Helvetica,sans-serif" font-weight="900" letter-spacing="-2">
+<text x="19" y="83" font-size="39">ENTER THE</text><text x="19" y="124" font-size="39">3D PORTFOLIO</text></g>
+<path d="M22 153H342" stroke="#172016" opacity=".5"/>
+<text x="22" y="175" font-family="Consolas,monospace" font-size="12" fill="#172016">WEBGL SCULPTURE · TOOL UNIVERSE · MOTION</text>
+<g fill="none" stroke="#264b31" stroke-width="4"><ellipse cx="507" cy="102" rx="71" ry="34" transform="rotate(-25 507 102)"/><ellipse cx="507" cy="102" rx="69" ry="35" transform="rotate(55 507 102)" opacity=".65"/></g><circle cx="507" cy="102" r="46" fill="#376a4a"/><ellipse cx="495" cy="83" rx="22" ry="10" fill="#d3ff88" opacity=".7"/><text x="507" y="117" text-anchor="middle" font-size="50" font-weight="bold" font-family="Arial" fill="#ddffa0">Z</text>
+</svg>
