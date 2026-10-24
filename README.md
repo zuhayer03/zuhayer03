@@ -130,14 +130,14 @@ My <a href="https://zuhayer03.github.io/programming-journey/">portfolio site</a>
 <p align="center"><strong>01 / PROGRAMMING & DEVELOPMENT</strong></p>
 <table width="100%">
 <tr>
-<td width="25%" align="center" valign="middle"><a href="https://www.java.com"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="46" height="46" alt="Java icon"/><br/><sub><b>Java</b></sub></a></td>
-<td width="25%" align="center" valign="middle"><a href="https://www.python.org"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="46" height="46" alt="Python icon"/><br/><sub><b>Python</b></sub></a></td>
-<td width="25%" align="center" valign="middle"><a href="https://git-scm.com"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="46" height="46" alt="Git icon"/><br/><sub><b>Git</b></sub></a></td>
-<td width="25%" align="center" valign="middle"><a href="https://github.com"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" width="46" height="46" alt="GitHub icon"/><br/><sub><b>GitHub</b></sub></a></td>
+<td width="25%" align="center" valign="middle"><a href="https://www.java.com"><picture><source media="(prefers-reduced-motion: reduce)" srcset="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/tool-animations/java.gif" width="56" height="56" alt="Java animated logo"/></picture><br/><sub><b>Java</b></sub></a></td>
+<td width="25%" align="center" valign="middle"><a href="https://www.python.org"><picture><source media="(prefers-reduced-motion: reduce)" srcset="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/tool-animations/python.gif" width="56" height="56" alt="Python animated logo"/></picture><br/><sub><b>Python</b></sub></a></td>
+<td width="25%" align="center" valign="middle"><a href="https://git-scm.com"><picture><source media="(prefers-reduced-motion: reduce)" srcset="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/tool-animations/git.gif" width="56" height="56" alt="Git animated logo"/></picture><br/><sub><b>Git</b></sub></a></td>
+<td width="25%" align="center" valign="middle"><a href="https://github.com"><picture><source media="(prefers-reduced-motion: reduce)" srcset="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/tool-animations/github.gif" width="56" height="56" alt="GitHub animated logo"/></picture><br/><sub><b>GitHub</b></sub></a></td>
 </tr>
 <tr>
-<td width="25%" align="center" valign="middle"><a href="https://code.visualstudio.com"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" width="46" height="46" alt="VS Code icon"/><br/><sub><b>VS Code</b></sub></a></td>
-<td width="25%" align="center" valign="middle"><a href="https://www.jetbrains.com/idea/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/intellij/intellij-original.svg" width="46" height="46" alt="IntelliJ IDEA icon"/><br/><sub><b>IntelliJ IDEA</b></sub></a></td>
+<td width="25%" align="center" valign="middle"><a href="https://code.visualstudio.com"><picture><source media="(prefers-reduced-motion: reduce)" srcset="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/tool-animations/vs-code.gif" width="56" height="56" alt="VS Code animated logo"/></picture><br/><sub><b>VS Code</b></sub></a></td>
+<td width="25%" align="center" valign="middle"><a href="https://www.jetbrains.com/idea/"><picture><source media="(prefers-reduced-motion: reduce)" srcset="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/intellij/intellij-original.svg"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/tool-animations/intellij-idea.gif" width="56" height="56" alt="IntelliJ IDEA animated logo"/></picture><br/><sub><b>IntelliJ IDEA</b></sub></a></td>
 <td align="center"></td>
 <td align="center"></td>
 </tr>
@@ -149,10 +149,10 @@ My <a href="https://zuhayer03.github.io/programming-journey/">portfolio site</a>
 <p align="center"><strong>02 / AI-ASSISTED CODING</strong></p>
 <table width="100%">
 <tr>
-<td width="25%" align="center" valign="middle"><a href="https://cursor.com"><img src="assets/icons/cursor.svg" width="46" height="46" alt="Cursor icon"/><br/><sub><b>Cursor</b></sub></a></td>
-<td width="25%" align="center" valign="middle"><a href="https://github.com/features/copilot"><img src="assets/icons/githubcopilot.svg" width="46" height="46" alt="GitHub Copilot icon"/><br/><sub><b>GitHub Copilot</b></sub></a></td>
-<td width="25%" align="center" valign="middle"><a href="https://www.anthropic.com/claude-code"><img src="assets/icons/claude.svg" width="46" height="46" alt="Claude Code icon"/><br/><sub><b>Claude Code</b></sub></a></td>
-<td width="25%" align="center" valign="middle"><a href="https://antigravity.google"><img src="https://www.google.com/s2/favicons?domain=antigravity.google&sz=128" width="46" height="46" alt="Google Antigravity icon"/><br/><sub><b>Google Antigravity</b></sub></a></td>
+<td width="25%" align="center" valign="middle"><a href="https://cursor.com"><picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/icons/cursor.svg"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/tool-animations/cursor.gif" width="56" height="56" alt="Cursor animated logo"/></picture><br/><sub><b>Cursor</b></sub></a></td>
+<td width="25%" align="center" valign="middle"><a href="https://github.com/features/copilot"><picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/icons/githubcopilot.svg"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/tool-animations/github-copilot.gif" width="56" height="56" alt="GitHub Copilot animated logo"/></picture><br/><sub><b>GitHub Copilot</b></sub></a></td>
+<td width="25%" align="center" valign="middle"><a href="https://www.anthropic.com/claude-code"><picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/icons/claude.svg"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/tool-animations/claude-code.gif" width="56" height="56" alt="Claude Code animated logo"/></picture><br/><sub><b>Claude Code</b></sub></a></td>
+<td width="25%" align="center" valign="middle"><a href="https://antigravity.google"><picture><source media="(prefers-reduced-motion: reduce)" srcset="https://www.google.com/s2/favicons?domain=antigravity.google&amp;sz=128"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/tool-animations/google-antigravity.gif" width="56" height="56" alt="Google Antigravity animated logo"/></picture><br/><sub><b>Google Antigravity</b></sub></a></td>
 </tr>
 </table>
 <p align="center"><sub>ASSISTED DEVELOPMENT</sub></p>
@@ -164,14 +164,14 @@ My <a href="https://zuhayer03.github.io/programming-journey/">portfolio site</a>
 <p align="center"><strong>03 / AGENTS & AUTOMATION</strong></p>
 <table width="100%">
 <tr>
-<td width="25%" align="center" valign="middle"><a href="https://www.langchain.com/langgraph"><img src="assets/icons/langgraph.svg" width="46" height="46" alt="LangGraph icon"/><br/><sub><b>LangGraph</b></sub></a></td>
-<td width="25%" align="center" valign="middle"><a href="https://google.github.io/adk-docs/"><img src="https://www.google.com/s2/favicons?domain=google.com&sz=128" width="46" height="46" alt="Google ADK icon"/><br/><sub><b>Google ADK</b></sub></a></td>
-<td width="25%" align="center" valign="middle"><a href="https://livekit.io"><img src="assets/icons/livekit.svg" width="46" height="46" alt="LiveKit Agents icon"/><br/><sub><b>LiveKit Agents</b></sub></a></td>
-<td width="25%" align="center" valign="middle"><a href="https://browser-use.com"><img src="https://www.google.com/s2/favicons?domain=browser-use.com&sz=128" width="46" height="46" alt="Browser Use icon"/><br/><sub><b>Browser Use</b></sub></a></td>
+<td width="25%" align="center" valign="middle"><a href="https://www.langchain.com/langgraph"><picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/icons/langgraph.svg"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/tool-animations/langgraph.gif" width="56" height="56" alt="LangGraph animated logo"/></picture><br/><sub><b>LangGraph</b></sub></a></td>
+<td width="25%" align="center" valign="middle"><a href="https://google.github.io/adk-docs/"><picture><source media="(prefers-reduced-motion: reduce)" srcset="https://www.google.com/s2/favicons?domain=google.com&amp;sz=128"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/tool-animations/google-adk.gif" width="56" height="56" alt="Google ADK animated logo"/></picture><br/><sub><b>Google ADK</b></sub></a></td>
+<td width="25%" align="center" valign="middle"><a href="https://livekit.io"><picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/icons/livekit.svg"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/tool-animations/livekit-agents.gif" width="56" height="56" alt="LiveKit Agents animated logo"/></picture><br/><sub><b>LiveKit Agents</b></sub></a></td>
+<td width="25%" align="center" valign="middle"><a href="https://browser-use.com"><picture><source media="(prefers-reduced-motion: reduce)" srcset="https://www.google.com/s2/favicons?domain=browser-use.com&amp;sz=128"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/tool-animations/browser-use.gif" width="56" height="56" alt="Browser Use animated logo"/></picture><br/><sub><b>Browser Use</b></sub></a></td>
 </tr>
 <tr>
-<td width="25%" align="center" valign="middle"><a href="https://composio.dev"><img src="https://www.google.com/s2/favicons?domain=composio.dev&sz=128" width="46" height="46" alt="Composio icon"/><br/><sub><b>Composio</b></sub></a></td>
-<td width="25%" align="center" valign="middle"><a href="https://paperclip.ing"><img src="https://www.google.com/s2/favicons?domain=paperclip.ing&sz=128" width="46" height="46" alt="Paperclip icon"/><br/><sub><b>Paperclip</b></sub></a></td>
+<td width="25%" align="center" valign="middle"><a href="https://composio.dev"><picture><source media="(prefers-reduced-motion: reduce)" srcset="https://www.google.com/s2/favicons?domain=composio.dev&amp;sz=128"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/tool-animations/composio.gif" width="56" height="56" alt="Composio animated logo"/></picture><br/><sub><b>Composio</b></sub></a></td>
+<td width="25%" align="center" valign="middle"><a href="https://paperclip.ing"><picture><source media="(prefers-reduced-motion: reduce)" srcset="https://www.google.com/s2/favicons?domain=paperclip.ing&amp;sz=128"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/tool-animations/paperclip.gif" width="56" height="56" alt="Paperclip animated logo"/></picture><br/><sub><b>Paperclip</b></sub></a></td>
 <td align="center"></td>
 <td align="center"></td>
 </tr>
@@ -183,10 +183,10 @@ My <a href="https://zuhayer03.github.io/programming-journey/">portfolio site</a>
 <p align="center"><strong>04 / MODELS & INFRASTRUCTURE</strong></p>
 <table width="100%">
 <tr>
-<td width="25%" align="center" valign="middle"><a href="https://huggingface.co"><img src="assets/icons/huggingface.svg" width="46" height="46" alt="Hugging Face icon"/><br/><sub><b>Hugging Face</b></sub></a></td>
-<td width="25%" align="center" valign="middle"><a href="https://ollama.com"><img src="assets/icons/ollama.svg" width="46" height="46" alt="Ollama icon"/><br/><sub><b>Ollama</b></sub></a></td>
-<td width="25%" align="center" valign="middle"><a href="https://supabase.com"><img src="assets/icons/supabase.svg" width="46" height="46" alt="Supabase AI icon"/><br/><sub><b>Supabase AI</b></sub></a></td>
-<td width="25%" align="center" valign="middle"><a href="https://e2b.dev"><img src="https://www.google.com/s2/favicons?domain=e2b.dev&sz=128" width="46" height="46" alt="E2B icon"/><br/><sub><b>E2B</b></sub></a></td>
+<td width="25%" align="center" valign="middle"><a href="https://huggingface.co"><picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/icons/huggingface.svg"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/tool-animations/hugging-face.gif" width="56" height="56" alt="Hugging Face animated logo"/></picture><br/><sub><b>Hugging Face</b></sub></a></td>
+<td width="25%" align="center" valign="middle"><a href="https://ollama.com"><picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/icons/ollama.svg"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/tool-animations/ollama.gif" width="56" height="56" alt="Ollama animated logo"/></picture><br/><sub><b>Ollama</b></sub></a></td>
+<td width="25%" align="center" valign="middle"><a href="https://supabase.com"><picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/icons/supabase.svg"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/tool-animations/supabase-ai.gif" width="56" height="56" alt="Supabase AI animated logo"/></picture><br/><sub><b>Supabase AI</b></sub></a></td>
+<td width="25%" align="center" valign="middle"><a href="https://e2b.dev"><picture><source media="(prefers-reduced-motion: reduce)" srcset="https://www.google.com/s2/favicons?domain=e2b.dev&amp;sz=128"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/tool-animations/e2b.gif" width="56" height="56" alt="E2B animated logo"/></picture><br/><sub><b>E2B</b></sub></a></td>
 </tr>
 </table>
 <p align="center"><sub>MODELS & SANDBOXES</sub></p>
@@ -198,17 +198,17 @@ My <a href="https://zuhayer03.github.io/programming-journey/">portfolio site</a>
 <p align="center"><strong>05 / CODE QUALITY & OBSERVABILITY</strong></p>
 <table width="100%">
 <tr>
-<td width="25%" align="center" valign="middle"><a href="https://www.coderabbit.ai"><img src="https://www.google.com/s2/favicons?domain=coderabbit.ai&sz=128" width="46" height="46" alt="CodeRabbit icon"/><br/><sub><b>CodeRabbit</b></sub></a></td>
-<td width="25%" align="center" valign="middle"><a href="https://smith.langchain.com"><img src="https://www.google.com/s2/favicons?domain=smith.langchain.com&sz=128" width="46" height="46" alt="LangSmith icon"/><br/><sub><b>LangSmith</b></sub></a></td>
-<td width="25%" align="center" valign="middle"><a href="https://sentry.io"><img src="assets/icons/sentry.svg" width="46" height="46" alt="Sentry Seer icon"/><br/><sub><b>Sentry Seer</b></sub></a></td>
+<td width="25%" align="center" valign="middle"><a href="https://www.coderabbit.ai"><picture><source media="(prefers-reduced-motion: reduce)" srcset="https://www.google.com/s2/favicons?domain=coderabbit.ai&amp;sz=128"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/tool-animations/coderabbit.gif" width="56" height="56" alt="CodeRabbit animated logo"/></picture><br/><sub><b>CodeRabbit</b></sub></a></td>
+<td width="25%" align="center" valign="middle"><a href="https://smith.langchain.com"><picture><source media="(prefers-reduced-motion: reduce)" srcset="https://www.google.com/s2/favicons?domain=smith.langchain.com&amp;sz=128"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/tool-animations/langsmith.gif" width="56" height="56" alt="LangSmith animated logo"/></picture><br/><sub><b>LangSmith</b></sub></a></td>
+<td width="25%" align="center" valign="middle"><a href="https://sentry.io"><picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/icons/sentry.svg"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/tool-animations/sentry-seer.gif" width="56" height="56" alt="Sentry Seer animated logo"/></picture><br/><sub><b>Sentry Seer</b></sub></a></td>
 <td align="center"></td>
 </tr>
 </table>
 <p align="center"><strong>07 / CODING PRACTICE</strong></p>
 <table width="100%">
 <tr>
-<td width="25%" align="center" valign="middle"><a href="https://leetcode.com"><img src="assets/icons/leetcode.svg" width="46" height="46" alt="LeetCode icon"/><br/><sub><b>LeetCode</b></sub></a></td>
-<td width="25%" align="center" valign="middle"><a href="https://neetcode.io"><img src="https://www.google.com/s2/favicons?domain=neetcode.io&sz=128" width="46" height="46" alt="NeetCode icon"/><br/><sub><b>NeetCode</b></sub></a></td>
+<td width="25%" align="center" valign="middle"><a href="https://leetcode.com"><picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/icons/leetcode.svg"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/tool-animations/leetcode.gif" width="56" height="56" alt="LeetCode animated logo"/></picture><br/><sub><b>LeetCode</b></sub></a></td>
+<td width="25%" align="center" valign="middle"><a href="https://neetcode.io"><picture><source media="(prefers-reduced-motion: reduce)" srcset="https://www.google.com/s2/favicons?domain=neetcode.io&amp;sz=128"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/tool-animations/neetcode.gif" width="56" height="56" alt="NeetCode animated logo"/></picture><br/><sub><b>NeetCode</b></sub></a></td>
 <td align="center"></td>
 <td align="center"></td>
 </tr>
@@ -220,10 +220,10 @@ My <a href="https://zuhayer03.github.io/programming-journey/">portfolio site</a>
 <p align="center"><strong>06 / DESIGN, RESEARCH & ORGANIZATION</strong></p>
 <table width="100%">
 <tr>
-<td width="25%" align="center" valign="middle"><a href="https://www.figma.com"><img src="assets/icons/figma.svg" width="46" height="46" alt="Figma icon"/><br/><sub><b>Figma</b></sub></a></td>
-<td width="25%" align="center" valign="middle"><a href="https://www.notion.so"><img src="assets/icons/notion.svg" width="46" height="46" alt="Notion icon"/><br/><sub><b>Notion</b></sub></a></td>
-<td width="25%" align="center" valign="middle"><a href="https://notebooklm.google.com"><img src="https://www.google.com/s2/favicons?domain=notebooklm.google.com&sz=128" width="46" height="46" alt="NotebookLM icon"/><br/><sub><b>NotebookLM</b></sub></a></td>
-<td width="25%" align="center" valign="middle"><a href="https://www.perplexity.ai"><img src="assets/icons/perplexity.svg" width="46" height="46" alt="Perplexity icon"/><br/><sub><b>Perplexity</b></sub></a></td>
+<td width="25%" align="center" valign="middle"><a href="https://www.figma.com"><picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/icons/figma.svg"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/tool-animations/figma.gif" width="56" height="56" alt="Figma animated logo"/></picture><br/><sub><b>Figma</b></sub></a></td>
+<td width="25%" align="center" valign="middle"><a href="https://www.notion.so"><picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/icons/notion.svg"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/tool-animations/notion.gif" width="56" height="56" alt="Notion animated logo"/></picture><br/><sub><b>Notion</b></sub></a></td>
+<td width="25%" align="center" valign="middle"><a href="https://notebooklm.google.com"><picture><source media="(prefers-reduced-motion: reduce)" srcset="https://www.google.com/s2/favicons?domain=notebooklm.google.com&amp;sz=128"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/tool-animations/notebooklm.gif" width="56" height="56" alt="NotebookLM animated logo"/></picture><br/><sub><b>NotebookLM</b></sub></a></td>
+<td width="25%" align="center" valign="middle"><a href="https://www.perplexity.ai"><picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/icons/perplexity.svg"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/tool-animations/perplexity.gif" width="56" height="56" alt="Perplexity animated logo"/></picture><br/><sub><b>Perplexity</b></sub></a></td>
 </tr>
 </table>
 <p align="center"><sub>DESIGN & RESEARCH</sub></p>
