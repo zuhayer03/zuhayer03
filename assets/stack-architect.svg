@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1190" height="262" viewBox="0 0 1190 262" role="img" aria-label="Interactive Stack Architect workflow preview: choose tools, assemble workflow, export diagram">
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#111c17"/><stop offset="1" stop-color="#23372a"/></linearGradient>
+<radialGradient id="spot"><stop stop-color="#cfff90" stop-opacity=".24"/><stop offset="1" stop-color="#a8da74" stop-opacity="0"/></radialGradient>
+</defs>
+<rect x="1" y="1" width="1188" height="260" rx="17" fill="url(#bg)" stroke="#749873" stroke-opacity=".65"/>
+<circle cx="940" cy="135" r="230" fill="url(#spot)"/>
+<text x="28" y="42" font-family="monospace" font-size="17" fill="#d9ff65" letter-spacing="1">Z✳F / STACK ARCHITECT</text>
+<text x="1154" y="42" font-family="monospace" font-size="13" text-anchor="end" fill="#b1cbb0">TRY IT ONLINE ↗</text>
+<text x="28" y="75" font-family="Arial,Helvetica,sans-serif" font-size="23" fill="#e9f9e2" font-weight="bold">YOUR WORKFLOW. YOUR COMBINATION.</text>
+<g font-family="monospace">
+ <g transform="translate(28 109)"><rect width="240" height="116" rx="14" fill="#d9ff65"/><text x="16" y="29" font-size="13" fill="#41652c">01 / START</text><text x="16" y="71" font-size="27" fill="#162716" font-weight="bold">CHOOSE</text><text x="16" y="98" font-size="14" fill="#32492a">3 project presets</text></g>
+ <text x="278" y="178" font-size="27" fill="#d9ff65">→</text>
+ <g transform="translate(316 109)"><rect width="240" height="116" rx="14" fill="#d8c4ed"/><text x="16" y="29" font-size="13" fill="#664b79">02 / MIX</text><text x="16" y="71" font-size="27" fill="#292138" font-weight="bold">ASSEMBLE</text><text x="16" y="98" font-size="14" fill="#604971">Up to 7 tool logos</text></g>
+ <text x="565" y="178" font-size="27" fill="#d9ff65">→</text>
+ <g transform="translate(603 109)"><rect width="240" height="116" rx="14" fill="#b9e4d5"/><text x="16" y="29" font-size="13" fill="#2d6655">03 / SHARE</text><text x="16" y="71" font-size="27" fill="#1b4134" font-weight="bold">COPY</text><text x="16" y="98" font-size="14" fill="#326854">Your custom sequence</text></g>
+ <text x="855" y="178" font-size="27" fill="#d9ff65">→</text>
+ <g transform="translate(893 109)"><rect width="268" height="116" rx="14" fill="#f4c2a3"/><text x="16" y="29" font-size="13" fill="#8b4d35">04 / CREATE</text><text x="16" y="71" font-size="27" fill="#4b291d" font-weight="bold">EXPORT SVG</text><text x="16" y="98" font-size="14" fill="#85503b">Custom diagram</text></g>
+</g>
+</svg>
