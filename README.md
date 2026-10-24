@@ -111,32 +111,94 @@ location: Michigan, USA
 
 My <a href="https://zuhayer03.github.io/programming-journey/">portfolio site</a> features a real WebGL 3D sculpture, interactive tool explorer, project effects, and searchable navigation. In the <a href="https://zuhayer03.github.io/programming-journey/lab.html">lab</a>, experiment with sorting, simulated network checks, synthetic login events, and sample budgets. The browser demos are separate from the original Java/Python CLIs.
 
-### 04 / THE TOOL UNIVERSE
+### 04 / MY COMPLETE TECH ARSENAL — 29 TOOLS ✳
 
 <div align="center">
 
-<a href="https://zuhayer03.github.io/programming-journey/#tools"><img src="assets/tool-universe.svg" width="100%" alt="Interactive tech-universe preview with 29 tools across seven domains"/></a>
+<a href="https://zuhayer03.github.io/programming-journey/#tools"><img src="assets/tool-universe.svg" width="100%" alt="29 tools divided into seven domains in a custom orbital tech ecosystem"/></a>
 
-**[EXPLORE THE SEARCHABLE 3D TOOL UNIVERSE ↗](https://zuhayer03.github.io/programming-journey/#tools)**
+<br/>
+
+<img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/tool-reel.gif" width="100%" alt="Custom animated GIF rotating through my coding tools, AI platforms, agents, and creative software" />
+
+<br/>
+
+<img src="https://skillicons.dev/icons?i=java,py,git,github,vscode,idea,figma,supabase&theme=dark&perline=8" alt="Icons for Java, Python, Git, GitHub, VS Code, IntelliJ IDEA, Figma and Supabase"/>
+
+<br/>
+
+**[EXPLORE ALL 29 TOOLS INTERACTIVELY IN MY 3D TOOL UNIVERSE ↗](https://zuhayer03.github.io/programming-journey/#tools)**
 
 </div>
 
-<details>
-<summary><strong>＋ OPEN THE COMPLETE 29-TOOL DIRECTORY</strong></summary>
+<table>
+<tr>
+<td width="50%" valign="top">
 
-| Domain | Tools & platforms |
-|:--|:--|
-| **Programming & development** | Java · Python · Git · GitHub · VS Code · IntelliJ IDEA |
-| **AI-assisted coding** | Cursor · GitHub Copilot · Claude Code · Google Antigravity |
-| **Agents & automation** | LangGraph · Google ADK · LiveKit Agents · Browser Use · Composio · Paperclip |
-| **Models & infrastructure** | Hugging Face · Ollama · Supabase AI · E2B |
-| **Review & observability** | CodeRabbit · LangSmith · Sentry Seer |
-| **Design & research** | Figma · Notion · NotebookLM · Perplexity |
-| **Practice** | LeetCode · NeetCode |
+**01 / PROGRAMMING & DEV**
 
-<sub>Some tools are part of my development workflow; others are things I'm actively exploring. Listing them doesn't imply equal proficiency in all of them.</sub>
+Java · Python · Git · GitHub · VS Code · IntelliJ IDEA
 
-</details>
+</td>
+<td width="50%" valign="top">
+
+**02 / AI-ASSISTED CODING**
+
+Cursor · GitHub Copilot · Claude Code · Google Antigravity
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**03 / AGENTS & AUTOMATION**
+
+LangGraph · Google ADK · LiveKit Agents · Browser Use · Composio · Paperclip
+
+</td>
+<td width="50%" valign="top">
+
+**04 / MODELS & AI INFRA**
+
+Hugging Face · Ollama · Supabase AI · E2B
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**05 / QUALITY & OBSERVABILITY**
+
+CodeRabbit · LangSmith · Sentry Seer
+
+</td>
+<td width="50%" valign="top">
+
+**06 / DESIGN, RESEARCH & PRODUCTIVITY**
+
+Figma · Notion · NotebookLM · Perplexity
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**07 / PRACTICE & GROWTH**
+
+LeetCode · NeetCode
+
+</td>
+<td width="50%" valign="top">
+
+**CURRENT FOCUS**
+
+Java + DSA · Testable projects · Intelligent automation · Software & IT co-op
+
+</td>
+</tr>
+</table>
+
+<sub>These are tools I use, study, and explore at different levels. I'm not claiming expert-level experience with everything listed.</sub>
 
 <details>
 <summary><strong>＋ MY JOURNEY / EXPERIENCE TIMELINE</strong></summary>
@@ -153,7 +215,11 @@ More code: **[ToolPilot](https://github.com/zuhayer03/programming-journey/tree/m
 
 </details>
 
-### 05 / ACTIVITY SIGNAL
+### 05 / MY ANIMATED CONTRIBUTION ARCADE 🕹️
+
+**LEVEL 01 — THE CONTRIBUTION SNAKE**
+
+
 
 <div align="center">
 
@@ -164,6 +230,26 @@ More code: **[ToolPilot](https://github.com/zuhayer03/programming-journey/tree/m
 </picture>
 
 <sub>Generated from my public contribution graph by a scheduled GitHub Action.</sub>
+
+</div>
+
+<div align="center">
+
+**LEVEL 02 — PAC-MAN VS. MY GITHUB CONTRIBUTIONS 👻**
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/pacman-contribution-graph-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/pacman-contribution-graph.svg"/>
+  <img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/pacman-contribution-graph-dark.svg" width="100%" alt="Animated Pac-Man eats my real GitHub contribution graph while ghosts chase him"/>
+</picture>
+
+<sub>Automatically updated daily. Pac-Man is an animated contribution-graph game; the GitHub README can't run playable JavaScript.</sub>
+
+<br/>
+
+**BONUS VISUAL — ORIGINAL CODING GIF**
+
+<img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dev-console.gif" width="100%" alt="Original animated coding terminal GIF, highlighting Java, Python and AI automation"/>
 
 </div>
 
