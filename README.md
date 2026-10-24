@@ -90,6 +90,7 @@ location: Michigan, USA
 
 <div align="center">
 
+[![Profile Artwork Quality](https://github.com/zuhayer03/zuhayer03/actions/workflows/profile-quality.yml/badge.svg)](https://github.com/zuhayer03/zuhayer03/actions/workflows/profile-quality.yml)
 [![Portfolio Tests](https://github.com/zuhayer03/programming-journey/actions/workflows/portfolio-tests.yml/badge.svg)](https://github.com/zuhayer03/programming-journey/actions/workflows/portfolio-tests.yml)
 [![Site Quality](https://github.com/zuhayer03/programming-journey/actions/workflows/site-quality.yml/badge.svg)](https://github.com/zuhayer03/programming-journey/actions/workflows/site-quality.yml)
 [![Portfolio Deployment](https://github.com/zuhayer03/programming-journey/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/zuhayer03/programming-journey/actions/workflows/deploy-pages.yml)
