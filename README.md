@@ -239,6 +239,20 @@ More code: **[ToolPilot](https://github.com/zuhayer03/programming-journey/tree/m
 
 </details>
 
+### 04.8 / THE CONTRIBUTION CONSTELLATION — DESIGN, NOT FAKE COMMITS
+
+<div align="center">
+
+<a href="https://zuhayer03.github.io/programming-journey/constellation.html">
+<img src="assets/contribution-constellation.svg" width="100%" alt="Original decorative ZF pixel art using a GitHub-style 53-week contribution grid, explicitly not a real activity graph"/>
+</a>
+
+**[✳ OPEN THE INTERACTIVE PIXEL-ART STUDIO — DRAW YOUR OWN GRAPH ↗](https://zuhayer03.github.io/programming-journey/constellation.html)**
+
+<sub>Inspired by contribution graph art. The linked editor creates exportable SVG artwork; it never fabricates or backdates commits. Actual contribution data appears in the animated graphs below.</sub>
+
+</div>
+
 ### 05 / MY ANIMATED CONTRIBUTION ARCADE 🕹️
 
 **LEVEL 01 — THE CONTRIBUTION SNAKE**
