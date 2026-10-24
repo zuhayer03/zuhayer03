@@ -16,7 +16,7 @@
 <g transform="translate(66 314)"><rect width="230" height="73" rx="13" fill="#3b314a" stroke="#b09cdb"/><text x="17" y="27" fill="#e0c5ff">03 · AGENTS</text><text x="17" y="50" font-size="12">LANGGRAPH · ADK + 4</text></g>
 <g transform="translate(903 92)"><rect width="230" height="69" rx="13" fill="#2c3a31" stroke="#9bc379"/><text x="17" y="27" fill="#d9ff8d">04 · AI INFRA</text><text x="17" y="49" font-size="12">OLLAMA · E2B + 2</text></g>
 <g transform="translate(903 179)"><rect width="230" height="69" rx="13" fill="#3e313a" stroke="#df9eae"/><text x="17" y="27" fill="#ffccda">05 · QUALITY</text><text x="17" y="49" font-size="12">CODERABBIT · LANGSMITH + 1</text></g>
-<g transform="translate(903 266)"><rect width="230" height="69" rx="13" fill="#353044" stroke="#afa6e5"/><text x="17" y="27" fill="#dcd5ff">06 · DESIGN & RESEARCH</text><text x="17" y="49" font-size="12">FIGMA · NOTION + 2</text></g>
+<g transform="translate(903 266)"><rect width="230" height="69" rx="13" fill="#353044" stroke="#afa6e5"/><text x="17" y="27" fill="#dcd5ff">06 · DESIGN &amp; RESEARCH</text><text x="17" y="49" font-size="12">FIGMA · NOTION + 2</text></g>
 <g transform="translate(903 352)"><rect width="230" height="53" rx="13" fill="#374327" stroke="#aed06f"/><text x="17" y="32" fill="#dcf4a5">07 · PRACTICE / 2</text></g>
 </g>
 <g stroke="#9ccf95" stroke-opacity=".35"><path d="M296 162H392L487 201"/><path d="M296 255H365L471 235"/><path d="M296 348H412L503 275"/><path d="M725 187L876 125H903"/><path d="M734 218H903"/><path d="M727 264L876 300H903"/><path d="M698 316L876 378H903"/></g>
