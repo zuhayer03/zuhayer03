@@ -1,4 +1,4 @@
-name: Animate Contribution Signal
+name: ZF Arcade and Animated Profile
 
 on:
   workflow_dispatch:
@@ -8,23 +8,62 @@ on:
     branches: [main]
     paths:
       - ".github/workflows/snake.yml"
+      - "scripts/render_gifs.py"
 
 permissions:
   contents: write
 
+concurrency:
+  group: zf-profile-animation
+  cancel-in-progress: false
+
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 20
     steps:
-      - name: Build matching contribution snakes
+      - name: Checkout original GIF source
+        uses: actions/checkout@v4
+
+      - name: Setup Python for original GIF artwork
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Render original terminal and tool-reel GIFs
+        run: |
+          python -m pip install --disable-pip-version-check pillow
+          python scripts/render_gifs.py dist
+
+      - name: Render animated contribution snakes
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: zuhayer03
           outputs: |
             dist/snake.svg?palette=github-light&color_snake=#6b42c8
             dist/snake-dark.svg?palette=github-dark&color_snake=#70e7ef&color_dots=#0b1125,#1c334b,#326b92,#8469ce,#c9a5ff
-      - name: Publish animation assets to output branch
+
+      - name: Render animated Pac-Man contribution arcade
+        uses: abozanona/pacman-contribution-graph@v5.0.0
+        with:
+          github_user_name: zuhayer03
+          games: "pacman"
+          player_style: "opportunistic"
+
+      - name: Verify all animations generated
+        run: |
+          for file in \
+            dist/snake.svg \
+            dist/snake-dark.svg \
+            dist/pacman-contribution-graph.svg \
+            dist/pacman-contribution-graph-dark.svg \
+            dist/dev-console.gif \
+            dist/tool-reel.gif; do
+              test -s "$file" || { echo "Missing animation: $file"; exit 1; }
+              echo "OK: $file"
+          done
+
+      - name: Publish all six assets atomically
         uses: crazy-max/ghaction-github-pages@v5
         with:
           target_branch: output
