@@ -214,6 +214,18 @@ My <a href="https://zuhayer03.github.io/programming-journey/">portfolio site</a>
 
 </div>
 
+### 04.2 / MAKE YOUR OWN STACK — INTERACTIVE ✳
+
+<div align="center">
+
+<a href="https://zuhayer03.github.io/programming-journey/#stack-lab"><img src="assets/stack-architect.svg" width="100%" alt="Stack Architect: build your own tool workflow by selecting up to seven tools, copy the result or export SVG"/></a>
+
+**[↗ OPEN STACK ARCHITECT / MIX TOOLS / EXPORT YOUR WORKFLOW](https://zuhayer03.github.io/programming-journey/#stack-lab)**
+
+<sub>Choose Java/DSA, AI agent, or product-development presets, edit the tool sequence, and export artwork directly in your browser. It's an exploration tool, not a record of deployed work.</sub>
+
+</div>
+
 ### 04.5 / IDEA → CODE → TEST → SHIP
 
 <div align="center">
