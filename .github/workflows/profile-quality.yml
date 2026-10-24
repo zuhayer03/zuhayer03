@@ -1,0 +1,49 @@
+name: GitHub Profile Design Quality
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "README.md"
+      - "assets/**"
+      - ".github/workflows/profile-quality.yml"
+  pull_request:
+    paths:
+      - "README.md"
+      - "assets/**"
+      - ".github/workflows/profile-quality.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Verify profile art and tool icons
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate illustrations and README references
+        run: |
+          python3 - <<'PY'
+          import re
+          from pathlib import Path
+          import xml.etree.ElementTree as ET
+          readme=Path("README.md").read_text(encoding="utf-8")
+          local_refs=re.findall(r'<img[^>]+src="(assets/[^"]+)"',readme)
+          assert local_refs, "No custom illustrations linked"
+          for img in local_refs:
+              file=Path(img)
+              assert file.is_file(), f"Missing illustration: {img}"
+              if file.suffix == ".svg":
+                  ET.parse(file)
+          icon_tile_count=len(re.findall(r'<td width="25%"',readme))
+          assert icon_tile_count == 29, f"Expected 29 tool tiles, got {icon_tile_count}"
+          icon_files=list(Path("assets/icons").glob("*.svg"))
+          assert len(icon_files) >= 13, f"Missing self-hosted vector logos: {len(icon_files)}"
+          for icon in icon_files:
+              ET.parse(icon)
+          for name in ("assets/identity.svg","assets/current-mission.svg","assets/tool-universe.svg","assets/stack-architect.svg","assets/contribution-constellation.svg"):
+              assert Path(name).is_file(), f"Missing identity asset {name}"
+          print(f"PASS: {len(local_refs)} local illustrations, 29 tool tiles, {len(icon_files)} vector logos")
+          PY
