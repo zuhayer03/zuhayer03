@@ -243,7 +243,13 @@ More code: **[ToolPilot](https://github.com/zuhayer03/programming-journey/tree/m
   <img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/pacman-contribution-graph-dark.svg" width="100%" alt="Animated Pac-Man eats my real GitHub contribution graph while ghosts chase him"/>
 </picture>
 
-<sub>Automatically updated daily. Pac-Man is an animated contribution-graph game; the GitHub README can't run playable JavaScript.</sub>
+<sub>Automatically updated daily from my actual contributions. The GitHub graphic is an animation, not an embedded playable game.</sub>
+
+<br/>
+
+<a href="https://zuhayer03.github.io/programming-journey/arcade.html"><img src="https://img.shields.io/badge/🕹️_PLAY_MY_PAC--MAN--INSPIRED_MINI_GAME-OPEN_THE_ARCADE-D9FF65?style=for-the-badge&labelColor=17221a&color=D9FF65" alt="Play my original browser maze game using arrows, WASD or touch controls"/></a>
+
+**[PLAY THE REAL KEYBOARD & TOUCH-CONTROLLED MINI GAME ↗](https://zuhayer03.github.io/programming-journey/arcade.html)**
 
 <br/>
 
