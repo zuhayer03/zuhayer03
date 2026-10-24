@@ -172,6 +172,12 @@ def anim_frame(background,logo,color,style,t,index):
     hh=ImageDraw.Draw(halo,"RGBA")
     hh.ellipse((149,254+up,251,272+up),fill=(*color,110))
     frame=Image.alpha_composite(a,halo.filter(ImageFilter.GaussianBlur(17)))
+    if index == 3:
+        # GitHub's genuine dark octocat mark needs a luminous contrasting surface.
+        # Leave the source logo unchanged; illuminate only its backing plate.
+        plaque=ImageDraw.Draw(frame,"RGBA")
+        plaque.rounded_rectangle((120,121,280,281),radius=45,
+            fill=(206,235,213,255),outline=(*color,245),width=4)
     frame.alpha_composite(img,(cx-img.width//2,cy-img.height//2+round(up)))
     d=ImageDraw.Draw(frame,"RGBA")
     d.text((320,45),f"{index+1:02}",font=font(18,True),fill=(*color,235))
