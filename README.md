@@ -112,21 +112,23 @@ location: Michigan, USA
 
 My <a href="https://zuhayer03.github.io/programming-journey/">portfolio site</a> features a real WebGL 3D sculpture, interactive tool explorer, project effects, and searchable navigation. In the <a href="https://zuhayer03.github.io/programming-journey/lab.html">lab</a>, experiment with sorting, simulated network checks, synthetic login events, and sample budgets. The browser demos are separate from the original Java/Python CLIs.
 
-### 04 / MY TECH UNIVERSE — 29 VISUAL TOOLS
+### 04 / THE TOOL UNIVERSE — PREMIUM DASHBOARD
 
 <div align="center">
 
-<a href="https://zuhayer03.github.io/programming-journey/#tools"><img src="assets/tool-universe.svg" width="100%" alt="My interactive engineering and AI tool universe"/></a>
+<a href="https://zuhayer03.github.io/programming-journey/#tools"><img src="assets/tool-universe.svg" width="100%" alt="Original visual map of my 29 tools across seven engineering areas"/></a>
 
-<img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/tool-reel.gif" width="100%" alt="Original animated tour of my eight development tool categories"/>
+**29 CLICKABLE LOGOS · 7 CATEGORIES · ONE CONNECTED WORKFLOW**
 
-**REAL LOGOS · CLICKABLE TOOLS · SEVEN ORGANIZED CATEGORIES**
+<sub>Tools I use, study, and experiment with at different levels, not claims of expert proficiency in all of them.</sub>
 
 </div>
 
-#### 01 / PROGRAMMING & DEVELOPMENT
-
-<table>
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
+<p align="center"><strong>01 / PROGRAMMING & DEVELOPMENT</strong></p>
+<table width="100%">
 <tr>
 <td width="25%" align="center" valign="middle"><a href="https://www.java.com"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="46" height="46" alt="Java icon"/><br/><sub><b>Java</b></sub></a></td>
 <td width="25%" align="center" valign="middle"><a href="https://www.python.org"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="46" height="46" alt="Python icon"/><br/><sub><b>Python</b></sub></a></td>
@@ -136,12 +138,16 @@ My <a href="https://zuhayer03.github.io/programming-journey/">portfolio site</a>
 <tr>
 <td width="25%" align="center" valign="middle"><a href="https://code.visualstudio.com"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" width="46" height="46" alt="VS Code icon"/><br/><sub><b>VS Code</b></sub></a></td>
 <td width="25%" align="center" valign="middle"><a href="https://www.jetbrains.com/idea/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/intellij/intellij-original.svg" width="46" height="46" alt="IntelliJ IDEA icon"/><br/><sub><b>IntelliJ IDEA</b></sub></a></td>
+<td align="center"></td>
+<td align="center"></td>
 </tr>
 </table>
-
-#### 02 / AI-ASSISTED CODING
-
-<table>
+<p align="center"><sub>FOUNDATIONS</sub></p>
+<p align="center"><sub>Java · Python · Git · Source control</sub></p>
+</td>
+<td width="50%" valign="top">
+<p align="center"><strong>02 / AI-ASSISTED CODING</strong></p>
+<table width="100%">
 <tr>
 <td width="25%" align="center" valign="middle"><a href="https://cursor.com"><img src="assets/icons/cursor.svg" width="46" height="46" alt="Cursor icon"/><br/><sub><b>Cursor</b></sub></a></td>
 <td width="25%" align="center" valign="middle"><a href="https://github.com/features/copilot"><img src="assets/icons/githubcopilot.svg" width="46" height="46" alt="GitHub Copilot icon"/><br/><sub><b>GitHub Copilot</b></sub></a></td>
@@ -149,10 +155,14 @@ My <a href="https://zuhayer03.github.io/programming-journey/">portfolio site</a>
 <td width="25%" align="center" valign="middle"><a href="https://antigravity.google"><img src="https://www.google.com/s2/favicons?domain=antigravity.google&sz=128" width="46" height="46" alt="Google Antigravity icon"/><br/><sub><b>Google Antigravity</b></sub></a></td>
 </tr>
 </table>
-
-#### 03 / AGENTS & AUTOMATION
-
-<table>
+<p align="center"><sub>ASSISTED DEVELOPMENT</sub></p>
+<p align="center"><sub>Faster iteration, solid foundations first</sub></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<p align="center"><strong>03 / AGENTS & AUTOMATION</strong></p>
+<table width="100%">
 <tr>
 <td width="25%" align="center" valign="middle"><a href="https://www.langchain.com/langgraph"><img src="assets/icons/langgraph.svg" width="46" height="46" alt="LangGraph icon"/><br/><sub><b>LangGraph</b></sub></a></td>
 <td width="25%" align="center" valign="middle"><a href="https://google.github.io/adk-docs/"><img src="https://www.google.com/s2/favicons?domain=google.com&sz=128" width="46" height="46" alt="Google ADK icon"/><br/><sub><b>Google ADK</b></sub></a></td>
@@ -162,12 +172,16 @@ My <a href="https://zuhayer03.github.io/programming-journey/">portfolio site</a>
 <tr>
 <td width="25%" align="center" valign="middle"><a href="https://composio.dev"><img src="https://www.google.com/s2/favicons?domain=composio.dev&sz=128" width="46" height="46" alt="Composio icon"/><br/><sub><b>Composio</b></sub></a></td>
 <td width="25%" align="center" valign="middle"><a href="https://paperclip.ing"><img src="https://www.google.com/s2/favicons?domain=paperclip.ing&sz=128" width="46" height="46" alt="Paperclip icon"/><br/><sub><b>Paperclip</b></sub></a></td>
+<td align="center"></td>
+<td align="center"></td>
 </tr>
 </table>
-
-#### 04 / MODELS & INFRASTRUCTURE
-
-<table>
+<p align="center"><sub>WORKFLOW ENGINEERING</sub></p>
+<p align="center"><sub>Agents, orchestration & integration</sub></p>
+</td>
+<td width="50%" valign="top">
+<p align="center"><strong>04 / MODELS & INFRASTRUCTURE</strong></p>
+<table width="100%">
 <tr>
 <td width="25%" align="center" valign="middle"><a href="https://huggingface.co"><img src="assets/icons/huggingface.svg" width="46" height="46" alt="Hugging Face icon"/><br/><sub><b>Hugging Face</b></sub></a></td>
 <td width="25%" align="center" valign="middle"><a href="https://ollama.com"><img src="assets/icons/ollama.svg" width="46" height="46" alt="Ollama icon"/><br/><sub><b>Ollama</b></sub></a></td>
@@ -175,20 +189,36 @@ My <a href="https://zuhayer03.github.io/programming-journey/">portfolio site</a>
 <td width="25%" align="center" valign="middle"><a href="https://e2b.dev"><img src="https://www.google.com/s2/favicons?domain=e2b.dev&sz=128" width="46" height="46" alt="E2B icon"/><br/><sub><b>E2B</b></sub></a></td>
 </tr>
 </table>
-
-#### 05 / CODE QUALITY & OBSERVABILITY
-
-<table>
+<p align="center"><sub>MODELS & SANDBOXES</sub></p>
+<p align="center"><sub>Local models · cloud APIs · runtimes</sub></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<p align="center"><strong>05 / CODE QUALITY & OBSERVABILITY</strong></p>
+<table width="100%">
 <tr>
 <td width="25%" align="center" valign="middle"><a href="https://www.coderabbit.ai"><img src="https://www.google.com/s2/favicons?domain=coderabbit.ai&sz=128" width="46" height="46" alt="CodeRabbit icon"/><br/><sub><b>CodeRabbit</b></sub></a></td>
 <td width="25%" align="center" valign="middle"><a href="https://smith.langchain.com"><img src="https://www.google.com/s2/favicons?domain=smith.langchain.com&sz=128" width="46" height="46" alt="LangSmith icon"/><br/><sub><b>LangSmith</b></sub></a></td>
 <td width="25%" align="center" valign="middle"><a href="https://sentry.io"><img src="assets/icons/sentry.svg" width="46" height="46" alt="Sentry Seer icon"/><br/><sub><b>Sentry Seer</b></sub></a></td>
+<td align="center"></td>
 </tr>
 </table>
-
-#### 06 / DESIGN, RESEARCH & ORGANIZATION
-
-<table>
+<p align="center"><strong>07 / CODING PRACTICE</strong></p>
+<table width="100%">
+<tr>
+<td width="25%" align="center" valign="middle"><a href="https://leetcode.com"><img src="assets/icons/leetcode.svg" width="46" height="46" alt="LeetCode icon"/><br/><sub><b>LeetCode</b></sub></a></td>
+<td width="25%" align="center" valign="middle"><a href="https://neetcode.io"><img src="https://www.google.com/s2/favicons?domain=neetcode.io&sz=128" width="46" height="46" alt="NeetCode icon"/><br/><sub><b>NeetCode</b></sub></a></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</table>
+<p align="center"><sub>LEARN / TEST / REFINE</sub></p>
+<p align="center"><sub>Review · trace · solve · repeat</sub></p>
+</td>
+<td width="50%" valign="top">
+<p align="center"><strong>06 / DESIGN, RESEARCH & ORGANIZATION</strong></p>
+<table width="100%">
 <tr>
 <td width="25%" align="center" valign="middle"><a href="https://www.figma.com"><img src="assets/icons/figma.svg" width="46" height="46" alt="Figma icon"/><br/><sub><b>Figma</b></sub></a></td>
 <td width="25%" align="center" valign="middle"><a href="https://www.notion.so"><img src="assets/icons/notion.svg" width="46" height="46" alt="Notion icon"/><br/><sub><b>Notion</b></sub></a></td>
@@ -196,61 +226,29 @@ My <a href="https://zuhayer03.github.io/programming-journey/">portfolio site</a>
 <td width="25%" align="center" valign="middle"><a href="https://www.perplexity.ai"><img src="assets/icons/perplexity.svg" width="46" height="46" alt="Perplexity icon"/><br/><sub><b>Perplexity</b></sub></a></td>
 </tr>
 </table>
-
-#### 07 / CODING PRACTICE
-
-<table>
+<p align="center"><sub>DESIGN & RESEARCH</sub></p>
+<p align="center"><sub>Creative prototyping · notes · productivity</sub></p>
+</td>
+</tr>
 <tr>
-<td width="25%" align="center" valign="middle"><a href="https://leetcode.com"><img src="assets/icons/leetcode.svg" width="46" height="46" alt="LeetCode icon"/><br/><sub><b>LeetCode</b></sub></a></td>
-<td width="25%" align="center" valign="middle"><a href="https://neetcode.io"><img src="https://www.google.com/s2/favicons?domain=neetcode.io&sz=128" width="46" height="46" alt="NeetCode icon"/><br/><sub><b>NeetCode</b></sub></a></td>
+<td width="50%" valign="top">
+<p align="center"><strong>08 / STACK ARCHITECT</strong></p><p align="center"><a href="https://zuhayer03.github.io/programming-journey/#stack-lab"><img src="assets/stack-architect.svg" width="100%" alt="Interactive Stack Architect workflow builder"/></a></p><p align="center"><sub>Mix up to seven tools · Export an SVG</sub></p><p align="center"><a href="https://zuhayer03.github.io/programming-journey/#stack-lab"><b>BUILD YOUR STACK ↗</b></a></p>
+</td>
+<td width="50%" valign="top">
+<p align="center"><strong>09 / DEVELOPMENT PIPELINE</strong></p><p align="center"><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/build-pipeline.gif" width="100%" alt="Animated original idea to code to test to ship GIF"/></p><p align="center"><sub>IDEA → CODE → TEST → SHIP</sub></p><p align="center"><a href="https://zuhayer03.github.io/programming-journey/#tools"><b>EXPLORE ALL TOOLS ↗</b></a></p>
+</td>
 </tr>
 </table>
 
-
 <div align="center">
 
-**[✳ INTERACT WITH MY COMPLETE TOOL UNIVERSE ON THE PORTFOLIO ↗](https://zuhayer03.github.io/programming-journey/#tools)**
+<a href="https://zuhayer03.github.io/programming-journey/#tools"><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/tool-reel.gif" width="100%" alt="Original animated tour through my development and AI tools"/></a>
 
-<sub>These are products and frameworks I use, study, or experiment with. I don't claim expert-level proficiency in every one. Brand marks include self-hosted Simple Icons artwork, Devicon icons, and website favicons for tools without a verified vector source.</sub>
+**[EXPLORE THE INTERACTIVE TOOL UNIVERSE ↗](https://zuhayer03.github.io/programming-journey/#tools)**
 
-</div>
-
-### 04.2 / MAKE YOUR OWN STACK — INTERACTIVE ✳
-
-<div align="center">
-
-<a href="https://zuhayer03.github.io/programming-journey/#stack-lab"><img src="assets/stack-architect.svg" width="100%" alt="Stack Architect: build your own tool workflow by selecting up to seven tools, copy the result or export SVG"/></a>
-
-**[↗ OPEN STACK ARCHITECT / MIX TOOLS / EXPORT YOUR WORKFLOW](https://zuhayer03.github.io/programming-journey/#stack-lab)**
-
-<sub>Choose Java/DSA, AI agent, or product-development presets, edit the tool sequence, and export artwork directly in your browser. It's an exploration tool, not a record of deployed work.</sub>
+<sub>Brand logos identify their respective products. This dashboard uses original visual composition.</sub>
 
 </div>
-
-### 04.5 / IDEA → CODE → TEST → SHIP
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/build-pipeline.gif" width="100%" alt="Original animated engineering pipeline GIF showing an idea turning into code, testing and a released project"/>
-
-<sub>An original looping illustration of my development process, generated in this repository.</sub>
-
-</div>
-
-<details>
-<summary><strong>＋ MY JOURNEY / EXPERIENCE TIMELINE</strong></summary>
-
-| When | Organization | Role |
-|:--|:--|:--|
-| **2026–present** | Kettering University | B.S. Computer Science |
-| **Aug 2025–Apr 2026** | The Schoolcraft Connection | Digital Media & Technology Operations Associate |
-| **Mar 2023–Jul 2024** | SOL-BD | IT Systems & Network Support Specialist |
-| **Jan 2022–Feb 2023** | Sylhet Cable Systems | Network Infrastructure Operations Associate |
-| **Aug–Dec 2021** | Melody Cable System | IT & Network Operations Intern |
-
-More code: **[ToolPilot](https://github.com/zuhayer03/programming-journey/tree/main/agent)** (rule-based Python tool router with tests; not an LLM agent) · **[Java Hub](https://github.com/zuhayer03/javaCode)** · **[Programming Journey](https://github.com/zuhayer03/programming-journey)**
-
-</details>
 
 ### 04.8 / THE CONTRIBUTION CONSTELLATION — DESIGN, NOT FAKE COMMITS
 
