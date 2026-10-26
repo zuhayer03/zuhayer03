@@ -10,6 +10,7 @@ on:
       - ".github/workflows/snake.yml"
       - "scripts/render_gifs.py"
       - "scripts/render_animated_tools.py"
+      - "scripts/render_clean_dashboard.py"
       - "scripts/tool_icons.json"
       - "assets/icons/**"
 
@@ -88,6 +89,22 @@ jobs:
               with Image.open(asset) as gif:
                   assert gif.n_frames >= 5, (asset, gif.n_frames)
           print(f"PASS: {len(items)} branded, animated GIF tiles")
+          PY
+
+      - name: Validate all nine clean dashboard animations and PNG fallbacks
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from PIL import Image
+          names = ("core","coding","agents","infra","quality","design","practice","stack","pipeline")
+          folder = Path("dist/dashboard")
+          for name in names:
+              for ext in ("gif", "png"):
+                  path = folder / f"{name}.{ext}"
+                  assert path.is_file() and path.stat().st_size > 1000, path
+              with Image.open(folder / f"{name}.gif") as im:
+                  assert im.n_frames >= 8, name
+          print("PASS: 9 clean moving card GIFs + 9 crisp reduced-motion PNGs")
           PY
 
       - name: Publish profile animations together
