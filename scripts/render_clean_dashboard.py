@@ -80,12 +80,14 @@ def paste_logo(im,logo,cx,cy,dy=0, maxsize=69):
     asset=logo.resize(box,Image.Resampling.LANCZOS)
     im.paste(asset,(int(cx-asset.width/2),int(cy-asset.height/2+dy)),asset)
 
-def tile(d,im,tool,logo,x,y,dy=0):
-    # White tile is intentionally the ONLY bright rectangle.
+def tile(d,im,tool,logo,x,y,dy=0,dense=False):
+    # Crisp original logo on a truly white tile. Two-row categories are
+    # slightly more compact to leave comfortable room for every label.
     tile_y = int(y+dy)
-    rounded(d,(x+2,tile_y+4,x+103,tile_y+103),14,(8,15,25))
-    rounded(d,(x,tile_y,x+102,tile_y+100),13,WHITE,(229,234,240),1)
-    paste_logo(im,logo,x+51,tile_y+50,0)
+    height=78 if dense else 100
+    rounded(d,(x+2,tile_y+4,x+103,tile_y+height+4),14,(8,15,25))
+    rounded(d,(x,tile_y,x+102,tile_y+height),13,WHITE,(229,234,240),1)
+    paste_logo(im,logo,x+51,tile_y+height/2,0,maxsize=61 if dense else 69)
     label=tool["name"]
     if label in ("Google Antigravity","IntelliJ IDEA","GitHub Copilot","LiveKit Agents","Hugging Face","Supabase AI"):
         split_at=label.rfind(" ")
@@ -93,34 +95,34 @@ def tile(d,im,tool,logo,x,y,dy=0):
     else:
         lines=[label]
     for line_no,part in enumerate(lines):
-        text_center(d,part,x+51,y+110+line_no*18,F_NAME,INK)
+        text_center(d,part,x+51,y+height+8+line_no*18,F_NAME,INK)
 
 def category_card(cfg,tools,logos,t):
     slug,num,title,accent,ids,headline,subtitle=cfg
     frame=base_card(W,H);d=ImageDraw.Draw(frame)
     header(d,title,num,accent)
     # Use a quiet inner panel, not excessive nested visual borders.
-    rounded(d,(20,105,580,329),14,(21,35,53),(35,51,69),1)
+    rounded(d,(20,105,580,359),14,(21,35,53),(35,51,69),1)
     n=len(ids)
     xs=[38,178,318,458] if n>=4 else [38+i*140 for i in range(n)]
     if n<=4:
-        ys=[152]*n
+        ys=[155]*n
     else:
-        ys=[137]*4+[257]*(n-4)
+        ys=[122]*4+[249]*(n-4)
     phase=2*math.pi*t/FRAMES
     for j,idx in enumerate(ids):
         bob=round(2.3*math.sin(phase+j*.75))
         # Labels are fixed while only logo tiles float subtly.
-        tile(d,frame,tools[idx],logos[idx],xs[j%4],ys[j],bob)
+        tile(d,frame,tools[idx],logos[idx],xs[j%4],ys[j],bob,dense=n>4)
     # Less empty vertical space on 4-tool and smaller sections: small understated linework.
     if n<=4:
-        d.line((39,290,561,290),fill=(39,56,75),width=1)
+        d.line((39,310,561,310),fill=(39,56,75),width=1)
         cx=64+int((t/(FRAMES-1))*458)
-        d.ellipse((cx-3,287,cx+3,293),fill=accent)
-    rounded(d,(21,341,579,407),13,(27,44,64),(48,68,91),1)
-    d.rounded_rectangle((35,353,40,396),radius=2,fill=accent)
-    d.text((56,351),headline,font=F_DESC,fill=INK)
-    d.text((56,378),subtitle,font=F_SUB,fill=MUTED)
+        d.ellipse((cx-3,307,cx+3,313),fill=accent)
+    rounded(d,(21,365,579,416),13,(27,44,64),(48,68,91),1)
+    d.rounded_rectangle((35,374,40,405),radius=2,fill=accent)
+    d.text((56,367),headline,font=F_DESC,fill=INK)
+    d.text((56,392),subtitle,font=F_SUB,fill=MUTED)
     return frame
 
 def stack_card(t):
@@ -143,10 +145,10 @@ def stack_card(t):
     d.line((360,163,385,163),fill=accent,width=2)
     d.line((190,277,215,277),fill=accent,width=2)
     d.line((360,277,385,277),fill=accent,width=2)
-    rounded(d,(21,341,579,407),13,(27,44,64),(48,68,91),1)
-    d.rounded_rectangle((35,353,40,396),radius=2,fill=accent)
-    d.text((56,351),"System Architecture",font=F_DESC,fill=INK)
-    d.text((56,378),"Explore the flow from concept to deployment",font=F_SUB,fill=MUTED)
+    rounded(d,(21,365,579,416),13,(27,44,64),(48,68,91),1)
+    d.rounded_rectangle((35,374,40,405),radius=2,fill=accent)
+    d.text((56,367),"System Architecture",font=F_DESC,fill=INK)
+    d.text((56,392),"Explore the flow from concept to deployment",font=F_SUB,fill=MUTED)
     return image
 
 def pipeline_card(t):
