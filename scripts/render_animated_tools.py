@@ -279,6 +279,8 @@ def main():
     logos=[logo_for(t["source"]) for t in manifest]
     render_tiles(manifest,logos)
     render_showcase(manifest,logos)
+    from render_clean_dashboard import render_dashboard
+    render_dashboard(manifest,logos,TARGET)
     assert len(list(OUT.glob("*.gif")))==29
     print("SUCCESS: 29 retina animated logo emblems + cinematic tool cosmos",flush=True)
 
