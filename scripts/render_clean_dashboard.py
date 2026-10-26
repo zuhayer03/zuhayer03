@@ -108,7 +108,7 @@ def category_card(cfg,tools,logos,t):
     if n<=4:
         ys=[155]*n
     else:
-        ys=[122]*4+[249]*(n-4)
+        ys=[122]*4+[241]*(n-4)
     phase=2*math.pi*t/FRAMES
     for j,idx in enumerate(ids):
         bob=round(2.3*math.sin(phase+j*.75))
