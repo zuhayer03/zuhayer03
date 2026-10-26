@@ -37,13 +37,25 @@ jobs:
               assert file.is_file(), f"Missing illustration: {img}"
               if file.suffix == ".svg":
                   ET.parse(file)
-          icon_tile_count=len(re.findall(r'<td width="25%"',readme))
-          assert icon_tile_count == 29, f"Expected 29 tool tiles, got {icon_tile_count}"
+          # The clean visual redesign uses nine pre-rendered GIF cards rather
+          # than 29 individual HTML tables. Their source manifest keeps every
+          # original tool link available in the expandable directory.
+          import json
+          manifest=json.loads(Path("scripts/tool_icons.json").read_text(encoding="utf-8"))["tools"]
+          assert len(manifest)==29 and len({tool["id"] for tool in manifest})==29
+          cards=("core","coding","agents","infra","quality","design","practice","stack","pipeline")
+          for card in cards:
+              assert f"dashboard/{card}.gif" in readme, f"Missing animated dashboard card: {card}"
+              assert f"dashboard/{card}.png" in readme, f"Missing reduced-motion fallback: {card}"
+          assert readme.count('<td width="50%" valign="top">') >= 8, "Expected four two-column rows"
+          assert '<td colspan="2" width="100%"' in readme, "Missing full-width pipeline"
+          for item in manifest:
+              assert f"[{item['name']}](" in readme, f"Missing direct tool link: {item['name']}"
           icon_files=list(Path("assets/icons").glob("*.svg"))
           assert len(icon_files) >= 13, f"Missing self-hosted vector logos: {len(icon_files)}"
           for icon in icon_files:
               ET.parse(icon)
           for name in ("assets/identity.svg","assets/current-mission.svg","assets/tool-universe.svg","assets/stack-architect.svg","assets/contribution-constellation.svg"):
               assert Path(name).is_file(), f"Missing identity asset {name}"
-          print(f"PASS: {len(local_refs)} local illustrations, 29 tool tiles, {len(icon_files)} vector logos")
+          print(f"PASS: {len(local_refs)} original illustrations, 9 dashboard cards, 29 clickable tools, {len(icon_files)} vector logos")
           PY
