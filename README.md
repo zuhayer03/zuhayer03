@@ -125,44 +125,44 @@ My <a href="https://zuhayer03.github.io/programming-journey/">portfolio site</a>
 <table width="100%">
 <tr>
 <td width="50%" valign="top">
-<a href="https://zuhayer03.github.io/programming-journey/#tools"><picture><source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/core.png"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/core.gif?v=clean1" width="100%" alt="Programming and Development: Java, Python, Git, GitHub, VS Code, IntelliJ IDEA"/></picture></a>
+<a href="https://zuhayer03.github.io/programming-journey/dashboard.html#core"><picture><source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/core.png"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/core.gif?v=clean1" width="100%" alt="Programming and Development: Java, Python, Git, GitHub, VS Code, IntelliJ IDEA"/></picture></a>
 </td>
 <td width="50%" valign="top">
-<a href="https://zuhayer03.github.io/programming-journey/#tools"><picture><source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/coding.png"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/coding.gif?v=clean1" width="100%" alt="AI-Assisted Coding: Cursor, GitHub Copilot, Claude Code, Google Antigravity"/></picture></a>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<a href="https://zuhayer03.github.io/programming-journey/#tools"><picture><source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/agents.png"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/agents.gif?v=clean1" width="100%" alt="Agents and Automation: LangGraph, Google ADK, LiveKit Agents, Browser Use, Composio, Paperclip"/></picture></a>
-</td>
-<td width="50%" valign="top">
-<a href="https://zuhayer03.github.io/programming-journey/#tools"><picture><source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/infra.png"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/infra.gif?v=clean1" width="100%" alt="Models and Infrastructure: Hugging Face, Ollama, Supabase AI, E2B"/></picture></a>
+<a href="https://zuhayer03.github.io/programming-journey/dashboard.html#coding"><picture><source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/coding.png"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/coding.gif?v=clean1" width="100%" alt="AI-Assisted Coding: Cursor, GitHub Copilot, Claude Code, Google Antigravity"/></picture></a>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://zuhayer03.github.io/programming-journey/#tools"><picture><source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/quality.png"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/quality.gif?v=clean1" width="100%" alt="Quality and Observability: CodeRabbit, LangSmith, Sentry Seer"/></picture></a>
+<a href="https://zuhayer03.github.io/programming-journey/dashboard.html#agents"><picture><source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/agents.png"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/agents.gif?v=clean1" width="100%" alt="Agents and Automation: LangGraph, Google ADK, LiveKit Agents, Browser Use, Composio, Paperclip"/></picture></a>
 </td>
 <td width="50%" valign="top">
-<a href="https://zuhayer03.github.io/programming-journey/#tools"><picture><source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/design.png"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/design.gif?v=clean1" width="100%" alt="Design and Research: Figma, Notion, NotebookLM, Perplexity"/></picture></a>
+<a href="https://zuhayer03.github.io/programming-journey/dashboard.html#infra"><picture><source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/infra.png"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/infra.gif?v=clean1" width="100%" alt="Models and Infrastructure: Hugging Face, Ollama, Supabase AI, E2B"/></picture></a>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://zuhayer03.github.io/programming-journey/#tools"><picture><source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/practice.png"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/practice.gif?v=clean1" width="100%" alt="Coding Practice: LeetCode, NeetCode"/></picture></a>
+<a href="https://zuhayer03.github.io/programming-journey/dashboard.html#quality"><picture><source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/quality.png"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/quality.gif?v=clean1" width="100%" alt="Quality and Observability: CodeRabbit, LangSmith, Sentry Seer"/></picture></a>
 </td>
 <td width="50%" valign="top">
-<a href="https://zuhayer03.github.io/programming-journey/#stack-lab"><picture><source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/stack.png"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/stack.gif?v=clean1" width="100%" alt="Stack Architect: frontend, backend, data, AI and infrastructure planning"/></picture></a>
+<a href="https://zuhayer03.github.io/programming-journey/dashboard.html#design"><picture><source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/design.png"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/design.gif?v=clean1" width="100%" alt="Design and Research: Figma, Notion, NotebookLM, Perplexity"/></picture></a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://zuhayer03.github.io/programming-journey/dashboard.html#practice"><picture><source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/practice.png"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/practice.gif?v=clean1" width="100%" alt="Coding Practice: LeetCode, NeetCode"/></picture></a>
+</td>
+<td width="50%" valign="top">
+<a href="https://zuhayer03.github.io/programming-journey/dashboard.html#stack"><picture><source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/stack.png"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/stack.gif?v=clean1" width="100%" alt="Stack Architect: frontend, backend, data, AI and infrastructure planning"/></picture></a>
 </td>
 </tr>
 <tr><td colspan="2" width="100%" valign="top">
-<a href="https://zuhayer03.github.io/programming-journey/"><picture><source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/pipeline.png"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/pipeline.gif?v=clean1" width="100%" alt="Development Pipeline: Code, Build, Test, Deploy, Ship"/></picture></a>
+<a href="https://zuhayer03.github.io/programming-journey/dashboard.html#pipeline"><picture><source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/pipeline.png"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/pipeline.gif?v=clean1" width="100%" alt="Development Pipeline: Code, Build, Test, Deploy, Ship"/></picture></a>
 </td></tr>
 </table>
 
 <div align="center">
 
-**[EXPLORE EVERY TOOL INTERACTIVELY ↗](https://zuhayer03.github.io/programming-journey/#tools)** · **[CREATE A CUSTOM STACK ↗](https://zuhayer03.github.io/programming-journey/#stack-lab)**
+**[OPEN THE INTERACTIVE 3D DASHBOARD ↗](https://zuhayer03.github.io/programming-journey/dashboard.html)** · **[BUILD A CUSTOM STACK ↗](https://zuhayer03.github.io/programming-journey/#stack-lab)**
 
 </div>
 
