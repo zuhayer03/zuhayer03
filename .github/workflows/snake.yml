@@ -29,6 +29,12 @@ jobs:
       - name: Checkout original GIF source
         uses: actions/checkout@v4
 
+      - name: Retrieve previously published optional tool animations
+        uses: actions/checkout@v4
+        with:
+          ref: output
+          path: _profile_output
+
       - name: Setup Python for original GIF artwork
         uses: actions/setup-python@v5
         with:
@@ -42,8 +48,14 @@ jobs:
       - name: Install SVG renderer for real brand icons
         run: python -m pip install --disable-pip-version-check cairosvg
 
-      - name: Render 29 animated real-logo tiles
+      - name: Render nine clean interactive-dashboard matching GIFs
         run: python scripts/render_animated_tools.py dist
+
+      - name: Preserve original optional 29 tool GIFs and cosmos GIF
+        run: |
+          mkdir -p dist/tool-animations
+          cp _profile_output/tool-animations/*.gif dist/tool-animations/
+          cp _profile_output/tool-cosmos.gif dist/tool-cosmos.gif
 
       - name: Render animated contribution snakes
         uses: Platane/snk/svg-only@v3
@@ -75,7 +87,7 @@ jobs:
               echo "OK: $file"
           done
 
-      - name: Verify every real-brand tile was animated
+      - name: Verify preserved optional per-tool animations
         run: |
           python - <<'PY'
           import json
