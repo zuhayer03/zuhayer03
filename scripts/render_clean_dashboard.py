@@ -59,21 +59,27 @@ def center(draw,text,x,y,f,fill):
     bbox=draw.textbbox((0,0),text,font=f)
     draw.text((x-(bbox[2]-bbox[0])/2,y),text,font=f,fill=fill)
 
-def panel(w,h,accent,t):
-    """Subtle navy gradient, soft light at upper-left and a quiet border."""
+from functools import lru_cache
+
+@lru_cache(maxsize=20)
+def _panel_cached(w,h,accent):
+    """Build each category background once; frame motion happens in the art."""
     im=Image.new("RGB",(w,h))
     pixels=im.load()
     for y in range(h):
         for x in range(w):
             shade=(x/w*.15+y/h*.48)
             halo=max(0,1-math.hypot(x-w*.26,y-h*.12)/(w*.8))
-            glow=.10*halo + .012*math.sin(t*2*math.pi/FRAMES)
             color=blend((18,33,55),(9,18,35),shade)
-            pixels[x,y]=blend(color,accent,glow)
+            pixels[x,y]=blend(color,accent,.10*halo)
     d=ImageDraw.Draw(im)
     roundrect(d,(2,2,w-3,h-3),23,None,BORDER,2)
     d.line((28,5,w-38,5),fill=blend(NAVY,accent,.23),width=1)
     return im
+
+def panel(w,h,accent,t):
+    return _panel_cached(w,h,tuple(accent)).copy()
+
 
 def header(image,title,number,accent,t):
     d=ImageDraw.Draw(image)
