@@ -277,12 +277,14 @@ def main():
     manifest=json.loads((ROOT/"scripts"/"tool_icons.json").read_text(encoding="utf-8"))["tools"]
     assert len(manifest)==29 and len(set(t["id"] for t in manifest))==29
     logos=[logo_for(t["source"]) for t in manifest]
-    render_tiles(manifest,logos)
-    render_showcase(manifest,logos)
+    # Preserve legacy icon GIFs from the output branch; full regeneration
+    # is optional because the new GitHub README uses the nine dashboard GIFs.
+    if "--full" in sys.argv:
+        render_tiles(manifest,logos)
+        render_showcase(manifest,logos)
     from render_clean_dashboard import render_dashboard
     render_dashboard(manifest,logos,TARGET)
-    assert len(list(OUT.glob("*.gif")))==29
-    print("SUCCESS: 29 retina animated logo emblems + cinematic tool cosmos",flush=True)
+    print("SUCCESS: clean reference-style dashboard; 29 verified source logos",flush=True)
 
 if __name__=="__main__":
     main()
