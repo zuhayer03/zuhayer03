@@ -1,201 +1,253 @@
 #!/usr/bin/env python3
-"""The clean Z✳F GitHub tool dashboard.
+"""Reproducible animated GitHub tool dashboard based on the user's reference.
 
-Renders 7 polished, subtly animated category cards with real product logos on
-white icon tiles, plus a Stack Architect card and a full-width pipeline.
-Used by render_animated_tools.py so the icons are downloaded only once.
-Output is GitHub README-compatible GIF and reduced-motion PNG artwork.
+Nine matching dark navy / glass cards; authentic logos on white squares,
+gradient number badges, subtle drifting icon tiles, gently moving accent
+highlights and clean descriptor strips. GitHub gets GIFs; PNGs are
+the reduced-motion fallbacks. No JavaScript is used in GitHub README.
 """
 from pathlib import Path
 import math
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
-W, H, FRAMES = 600, 425, 14
-NAVY = (17, 29, 45)
-INK = (239, 244, 250)
-MUTED = (171, 185, 203)
-WHITE = (250, 251, 252)
-BORDER = (53, 74, 96)
+W, H, FRAMES = 600, 448, 18
+NAVY = (12, 23, 41)
+PANEL = (17, 31, 52)
+INK = (240, 245, 255)
+MUTED = (179, 193, 215)
+WHITE = (255, 255, 255)
+BORDER = (56, 75, 106)
 CONFIG = [
-    ("core", "01", "PROGRAMMING / DEVELOPMENT", (150, 151, 237),
-     [0, 1, 2, 3, 4, 5], "Foundations", "Java · Python · Git · Source control"),
-    ("coding", "02", "AI-ASSISTED CODING", (104, 169, 248),
-     [6, 7, 8, 9], "Assisted Development", "Modern coding tools · Strong fundamentals"),
-    ("agents", "03", "AGENTS / AUTOMATION", (79, 204, 163),
-     [10, 11, 12, 13, 14, 15], "Workflow Engineering", "Agents · Orchestration · Integrations"),
-    ("infra", "04", "MODELS / INFRASTRUCTURE", (250, 181, 89),
-     [16, 17, 18, 19], "Models & Sandboxes", "Local models · Cloud tools · Runtimes"),
-    ("quality", "05", "QUALITY / OBSERVABILITY", (248, 118, 136),
-     [20, 21, 22], "Reliability & Quality", "Code review · Tracing · Error analysis"),
-    ("design", "06", "DESIGN / RESEARCH", (237, 147, 189),
-     [25, 26, 27, 28], "Design & Research", "Prototyping · Notes · Exploration"),
-    ("practice", "07", "CODING PRACTICE", (160, 141, 242),
-     [23, 24], "Learn / Test / Refine", "Algorithms · Patterns · Problem solving"),
+    ("core", "01", "PROGRAMMING / DEVELOPMENT", (153, 117, 253),
+     [0,1,2,3,4,5], "Foundations", "Java · Python · Git · Source control"),
+    ("coding", "02", "AI-ASSISTED CODING", (70, 158, 255),
+     [6,7,8,9], "Assisted Development", "Faster iteration, strong foundations first"),
+    ("agents", "03", "AGENTS / AUTOMATION", (63, 211, 165),
+     [10,11,12,13,14,15], "Workflow Engineering", "Agents · Orchestration · Integrations"),
+    ("infra", "04", "MODELS / INFRASTRUCTURE", (255, 180, 67),
+     [16,17,18,19], "Models & Sandboxes", "Local models · Cloud APIs · Runtimes"),
+    ("quality", "05", "QUALITY / OBSERVABILITY", (246, 96, 125),
+     [20,21,22], "Reliability & Observability", "Testing · Monitoring · Error analysis"),
+    ("design", "06", "DESIGN / RESEARCH", (242, 112, 173),
+     [25,26,27,28], "Design & Research", "Prototyping · Notes · Productivity"),
+    ("practice", "07", "CODING PRACTICE", (149, 123, 252),
+     [23,24], "Learn / Test / Refine", "Review · Trace · Solve · Repeat"),
 ]
 
 def font(size, bold=False):
-    base = "/usr/share/fonts/truetype/dejavu/DejaVuSans"
+    root="/usr/share/fonts/truetype/dejavu/DejaVuSans"
     try:
-        return ImageFont.truetype(base + ("-Bold.ttf" if bold else ".ttf"), size)
+        return ImageFont.truetype(root+("-Bold.ttf" if bold else ".ttf"),size)
     except OSError:
         return ImageFont.load_default()
 
-F_TITLE = font(21, True)
-F_NAME = font(15, True)
-F_SUB = font(16)
-F_DESC = font(18, True)
-F_CAP = font(12, True)
-F_NUMBER = font(23, True)
+TITLE=font(23,True)
+NAME=font(16)
+FOOT_TITLE=font(20,True)
+FOOT_SUB=font(15)
+BADGE_FONT=font(23,True)
+TAG=font(11,True)
+STEP=font(18,True)
 
-def rounded(d, xy, r, fill, outline=None, width=1):
-    d.rounded_rectangle(xy, radius=r, fill=fill, outline=outline, width=width)
+def blend(a,b,f):
+    return tuple(max(0,min(255,round(a[i]*(1-f)+b[i]*f))) for i in range(3))
 
-def rgb_to_rgba(rgb, alpha=255):
-    return tuple(rgb) + (alpha,)
+def roundrect(draw,xy,r,fill,outline=None,width=1):
+    draw.rounded_rectangle(xy,radius=r,fill=fill,outline=outline,width=width)
 
-def text_center(d, text, x, y, f, fill):
-    box = d.textbbox((0,0), text, font=f)
-    d.text((x-(box[2]-box[0])/2,y), text, font=f, fill=fill)
+def center(draw,text,x,y,f,fill):
+    bbox=draw.textbbox((0,0),text,font=f)
+    draw.text((x-(bbox[2]-bbox[0])/2,y),text,font=f,fill=fill)
 
-def base_card(w,h):
-    im=Image.new("RGB",(w,h),NAVY)
+def panel(w,h,accent,t):
+    """Subtle navy gradient, soft light at upper-left and a quiet border."""
+    im=Image.new("RGB",(w,h))
+    pixels=im.load()
+    for y in range(h):
+        for x in range(w):
+            shade=(x/w*.15+y/h*.48)
+            halo=max(0,1-math.hypot(x-w*.26,y-h*.12)/(w*.8))
+            glow=.10*halo + .012*math.sin(t*2*math.pi/FRAMES)
+            color=blend((18,33,55),(9,18,35),shade)
+            pixels[x,y]=blend(color,accent,glow)
     d=ImageDraw.Draw(im)
-    rounded(d,(2,2,w-3,h-3),18,NAVY,BORDER,2)
+    roundrect(d,(2,2,w-3,h-3),23,None,BORDER,2)
+    d.line((28,5,w-38,5),fill=blend(NAVY,accent,.23),width=1)
     return im
 
-def badge(d,x,y,number,color):
-    rounded(d,(x,y,x+49,y+48),24,color)
-    text_center(d,number,x+24,y+9,F_NUMBER,(16,29,45))
-
-def header(d,title,num,color,w=600):
-    badge(d,27,24,num,color)
-    d.text((92,37),title,font=F_TITLE,fill=INK)
-    d.line((92,79,171,79),fill=color,width=4)
-    d.line((182,79,w-29,79),fill=(48,65,83),width=1)
-
-def paste_logo(im,logo,cx,cy,dy=0, maxsize=69):
-    logo=logo.convert("RGBA")
-    ratio=min(maxsize/logo.width,maxsize/logo.height)
-    box=(max(1,round(logo.width*ratio)),max(1,round(logo.height*ratio)))
-    asset=logo.resize(box,Image.Resampling.LANCZOS)
-    im.paste(asset,(int(cx-asset.width/2),int(cy-asset.height/2+dy)),asset)
-
-def tile(d,im,tool,logo,x,y,dy=0,dense=False):
-    # Crisp original logo on a truly white tile. Two-row categories are
-    # slightly more compact to leave comfortable room for every label.
-    tile_y = int(y+dy)
-    height=78 if dense else 100
-    rounded(d,(x+2,tile_y+4,x+103,tile_y+height+4),14,(8,15,25))
-    rounded(d,(x,tile_y,x+102,tile_y+height),13,WHITE,(229,234,240),1)
-    paste_logo(im,logo,x+51,tile_y+height/2,0,maxsize=61 if dense else 69)
-    label=tool["name"]
-    if label in ("Google Antigravity","IntelliJ IDEA","GitHub Copilot","LiveKit Agents","Hugging Face","Supabase AI"):
-        split_at=label.rfind(" ")
-        lines=[label[:split_at],label[split_at+1:]]
-    else:
-        lines=[label]
-    for line_no,part in enumerate(lines):
-        text_center(d,part,x+51,y+height+8+line_no*18,F_NAME,INK)
-
-def category_card(cfg,tools,logos,t):
-    slug,num,title,accent,ids,headline,subtitle=cfg
-    frame=base_card(W,H);d=ImageDraw.Draw(frame)
-    header(d,title,num,accent)
-    # Use a quiet inner panel, not excessive nested visual borders.
-    rounded(d,(20,105,580,359),14,(21,35,53),(35,51,69),1)
-    n=len(ids)
-    xs=[38,178,318,458] if n>=4 else [38+i*140 for i in range(n)]
-    if n<=4:
-        ys=[155]*n
-    else:
-        ys=[122]*4+[241]*(n-4)
-    phase=2*math.pi*t/FRAMES
-    for j,idx in enumerate(ids):
-        bob=round(2.3*math.sin(phase+j*.75))
-        # Labels are fixed while only logo tiles float subtly.
-        tile(d,frame,tools[idx],logos[idx],xs[j%4],ys[j],bob,dense=n>4)
-    # Less empty vertical space on 4-tool and smaller sections: small understated linework.
-    if n<=4:
-        d.line((39,310,561,310),fill=(39,56,75),width=1)
-        cx=64+int((t/(FRAMES-1))*458)
-        d.ellipse((cx-3,307,cx+3,313),fill=accent)
-    rounded(d,(21,365,579,416),13,(27,44,64),(48,68,91),1)
-    d.rounded_rectangle((35,374,40,405),radius=2,fill=accent)
-    d.text((56,367),headline,font=F_DESC,fill=INK)
-    d.text((56,392),subtitle,font=F_SUB,fill=MUTED)
-    return frame
-
-def stack_card(t):
-    accent=(111,204,194)
-    image=base_card(W,H)
+def header(image,title,number,accent,t):
     d=ImageDraw.Draw(image)
-    header(d,"STACK ARCHITECT","08",accent)
-    rounded(d,(20,105,580,329),14,(21,35,53),(35,51,69),1)
-    labels=["Frontend","Backend","Data","AI / ML","Infra","Deploy"]
-    # Simple 3x2 diagram; no misleading technology stack claims.
-    centers=[(120,163),(290,163),(460,163),(120,277),(290,277),(460,277)]
-    phase=2*math.pi*t/FRAMES
-    for i,(x,y) in enumerate(centers):
-        lift=round(2.0*math.sin(phase+i*.6))
-        rounded(d,(x-64,y-44+lift,x+64,y+35+lift),11,WHITE,(227,232,242),1)
-        text_center(d,["⌘","▤","▣","◇","☁","➤"][i],x,y-36+lift,font(24,True),
-                    (73,145,189))
-        text_center(d,labels[i],x,y+8+lift,font(15,True),(31,48,66))
-    d.line((190,163,215,163),fill=accent,width=2)
-    d.line((360,163,385,163),fill=accent,width=2)
-    d.line((190,277,215,277),fill=accent,width=2)
-    d.line((360,277,385,277),fill=accent,width=2)
-    rounded(d,(21,365,579,416),13,(27,44,64),(48,68,91),1)
-    d.rounded_rectangle((35,374,40,405),radius=2,fill=accent)
-    d.text((56,367),"System Architecture",font=F_DESC,fill=INK)
-    d.text((56,392),"Explore the flow from concept to deployment",font=F_SUB,fill=MUTED)
+    x,y=29,23
+    # Layered number badge inspired by the reference—not a flat badge.
+    for r in (30,27,24):
+        a=.15 if r==30 else .37 if r==27 else .9
+        cc=blend((19,33,51),accent,a)
+        d.ellipse((x+28-r,y+28-r,x+28+r,y+28+r),fill=cc)
+    center(d,number,x+28,y+11,BADGE_FONT,WHITE)
+    d.text((104,37),title,font=TITLE,fill=INK)
+    d.line((104,85,185,85),fill=accent,width=4)
+    d.line((193,85,image.width-26,85),fill=blend(BORDER,NAVY,.25),width=1)
+    sparkle=104+round((t/(FRAMES-1))*81)
+    d.ellipse((sparkle-2,83,sparkle+2,87),fill=blend(WHITE,accent,.25))
+
+def paste_logo(base,logo,cx,cy,maxwidth):
+    icon=logo.convert("RGBA")
+    scale=min(maxwidth/icon.width,maxwidth/icon.height)
+    img=icon.resize((max(1,round(icon.width*scale)),max(1,round(icon.height*scale))),Image.Resampling.LANCZOS)
+    base.paste(img,(round(cx-img.width/2),round(cy-img.height/2)),img)
+
+def short_name(s):
+    overrides={
+        "IntelliJ IDEA":["IntelliJ IDEA"],
+        "Google Antigravity":["Google","Antigravity"],
+        "GitHub Copilot":["GitHub","Copilot"],
+        "LiveKit Agents":["LiveKit","Agents"],
+        "Hugging Face":["Hugging","Face"],
+        "Supabase AI":["Supabase","AI"],
+        "Sentry Seer":["Sentry","Seer"],
+    }
+    return overrides.get(s,[s])
+
+def tile(image,name,logo,x,y,t,accent,seed,compact):
+    """White logo tile with moving 3D-style drop shadow and restrained bobbing."""
+    d=ImageDraw.Draw(image)
+    side=78 if compact else 90
+    bob=round(2.5*math.sin(2*math.pi*t/FRAMES+seed*.87))
+    yy=y+bob
+    # Soft shadow and offset depth—white card stays crisp.
+    roundrect(d,(x+5,yy+8,x+side+6,yy+side+9),13,(7,14,24))
+    roundrect(d,(x,yy,x+side,yy+side),13,WHITE,(229,235,242),1)
+    paste_logo(image,logo,x+side/2,yy+side/2,side-25)
+    # Thin changing highlight on lower edge rather than generic neon rings.
+    px=x+12+(t/(FRAMES-1))*(side-39)
+    d.line((px,yy+side-3,px+23,yy+side-3),fill=blend(WHITE,accent,.18),width=2)
+    labels=short_name(name)
+    for n,label in enumerate(labels):
+        center(d,label,x+side/2,y+side+7+n*17,font(16),INK)
+
+def symbol(draw,x,y,name,color):
+    """Tiny minimal category glyph; adds hierarchy without visual noise."""
+    if name=="core":
+        for i in range(3):
+            yy=y+i*8
+            draw.polygon([(x,yy),(x+13,yy-7),(x+26,yy),(x+13,yy+8)],fill=color)
+    elif name=="coding":
+        draw.polygon([(x+14,y-10),(x,y+8),(x+12,y+8),(x+5,y+30),(x+28,y+3),(x+17,y+3),(x+21,y-10)],fill=color)
+    elif name=="agents":
+        draw.line((x+2,y+22,x+15,y-3,x+28,y+22),fill=color,width=3)
+        for xx,yy in [(x+2,y+22),(x+15,y-3),(x+28,y+22)]:
+            draw.ellipse((xx-5,yy-5,xx+5,yy+5),fill=color)
+    elif name in ("infra","design","quality"):
+        draw.ellipse((x+4,y-5,x+26,y+18),outline=color,width=4)
+        draw.ellipse((x+11,y+2,x+19,y+10),fill=color)
+    else:
+        for i,h in enumerate([12,27,18,34]):
+            draw.rounded_rectangle((x+i*8,y+30-h,x+5+i*8,y+30),radius=2,fill=color)
+
+def footer(image,kind,headline,subtitle,accent):
+    d=ImageDraw.Draw(image)
+    roundrect(d,(22,366,578,427),13,(29,47,73),blend(BORDER,accent,.35),1)
+    roundrect(d,(27,371,72,421),12,(25,43,65))
+    symbol(d,kind and 34 or 34,kind and 384 or 384,kind,blend(WHITE,accent,.12))
+    d.text((89,373),headline,font=FOOT_TITLE,fill=INK)
+    d.text((89,401),subtitle,font=FOOT_SUB,fill=MUTED)
+
+def category(cfg,tools,logos,t):
+    key,number,title,accent,ids,headline,subtitle=cfg
+    image=panel(W,H,accent,t)
+    header(image,title,number,accent,t)
+    d=ImageDraw.Draw(image)
+    roundrect(d,(22,105,578,356),20,(14,26,45),(37,58,83),1)
+    count=len(ids)
+    compact=count>4
+    side=78 if compact else 90
+    positions=[35,171,307,443] if compact else [38,178,318,458]
+    upper=126 if compact else 144
+    lower=248
+    for i,idx in enumerate(ids):
+        x=positions[i%4]
+        y=upper if i<4 else lower
+        tile(image,tools[idx]["name"],logos[idx],x,y,t,accent,i,compact)
+    if count<=4:
+        # Minimal animated activity line fills space but avoids distracting boxes.
+        x=50+round(t/(FRAMES-1)*480)
+        d.line((48,329,549,329),fill=(42,63,87),width=1)
+        d.ellipse((x-3,326,x+3,332),fill=accent)
+    footer(image,key,headline,subtitle,accent)
     return image
 
-def pipeline_card(t):
-    w,h=1220,245
-    accent=(153,147,244)
-    image=base_card(w,h)
+def mini_block(image,x,y,w,h,label,icon,accent,t,i):
     d=ImageDraw.Draw(image)
-    badge(d,26,20,"09",accent)
-    d.text((93,32),"DEVELOPMENT PIPELINE",font=font(28,True),fill=INK)
-    d.line((94,76,210,76),fill=accent,width=4)
-    steps=["Code","Build","Test","Deploy","Ship"]
-    colors=[(141,131,240),(91,156,233),(89,196,146),(242,166,94),(225,127,145)]
-    icons=["< / >","⚙","+","☁","➤"]
-    phase=2*math.pi*t/FRAMES
-    for i,step in enumerate(steps):
-        x=28+i*242
-        movement=round(2*math.sin(phase+i*.6))
-        rounded(d,(x,103+movement,x+212,186+movement),12,WHITE,(227,232,242),1)
-        text_center(d,icons[i],x+106,108+movement,font(24,True),colors[i])
-        text_center(d,step,x+106,151+movement,font(16,True),(31,48,66))
+    bob=round(math.sin(t*math.tau/FRAMES+i*.6)*2)
+    roundrect(d,(x+3,y+bob+6,x+w+3,y+h+bob+6),12,(6,13,24))
+    roundrect(d,(x,y+bob,x+w,y+h+bob),12,WHITE,(230,236,243),1)
+    center(d,icon,x+w/2,y+10+bob,font(26,True),accent)
+    center(d,label,x+w/2,y+h-24+bob,font(13,True),(29,45,70))
+
+def stack(t):
+    accent=(69,216,202)
+    image=panel(W,H,accent,t)
+    header(image,"STACK ARCHITECT","08",accent,t)
+    d=ImageDraw.Draw(image)
+    roundrect(d,(22,105,578,356),20,(14,26,45),(37,58,83),1)
+    data=[("Frontend","▣"),("Backend","≡"),("Data","◉"),
+          ("AI/ML","✧"),("Infra","☁"),("Deploy","◆")]
+    for i,(label,icon) in enumerate(data):
+        x=30+(i%3)*188
+        y=132+(i//3)*112
+        mini_block(image,x,y,151,91,label,icon,(44,123,207),t,i)
+    footer(image,"core","System Architecture","From frontend to deployment",accent)
+    return image
+
+def pipeline(t):
+    width,height=1220,245
+    accent=(129,151,255)
+    image=panel(width,height,accent,t)
+    d=ImageDraw.Draw(image)
+    badge_xy=(34,21)
+    for r,alpha in [(31,.22),(26,.6),(22,.9)]:
+        color=blend((17,30,48),accent,alpha)
+        d.ellipse((badge_xy[0]+27-r,badge_xy[1]+27-r,badge_xy[0]+27+r,badge_xy[1]+27+r),fill=color)
+    center(d,"09",61,33,BADGE_FONT,WHITE)
+    d.text((115,33),"DEVELOPMENT PIPELINE",font=font(29,True),fill=INK)
+    d.line((116,77,226,77),fill=accent,width=4)
+    roundrect(d,(25,98,1194,177),17,(15,27,45),(39,58,81),1)
+    steps=[("Code","</>",(122,112,252)),("Build","⚙",(67,153,236)),
+           ("Test","✓",(47,193,127)),("Deploy","↗",(243,164,55)),("Ship","◆",(242,103,134))]
+    for i,(name,glyph,col) in enumerate(steps):
+        x=43+i*233
+        bob=round(2.0*math.sin(t*math.tau/FRAMES+i*.7))
+        roundrect(d,(x+4,109+bob,x+180+4,168+bob+4),11,(8,14,25))
+        roundrect(d,(x,109+bob,x+180,166+bob),11,WHITE,(235,240,245),1)
+        center(d,glyph,x+90,112+bob,font(22,True),col)
+        center(d,name,x+90,143+bob,font(14,True),(23,43,68))
         if i<4:
-            d.text((x+218,133),"→",font=font(22,True),fill=accent)
-    d.text((30,211),"IDEA → CODE → TEST → DEPLOY → SHIP",font=font(16,True),fill=MUTED)
+            center(d,"→",x+202,124,font(25,True),accent)
+    roundrect(d,(25,188,1194,232),12,(28,47,73),(56,76,113),1)
+    d.text((56,198),"▶",font=font(21,True),fill=accent)
+    d.text((97,199),"Code → Build → Test → Deploy → Ship",font=font(18,True),fill=INK)
     return image
 
-def save_animation(frames,outbase):
-    outbase.parent.mkdir(parents=True,exist_ok=True)
-    frames[0].save(outbase.with_suffix(".png"))
-    # Consistent single palette prevents color flicker and keeps files small.
-    palette=frames[0].quantize(colors=192,method=Image.Quantize.MEDIANCUT)
+def save_gif(frames,path):
+    path.parent.mkdir(parents=True,exist_ok=True)
+    frames[0].save(path.with_suffix(".png"))
+    palette=frames[0].quantize(colors=226,method=Image.Quantize.MEDIANCUT)
     quantized=[frame.quantize(palette=palette,dither=Image.Dither.NONE) for frame in frames]
-    target=outbase.with_suffix(".gif")
-    quantized[0].save(target,format="GIF",save_all=True,
-                      append_images=quantized[1:],duration=130,
+    target=path.with_suffix(".gif")
+    quantized[0].save(target,save_all=True,append_images=quantized[1:],duration=125,
                       loop=0,optimize=True,disposal=2)
-    with Image.open(target) as check:
-        assert check.n_frames>=8, (target,check.n_frames)
-    print(f"Generated {target.name}: {target.stat().st_size:,} bytes",flush=True)
+    with Image.open(target) as test:
+        assert test.n_frames>=9, (path,test.n_frames)
+    print(f"RENDER {target.name}: {target.stat().st_size:,} bytes",flush=True)
 
 def render_dashboard(tools,logos,target):
     assert len(tools)==29 and len(logos)==29
     output=Path(target)/"dashboard"
-    for cfg in CONFIG:
-        frames=[category_card(cfg,tools,logos,t) for t in range(FRAMES)]
-        save_animation(frames,output/cfg[0])
-    save_animation([stack_card(t) for t in range(FRAMES)],output/"stack")
-    save_animation([pipeline_card(t) for t in range(FRAMES)],output/"pipeline")
+    for config in CONFIG:
+        frames=[category(config,tools,logos,i) for i in range(FRAMES)]
+        save_gif(frames,output/config[0])
+    save_gif([stack(t) for t in range(FRAMES)],output/"stack")
+    save_gif([pipeline(t) for t in range(FRAMES)],output/"pipeline")
     assert len(list(output.glob("*.gif")))==9
     assert len(list(output.glob("*.png")))==9
-    print("SUCCESS: 9 minimal dashboard animated cards + PNG reduced-motion fallbacks",flush=True)
+    print("SUCCESS: all nine reference-style dashboard GIFs and static fallbacks",flush=True)
