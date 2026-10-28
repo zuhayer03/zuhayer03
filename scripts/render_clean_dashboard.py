@@ -163,7 +163,7 @@ def category(cfg,tools,logos,t):
     side=78 if compact else 90
     positions=[35,171,307,443] if compact else [38,178,318,458]
     upper=126 if compact else 144
-    lower=248
+    lower=230
     for i,idx in enumerate(ids):
         x=positions[i%4]
         y=upper if i<4 else lower
@@ -193,9 +193,12 @@ def stack(t):
     data=[("Frontend","▣"),("Backend","≡"),("Data","◉"),
           ("AI/ML","✧"),("Infra","☁"),("Deploy","◆")]
     for i,(label,icon) in enumerate(data):
-        x=30+(i%3)*188
-        y=132+(i//3)*112
-        mini_block(image,x,y,151,91,label,icon,(44,123,207),t,i)
+        # Six side-by-side stages, exactly like the dashboard reference.
+        x=30+i*92
+        y=177
+        mini_block(image,x,y,78,91,label,icon,(44,123,207),t,i)
+        if i<5:
+            d.text((x+79,y+29),"›",font=font(19,True),fill=accent)
     footer(image,"core","System Architecture","From frontend to deployment",accent)
     return image
 
