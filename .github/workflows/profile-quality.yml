@@ -51,6 +51,25 @@ jobs:
           assert '<td colspan="2" width="100%"' in readme, "Missing full-width pipeline"
           for item in manifest:
               assert f"[{item['name']}](" in readme, f"Missing direct tool link: {item['name']}"
+          # Every original illustration stays visibly placed but its <img>
+          # now loads a rendered motion GIF from the same repository's output
+          # branch. The original SVG remains as a reduced-motion fallback.
+          original_art = {
+              "identity":"assets/identity.svg",
+              "mission":"assets/current-mission.svg",
+              "network-monitor":"assets/feature-network-monitor.svg",
+              "finance-tracker":"assets/feature-finance-tracker.svg",
+              "algoarena":"assets/feature-algoarena.svg",
+              "threattrace":"assets/feature-threattrace.svg",
+              "portfolio":"assets/portal-portfolio.svg",
+              "lab":"assets/portal-lab.svg",
+              "signoff":"assets/signoff.svg",
+          }
+          for key,source in original_art.items():
+              assert f"/animated/{key}.gif" in readme, f"Missing original-art GIF: {key}"
+              assert f'srcset="{source}"' in readme, f"Missing static fallback: {source}"
+              assert Path(source).is_file(), f"Missing original SVG: {source}"
+          assert len(re.findall(r"/animated/[a-z-]+\\.gif",readme)) == 9, "Expected exactly nine animated original-art images"
           icon_files=list(Path("assets/icons").glob("*.svg"))
           assert len(icon_files) >= 13, f"Missing self-hosted vector logos: {len(icon_files)}"
           for icon in icon_files:
