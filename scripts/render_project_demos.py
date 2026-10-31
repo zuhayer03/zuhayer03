@@ -121,7 +121,7 @@ def draw_sorting(t):
     nums,swap=SORT_STATES[progress]
     for j,val in enumerate(nums):
         x=102+j*150
-        height=18*val
+        height=12*val  # Leave room for labels and maintain chart margins.
         color=(245,160,75) if j in (swap,swap+1) else a
         box(d,(x,299-height,x+82,299),color,r=7)
         middle(d,str(val),x+41,270-height,MON,ink)
