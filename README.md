@@ -245,6 +245,62 @@ My <a href="https://zuhayer03.github.io/programming-journey/">portfolio site</a>
 
 </details>
 
+<a id="coding-desk"></a>
+
+### 04.7 / THE CODING DESK — MOTION + LOFI 🎧
+
+<div align="center">
+
+<sub>A tiny corner for building, testing, and keeping the creative energy going.</sub>
+
+</div>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://zuhayer03.github.io/programming-journey/dashboard.html"><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/tool-reel.gif" width="100%" alt="Original animated coding tool reel with software and AI workflow icons"/></a>
+
+**TOOLS IN MOTION**  
+<sub>Explore my [interactive developer toolbox](https://zuhayer03.github.io/programming-journey/dashboard.html).</sub>
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://github.com/zuhayer03/programming-journey"><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/build-pipeline.gif" width="100%" alt="Original animated code-to-build-to-test software workflow illustration"/></a>
+
+**FROM CODE TO SHIP**  
+<sub>Small builds, testing, and improving things a little at a time.</sub>
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+**NOW PLAYING / LOFI BEATS FOR FOCUS**
+
+<a href="https://open.spotify.com/playlist/37i9dQZF1DWWQRwui0ExPn"><img src="https://img.shields.io/badge/Spotify-PLAY_LOFI_BEATS-1DB954?style=for-the-badge&logo=spotify&logoColor=white&labelColor=10221A" alt="Listen to Spotify's public lofi beats playlist"/></a>
+
+[**🎧 Open Spotify's lofi beats playlist ↗**](https://open.spotify.com/playlist/37i9dQZF1DWWQRwui0ExPn)
+
+<sub>A public Spotify-curated playlist for studying and coding. Opens in Spotify; GitHub READMEs cannot host an embedded audio player.</sub>
+
+</div>
+
+<details>
+<summary><strong>＋ ENTER THE TOOL COSMOS / BONUS ANIMATED GIF</strong></summary>
+
+<div align="center">
+
+<a href="https://zuhayer03.github.io/programming-journey/dashboard.html"><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/tool-cosmos.gif" width="100%" alt="Original animated creative developer-tool cosmos illustration"/></a>
+
+**[EXPLORE THE INTERACTIVE TOOL UNIVERSE ↗](https://zuhayer03.github.io/programming-journey/dashboard.html)**
+
+</div>
+
+</details>
+
 <a id="arcade"></a>
 
 ### 05 / THE CONTRIBUTION ARCADE 🕹️
