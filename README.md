@@ -94,6 +94,21 @@ location: Michigan, USA
 </tr>
 </table>
 
+<details>
+<summary><strong>▶ See all four projects in motion — animated showcase</strong></summary>
+
+<div align="center">
+
+<a href="https://github.com/zuhayer03/programming-journey/blob/main/MOTION_GALLERY.md"><picture><source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/demos/project-reel.png"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/demos/project-reel.gif" width="100%" alt="Animated motion gallery illustrating network checks, local budgeting, sorting algorithms and synthetic authentication logs"/></picture></a>
+
+**[Explore the complete GIF gallery &amp; project walkthroughs →](https://github.com/zuhayer03/programming-journey/blob/main/MOTION_GALLERY.md)**
+
+<sub>Illustrations of student-project concepts, not recordings of live software.</sub>
+
+</div>
+
+</details>
+
 <div align="center">
 
 [![Profile Artwork Quality](https://github.com/zuhayer03/zuhayer03/actions/workflows/profile-quality.yml/badge.svg)](https://github.com/zuhayer03/zuhayer03/actions/workflows/profile-quality.yml)
