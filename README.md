@@ -10,9 +10,11 @@
 
 <br/>
 
-<a href="https://zuhayer03.github.io/programming-journey/"><img src="https://img.shields.io/badge/OPEN-3D_PORTFOLIO-161C16?style=for-the-badge&logo=firefoxbrowser&logoColor=D9FF65" alt="Open 3D portfolio"/></a>
-<a href="https://zuhayer03.github.io/programming-journey/lab.html"><img src="https://img.shields.io/badge/LAUNCH-INTERACTIVE_LAB-161C16?style=for-the-badge&logo=github&logoColor=D9FF65" alt="Launch interactive lab"/></a>
-<a href="https://www.linkedin.com/in/zuhayer-alam-faiyaz-8bb1a3442/"><img src="https://img.shields.io/badge/CONNECT-LINKEDIN-161C16?style=for-the-badge&logo=linkedin&logoColor=D9FF65" alt="Connect on LinkedIn"/></a>
+<p align="center">
+
+**[Portfolio](https://zuhayer03.github.io/programming-journey/)** &nbsp; · &nbsp; **[My Projects](#projects)** &nbsp; · &nbsp; **[Tool Studio](#toolkit)** &nbsp; · &nbsp; **[Arcade](#arcade)** &nbsp; · &nbsp; **[Connect](https://www.linkedin.com/in/zuhayer-alam-faiyaz-8bb1a3442/)**
+
+</p>
 
 <br/><br/>
 
@@ -55,11 +57,15 @@ location: Michigan, USA
 </tr>
 </table>
 
+<a id="now"></a>
+
 ### 01 / WHAT I'M WORKING TOWARD
 
 <div align="center">
 <picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/current-mission.svg"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/animated/mission.gif?v=original-art-1" width="100%" alt="Current mission: Java and DSA, deeper portfolio projects and engineering co-op" /></picture>
 </div>
+
+<a id="projects"></a>
 
 ### 02 / SELECTED WORK — FOUR REAL BUILDS
 
@@ -97,7 +103,9 @@ location: Michigan, USA
 
 </div>
 
-### 03 / TWO PORTALS. A WHOLE LOT TO EXPLORE.
+<a id="explore"></a>
+
+### 03 / EXPLORE THE PORTFOLIO & LAB
 
 <table>
 <tr>
@@ -112,7 +120,9 @@ location: Michigan, USA
 
 My <a href="https://zuhayer03.github.io/programming-journey/">portfolio site</a> features a real WebGL 3D sculpture, interactive tool explorer, project effects, and searchable navigation. In the <a href="https://zuhayer03.github.io/programming-journey/lab.html">lab</a>, experiment with sorting, simulated network checks, synthetic login events, and sample budgets. The browser demos are separate from the original Java/Python CLIs.
 
-### 04 / MY TOOLKIT — INTERACTIVE 3D MOTION DASHBOARD
+<a id="toolkit"></a>
+
+### 04 / MY TOOLKIT — ANIMATED & INTERACTIVE
 
 <div align="center">
 
@@ -201,7 +211,10 @@ My <a href="https://zuhayer03.github.io/programming-journey/">portfolio site</a>
 
 </details>
 
-### 04.8 / THE CONTRIBUTION CONSTELLATION — DESIGN, NOT FAKE COMMITS
+<details>
+<summary><strong>＋ BONUS / CONTRIBUTION ART STUDIO</strong></summary>
+
+
 
 <div align="center">
 
@@ -215,11 +228,13 @@ My <a href="https://zuhayer03.github.io/programming-journey/">portfolio site</a>
 
 </div>
 
-### 05 / MY ANIMATED CONTRIBUTION ARCADE 🕹️
+</details>
+
+<a id="arcade"></a>
+
+### 05 / THE CONTRIBUTION ARCADE 🕹️
 
 **LEVEL 01 — THE CONTRIBUTION SNAKE**
-
-
 
 <div align="center">
 
@@ -253,7 +268,7 @@ My <a href="https://zuhayer03.github.io/programming-journey/">portfolio site</a>
 
 <br/>
 
-**BONUS VISUAL — ORIGINAL CODING GIF**
+**BONUS / ANIMATED CODING CONSOLE**
 
 <img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dev-console.gif" width="100%" alt="Original animated coding terminal GIF, highlighting Java, Python and AI automation"/>
 
