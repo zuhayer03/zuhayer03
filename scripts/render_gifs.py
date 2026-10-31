@@ -185,7 +185,107 @@ def build_pipeline_gif():
         frames.append(img)
     save(frames, "build-pipeline.gif", 95)
 
+def spotify_lofi_player_gif():
+    """Animated Spotify-style playlist PREVIEW for GitHub README.
+
+    Visual-only GIF; the enclosing README anchor opens the actual public
+    Spotify-curated playlist. Never imply sound plays inside GitHub.
+    """
+    from PIL import Image
+    green = (30, 215, 96)
+    pale = (236, 245, 237)
+    second = (157, 190, 169)
+    dark = (9, 17, 18)
+    surface = (19, 29, 28)
+    overlay = (28, 43, 40)
+    mint = (185, 243, 202)
+    tiny = font(15)
+    subtitle = font(17)
+    mid = font(23, True)
+    title = font(43, True)
+    frames = []
+    count = 36
+    for t in range(count):
+        phase = 2 * math.pi * t / count
+        im = Image.new("RGB", (980, 330), dark)
+        d = ImageDraw.Draw(im)
+
+        # Familiar streaming-player proportions; self-created artwork.
+        d.rounded_rectangle((7, 7, 973, 323), radius=24,
+                            fill=surface, outline=(58, 89, 76), width=2)
+        d.rounded_rectangle((21, 21, 959, 309), radius=19,
+                            fill=dark, outline=(31, 51, 42), width=2)
+        d.rounded_rectangle((33, 67, 239, 273), radius=17, fill=(29, 73, 53))
+        d.ellipse((41, 74, 231, 266), fill=(19, 51, 43))
+        # Original vinyl illustration with rotating reflection streaks.
+        cx, cy = 137, 170
+        d.ellipse((57, 90, 217, 250), fill=(14, 23, 23), outline=(57, 109, 76), width=4)
+        for radius in (61, 47, 33):
+            d.ellipse((cx-radius, cy-radius, cx+radius, cy+radius),
+                      outline=(48, 75, 59), width=2)
+        for offset in (0.4, 2.7, 4.6):
+            ang = phase + offset
+            x1 = cx + int(42*math.cos(ang))
+            y1 = cy + int(42*math.sin(ang))
+            x2 = cx + int(62*math.cos(ang))
+            y2 = cy + int(62*math.sin(ang))
+            d.line((x1, y1, x2, y2), fill=(129, 180, 148), width=5)
+        d.ellipse((119, 152, 155, 188), fill=green)
+        d.ellipse((132, 165, 142, 175), fill=(18, 34, 26))
+
+        # Brand cue, not a ripped album cover or a playable widget.
+        d.ellipse((881, 34, 923, 76), fill=green)
+        for shift in (0, 8, 16):
+            d.arc((890, 42+shift, 915, 58+shift), 202, 338, fill=(8, 33, 19), width=3)
+        d.text((765, 48), "SPOTIFY", font=font(18, True), fill=pale)
+
+        d.text((267, 49), "YOUR FOCUS MIX  /  CURATED PLAYLIST", font=tiny, fill=green)
+        d.text((262, 88), "LOFI BEATS", font=title, fill=pale)
+        d.text((266, 149), "Soft beats for studying, building & coding.", font=subtitle, fill=second)
+
+        # Deliberately moving equalizer (decorative, not real audio levels).
+        d.text((267, 188), "FOCUS SESSION", font=tiny, fill=second)
+        for k in range(13):
+            x = 473 + k * 17
+            h = 12 + int(32 * (0.5 + 0.5 * math.sin(phase*2 + k*0.85)))
+            d.rounded_rectangle((x, 216-h, x+8, 216), radius=3,
+                                fill=green if k%3!=0 else mint)
+
+        # Player-inspired progress: visual loop, not Spotify song timing.
+        d.rounded_rectangle((266, 241, 792, 247), radius=3, fill=(52, 68, 59))
+        progress = int((t+1)/count * 526)
+        d.rounded_rectangle((266, 241, 266+progress, 247), radius=3, fill=green)
+        d.ellipse((261+progress, 238, 271+progress, 250), fill=mint)
+
+        # Large apparent play button; GitHub only supports the whole image link.
+        d.ellipse((825, 137, 920, 232), fill=green)
+        d.polygon([(862, 161), (862, 208), (895, 185)], fill=(12, 32, 20))
+        d.text((268, 276), "CLICK THE PLAYER TO LISTEN ON SPOTIFY  ↗",
+               font=tiny, fill=pale)
+        d.text((785, 284), "NO AUDIO IN GIF", font=font(11), fill=second)
+        frames.append(im)
+
+    # Shared palette reduces flicker; PNG is a reduced-motion alternative.
+    still = DEST / "spotify-lofi-player.png"
+    frames[0].save(still, optimize=True)
+    key = frames[0].quantize(colors=96, method=Image.Quantize.MEDIANCUT)
+    palette_frames = [frame.quantize(palette=key, dither=Image.Dither.NONE)
+                      for frame in frames]
+    target = DEST / "spotify-lofi-player.gif"
+    palette_frames[0].save(
+        target, save_all=True, append_images=palette_frames[1:],
+        duration=110, loop=0, optimize=True, disposal=2
+    )
+    with Image.open(target) as result:
+        assert result.n_frames >= 20, result.n_frames
+        assert result.info.get("loop") == 0
+    assert target.stat().st_size > 10000
+    print(f"Created {target}: {target.stat().st_size:,} bytes "
+          f"({len(frames)} looping frames); still: {still}", flush=True)
+
+
 if __name__ == "__main__":
     terminal_gif()
     tools_gif()
     build_pipeline_gif()
+    spotify_lofi_player_gif()
