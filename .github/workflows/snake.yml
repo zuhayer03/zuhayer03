@@ -11,6 +11,12 @@ on:
       - "scripts/render_gifs.py"
       - "scripts/render_animated_tools.py"
       - "scripts/render_clean_dashboard.py"
+      - "scripts/render_existing_artwork.py"
+      - "assets/feature-*.svg"
+      - "assets/portal-*.svg"
+      - "assets/identity.svg"
+      - "assets/current-mission.svg"
+      - "assets/signoff.svg"
       - "scripts/tool_icons.json"
       - "assets/icons/**"
 
@@ -50,6 +56,9 @@ jobs:
 
       - name: Render nine clean interactive-dashboard matching GIFs
         run: python scripts/render_animated_tools.py dist
+
+      - name: Animate existing project cards, portals, hero and banners
+        run: python scripts/render_existing_artwork.py
 
       - name: Preserve original optional 29 tool GIFs and cosmos GIF
         run: |
@@ -117,6 +126,27 @@ jobs:
               with Image.open(folder / f"{name}.gif") as im:
                   assert im.n_frames >= 8, name
           print("PASS: 9 clean moving card GIFs + 9 crisp reduced-motion PNGs")
+          PY
+
+      - name: Verify all nine original-art GIFs and still-image fallbacks
+        run: |
+          python - <<'PY'
+          from PIL import Image
+          from pathlib import Path
+          names=("identity","mission","network-monitor","finance-tracker",
+                 "algoarena","threattrace","portfolio","lab","signoff")
+          folder=Path("dist/animated")
+          for name in names:
+              gif=folder / (name+".gif")
+              png=folder / (name+".png")
+              assert gif.is_file() and png.is_file(), name
+              with Image.open(gif) as im:
+                  assert im.n_frames>=10, (name,im.n_frames)
+                  assert im.width>=900, (name,im.size)
+                  assert im.info.get("loop")==0, name
+              with Image.open(png) as im:
+                  assert im.width>=900, (name,im.size)
+          print("PASS: all nine original-art animations, retina resolution, looping, and static fallbacks")
           PY
 
       - name: Publish profile animations together
