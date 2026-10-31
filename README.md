@@ -108,7 +108,7 @@ A visual directory of development tools, AI workflows, models, and research plat
 
 ### 05 / Progress & play
 
-<details open>
+<details>
 <summary><strong>Snake and Pac-Man — contribution animations</strong></summary>
 <div align="center">
 
