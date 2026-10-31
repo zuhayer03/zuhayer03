@@ -126,6 +126,10 @@ def draw_sorting(t):
         box(d,(x,299-height,x+82,299),color,r=7)
         middle(d,str(val),x+41,270-height,MON,ink)
     d.text((776,176),f"SWAP {progress:02}/{len(SORT_STATES)-1:02}",font=TINY,fill=a)
+    # A moving playhead keeps each GIF frame unique between discrete swaps.
+    x=766+t*8
+    d.line((763,317,958,317),fill=a,width=2)
+    d.ellipse((x-6,311,x+6,323),fill=(255,245,226),outline=a,width=2)
     footer(d,"EDUCATIONAL SORT VISUALIZATION / SORTED STATE AT LOOP END",a)
     return im
 
@@ -144,6 +148,11 @@ def draw_security(t):
     middle(d,"FAIL COUNT",867,195,CAP,(217,240,224))
     middle(d,str(n)+" / 3",867,229,H2,(244,255,237))
     middle(d,"RULE ALERT" if n>=3 else "CHECKING",867,280,LABEL,(222,255,172) if n>=3 else (180,216,196))
+    # A subtle timeline playhead communicates the continuous loop while
+    # preserving discrete synthetic login events and their exact counts.
+    mx=766+t*8
+    d.line((763,318,960,318),fill=a,width=2)
+    d.ellipse((mx-5,313,mx+5,323),fill=(209,241,219),outline=a,width=2)
     footer(d,"SYNTHETIC DOCUMENTATION-RANGE IP / NO LIVE ANALYSIS",a)
     return im
 
