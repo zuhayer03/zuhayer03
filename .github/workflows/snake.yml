@@ -12,6 +12,7 @@ on:
       - "scripts/render_animated_tools.py"
       - "scripts/render_clean_dashboard.py"
       - "scripts/render_existing_artwork.py"
+      - "scripts/render_project_demos.py"
       - "assets/feature-*.svg"
       - "assets/portal-*.svg"
       - "assets/identity.svg"
@@ -59,6 +60,9 @@ jobs:
 
       - name: Animate existing project cards, portals, hero and banners
         run: python scripts/render_existing_artwork.py
+
+      - name: Render animated project walkthroughs and cinematic reel
+        run: python scripts/render_project_demos.py
 
       - name: Preserve original optional 29 tool GIFs and cosmos GIF
         run: |
@@ -147,6 +151,26 @@ jobs:
               with Image.open(png) as im:
                   assert im.width>=900, (name,im.size)
           print("PASS: all nine original-art animations, retina resolution, looping, and static fallbacks")
+          PY
+
+      - name: Validate all project walkthrough GIFs and accessible PNG stills
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from PIL import Image
+          root=Path("dist/demos")
+          names=("network","finance","sorting","security","project-reel")
+          for name in names:
+              gif=root / f"{name}.gif"
+              png=root / f"{name}.png"
+              assert gif.is_file() and png.is_file(),name
+              with Image.open(gif) as im:
+                  assert im.n_frames>=12, (name, im.n_frames)
+                  assert im.width>=1000, (name, im.size)
+                  assert im.info.get("loop")==0, name
+              with Image.open(png) as im:
+                  assert im.width>=1000,(name, im.size)
+          print("PASS: all five high-resolution looping project walkthroughs and static fallbacks")
           PY
 
       - name: Publish profile animations together
