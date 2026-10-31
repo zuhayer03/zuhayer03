@@ -1,76 +1,183 @@
 <div align="center">
 
-<a href="https://zuhayer03.github.io/programming-journey/"><picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/identity.svg"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/animated/identity.gif?v=studio" width="100%" alt="Zuhayer Alam Faiyaz — elegant creative engineering studio header"/></picture></a>
+<a href="https://zuhayer03.github.io/programming-journey/">
+<picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/identity.svg"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/animated/identity.gif?v=original-art-1" width="100%" alt="Cinematic 3D-inspired identity: Zuhayer Alam Faiyaz, creative engineering" /></picture>
+</a>
 
-**SOFTWARE · SYSTEMS · CREATIVE ENGINEERING**
+<br/>
 
-[**Portfolio**](https://zuhayer03.github.io/programming-journey/) &nbsp; / &nbsp; [**Projects**](#projects) &nbsp; / &nbsp; [**Tools**](#tools) &nbsp; / &nbsp; [**Arcade**](#arcade) &nbsp; / &nbsp; [**Connect**](#connect)
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=16&duration=3200&pause=1300&color=AEF47E&center=true&vCenter=true&width=850&height=42&lines=Computer+Science+%40+Kettering+University;Software+%E2%80%A2+Systems+%E2%80%A2+Creative+Engineering;Java+%2B+Python+%2B+DSA+%2B+AI+Tooling;Building+ideas+into+real+things." alt="Animated introduction" />
+
+<br/>
+
+<p align="center">
+
+**[Portfolio](https://zuhayer03.github.io/programming-journey/)** &nbsp; · &nbsp; **[My Projects](#projects)** &nbsp; · &nbsp; **[Tool Studio](#toolkit)** &nbsp; · &nbsp; **[Arcade](#arcade)** &nbsp; · &nbsp; **[Connect](https://www.linkedin.com/in/zuhayer-alam-faiyaz-8bb1a3442/)**
+
+</p>
+
+<br/><br/>
+
+**KETTERING UNIVERSITY** · COMPUTER SCIENCE · MICHIGAN, USA
+
+<sub>Software engineering and IT co-op opportunities · Learning in public · Code you can inspect</sub>
 
 </div>
 
 ---
 
-### Hello, I'm Zuhayer.
+<table>
+<tr>
+<td width="59%" valign="top">
 
-I'm studying **Computer Science at Kettering University**, bringing prior IT support and networking experience into software development. I enjoy understanding how things work, making something useful, and testing it carefully.
+### HI, I'M ZUHAYER ✳
 
-Right now: **Java, Python, data structures and algorithms, and practical software projects.** Open to software engineering and IT co-op opportunities.
+I started out working with networks, support tickets, and the practical side of technology. That taught me something valuable: **understand the system before trying to fix it.**
+
+Today I'm studying **Computer Science at Kettering University**, strengthening Java, Python, DSA, and software engineering foundations, and turning ideas into small, testable applications.
+
+Interested in **software, infrastructure, AI automation, security tooling, and blockchain**. Focused on learning deeply rather than collecting buzzwords.
+
+</td>
+<td width="41%" valign="top">
+
+### STATUS / DEVELOPER
+
+```yaml
+name: Zuhayer Alam Faiyaz
+university: Kettering
+focus: [Java, Python, DSA]
+background: IT + Networks
+current: Build + Learn
+next: Software / IT Co-op
+location: Michigan, USA
+```
+
+</td>
+</tr>
+</table>
 
 <a id="now"></a>
 
-### 01 / In focus
+### 01 / WHAT I'M WORKING TOWARD
 
-<picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/current-mission.svg"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/animated/mission.gif?v=studio" width="100%" alt="Learn the craft, build useful things, join a great team"/></picture>
+<div align="center">
+<picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/current-mission.svg"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/animated/mission.gif?v=original-art-1" width="100%" alt="Current mission: Java and DSA, deeper portfolio projects and engineering co-op" /></picture>
+</div>
 
 <a id="projects"></a>
 
-### 02 / Selected work
+### 02 / SELECTED WORK — FOUR REAL BUILDS
 
-Four small applications with readable source code and run instructions. The artwork is animated; the project descriptions reflect what the programs currently do.
+<sub>Each illustration opens actual source code. Projects include tests and run instructions. These are educational applications, not production services.</sub>
 
-<table width="100%">
-<tr><td width="50%" valign="top"><a href="https://github.com/zuhayer03/programming-journey/tree/main/projects/network-monitor"><picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/feature-network-monitor.svg"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/animated/network-monitor.gif?v=studio" width="100%" alt="Network Monitor project illustration"/></picture></a><p><strong>Network Monitor</strong> <sub>· Python / Networks</sub><br/><sub>Working project · TCP checks, connection times, CSV/JSON reporting</sub></p><p><a href="https://github.com/zuhayer03/programming-journey/tree/main/projects/network-monitor"><strong>Explore source &amp; tests →</strong></a></p></td><td width="50%" valign="top"><a href="https://github.com/zuhayer03/programming-journey/tree/main/projects/finance-tracker"><picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/feature-finance-tracker.svg"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/animated/finance-tracker.gif?v=studio" width="100%" alt="Finance Tracker project illustration"/></picture></a><p><strong>Finance Tracker</strong> <sub>· Python / Utilities</sub><br/><sub>Working project · Local spending summaries, budgeting, SVG chart</sub></p><p><a href="https://github.com/zuhayer03/programming-journey/tree/main/projects/finance-tracker"><strong>Explore source &amp; tests →</strong></a></p></td></tr>
-<tr><td width="50%" valign="top"><a href="https://github.com/zuhayer03/programming-journey/tree/main/projects/algoarena"><picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/feature-algoarena.svg"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/animated/algoarena.gif?v=studio" width="100%" alt="AlgoArena project illustration"/></picture></a><p><strong>AlgoArena</strong> <sub>· Java / Algorithms</sub><br/><sub>In development · Sorting comparison, correctness checks, educational timing</sub></p><p><a href="https://github.com/zuhayer03/programming-journey/tree/main/projects/algoarena"><strong>Explore source &amp; tests →</strong></a></p></td><td width="50%" valign="top"><a href="https://github.com/zuhayer03/programming-journey/tree/main/projects/threattrace"><picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/feature-threattrace.svg"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/animated/threattrace.gif?v=studio" width="100%" alt="ThreatTrace project illustration"/></picture></a><p><strong>ThreatTrace</strong> <sub>· Java / Security</sub><br/><sub>Functional prototype · Synthetic failed-login analysis and threshold alerts</sub></p><p><a href="https://github.com/zuhayer03/programming-journey/tree/main/projects/threattrace"><strong>Explore source &amp; tests →</strong></a></p></td></tr>
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/zuhayer03/programming-journey/tree/main/projects/network-monitor"><picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/feature-network-monitor.svg"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/animated/network-monitor.gif?v=original-art-1" width="100%" alt="Network Monitor — Python TCP connectivity checks and reports"/></picture></a>
+<p><strong><a href="https://github.com/zuhayer03/programming-journey/tree/main/projects/network-monitor">SOURCE / TESTS →</a></strong> TCP connectivity, connection time, and CSV/JSON reports.</p>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/zuhayer03/programming-journey/tree/main/projects/finance-tracker"><picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/feature-finance-tracker.svg"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/animated/finance-tracker.gif?v=original-art-1" width="100%" alt="Finance Tracker — Python budget and expense summaries"/></picture></a>
+<p><strong><a href="https://github.com/zuhayer03/programming-journey/tree/main/projects/finance-tracker">SOURCE / TESTS →</a></strong> Local expense summaries, budgeting, and SVG spending charts.</p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/zuhayer03/programming-journey/tree/main/projects/algoarena"><picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/feature-algoarena.svg"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/animated/algoarena.gif?v=original-art-1" width="100%" alt="AlgoArena — Java sorting comparison in development"/></picture></a>
+<p><strong><a href="https://github.com/zuhayer03/programming-journey/tree/main/projects/algoarena">SOURCE / TESTS →</a></strong> Java sorting comparisons and educational timing tests. In development.</p>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/zuhayer03/programming-journey/tree/main/projects/threattrace"><picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/feature-threattrace.svg"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/animated/threattrace.gif?v=original-art-1" width="100%" alt="ThreatTrace — Java security log analyzer functional prototype"/></picture></a>
+<p><strong><a href="https://github.com/zuhayer03/programming-journey/tree/main/projects/threattrace">SOURCE / TESTS →</a></strong> Synthetic failed-login analysis and threshold alerts. Functional prototype.</p>
+</td>
+</tr>
 </table>
 
 <div align="center">
 
-[![Project Tests](https://github.com/zuhayer03/programming-journey/actions/workflows/portfolio-tests.yml/badge.svg)](https://github.com/zuhayer03/programming-journey/actions/workflows/portfolio-tests.yml)
+[![Profile Artwork Quality](https://github.com/zuhayer03/zuhayer03/actions/workflows/profile-quality.yml/badge.svg)](https://github.com/zuhayer03/zuhayer03/actions/workflows/profile-quality.yml)
+[![Portfolio Tests](https://github.com/zuhayer03/programming-journey/actions/workflows/portfolio-tests.yml/badge.svg)](https://github.com/zuhayer03/programming-journey/actions/workflows/portfolio-tests.yml)
 [![Site Quality](https://github.com/zuhayer03/programming-journey/actions/workflows/site-quality.yml/badge.svg)](https://github.com/zuhayer03/programming-journey/actions/workflows/site-quality.yml)
-[![Website Deployment](https://github.com/zuhayer03/programming-journey/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/zuhayer03/programming-journey/actions/workflows/deploy-pages.yml)
+[![Portfolio Deployment](https://github.com/zuhayer03/programming-journey/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/zuhayer03/programming-journey/actions/workflows/deploy-pages.yml)
 
 </div>
 
-### 03 / Two ways to explore
+<a id="explore"></a>
 
-Go beyond the README. The portfolio features interactive 3D elements, while the lab offers separate browser-based experiments with sample data.
+### 03 / EXPLORE THE PORTFOLIO & LAB
 
-<table width="100%">
-<tr><td width="50%" valign="top"><a href="https://zuhayer03.github.io/programming-journey/"><picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/portal-portfolio.svg"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/animated/portfolio.gif?v=studio" width="100%" alt="Enter the 3D portfolio"/></picture></a></td><td width="50%" valign="top"><a href="https://zuhayer03.github.io/programming-journey/lab.html"><picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/portal-lab.svg"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/animated/lab.gif?v=studio" width="100%" alt="Play in the interactive lab"/></picture></a></td></tr>
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://zuhayer03.github.io/programming-journey/"><picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/portal-portfolio.svg"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/animated/portfolio.gif?v=original-art-1" width="100%" alt="Launch the 3D portfolio"/></picture></a>
+</td>
+<td width="50%" valign="top">
+<a href="https://zuhayer03.github.io/programming-journey/lab.html"><picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/portal-lab.svg"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/animated/lab.gif?v=original-art-1" width="100%" alt="Launch four interactive project experiments"/></picture></a>
+</td>
+</tr>
 </table>
 
-<a id="tools"></a>
+My <a href="https://zuhayer03.github.io/programming-journey/">portfolio site</a> features a real WebGL 3D sculpture, interactive tool explorer, project effects, and searchable navigation. In the <a href="https://zuhayer03.github.io/programming-journey/lab.html">lab</a>, experiment with sorting, simulated network checks, synthetic login events, and sample budgets. The browser demos are separate from the original Java/Python CLIs.
 
-### 04 / Tool studio
+<a id="toolkit"></a>
 
-A visual directory of development tools, AI workflows, models, and research platforms. These include tools I use, study, or explore — not a claim of expertise in all 29.
+### 04 / MY TOOLKIT — ANIMATED & INTERACTIVE
+
+<div align="center">
+
+**29 ORIGINAL LOGOS · 9 ANIMATED CARDS · 1 CLEAN DASHBOARD**
+
+<sub>Original product icons on white tiles. Gentle looping GIF motion, with still images for reduced-motion preferences.</sub>
+
+</div>
 
 <table width="100%">
-<tr><td width="50%" valign="top"><a href="https://zuhayer03.github.io/programming-journey/dashboard.html#core"><picture><source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/core.png"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/core.gif" width="100%" alt="core category: original tool logos"/></picture></a></td><td width="50%" valign="top"><a href="https://zuhayer03.github.io/programming-journey/dashboard.html#coding"><picture><source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/coding.png"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/coding.gif" width="100%" alt="coding category: original tool logos"/></picture></a></td></tr>
-<tr><td width="50%" valign="top"><a href="https://zuhayer03.github.io/programming-journey/dashboard.html#agents"><picture><source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/agents.png"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/agents.gif" width="100%" alt="agents category: original tool logos"/></picture></a></td><td width="50%" valign="top"><a href="https://zuhayer03.github.io/programming-journey/dashboard.html#infra"><picture><source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/infra.png"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/infra.gif" width="100%" alt="infra category: original tool logos"/></picture></a></td></tr>
-<tr><td width="50%" valign="top"><a href="https://zuhayer03.github.io/programming-journey/dashboard.html#quality"><picture><source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/quality.png"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/quality.gif" width="100%" alt="quality category: original tool logos"/></picture></a></td><td width="50%" valign="top"><a href="https://zuhayer03.github.io/programming-journey/dashboard.html#design"><picture><source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/design.png"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/design.gif" width="100%" alt="design category: original tool logos"/></picture></a></td></tr>
-<tr><td width="50%" valign="top"><a href="https://zuhayer03.github.io/programming-journey/dashboard.html#practice"><picture><source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/practice.png"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/practice.gif" width="100%" alt="practice category: original tool logos"/></picture></a></td><td width="50%" valign="top"><a href="https://zuhayer03.github.io/programming-journey/dashboard.html#stack"><picture><source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/stack.png"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/stack.gif" width="100%" alt="stack category: original tool logos"/></picture></a></td></tr>
-<tr><td colspan="2" width="100%" valign="top"><a href="https://zuhayer03.github.io/programming-journey/dashboard.html#pipeline"><picture><source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/pipeline.png"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/pipeline.gif" width="100%" alt="Development pipeline: code, build, test, deploy and ship"/></picture></a></td></tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://zuhayer03.github.io/programming-journey/dashboard.html#core"><picture><source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/core.png"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/core.gif?v=reference3d-20261028" width="100%" alt="Programming and Development: Java, Python, Git, GitHub, VS Code, IntelliJ IDEA"/></picture></a>
+</td>
+<td width="50%" valign="top">
+<a href="https://zuhayer03.github.io/programming-journey/dashboard.html#coding"><picture><source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/coding.png"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/coding.gif?v=reference3d-20261028" width="100%" alt="AI-Assisted Coding: Cursor, GitHub Copilot, Claude Code, Google Antigravity"/></picture></a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://zuhayer03.github.io/programming-journey/dashboard.html#agents"><picture><source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/agents.png"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/agents.gif?v=reference3d-20261028" width="100%" alt="Agents and Automation: LangGraph, Google ADK, LiveKit Agents, Browser Use, Composio, Paperclip"/></picture></a>
+</td>
+<td width="50%" valign="top">
+<a href="https://zuhayer03.github.io/programming-journey/dashboard.html#infra"><picture><source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/infra.png"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/infra.gif?v=reference3d-20261028" width="100%" alt="Models and Infrastructure: Hugging Face, Ollama, Supabase AI, E2B"/></picture></a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://zuhayer03.github.io/programming-journey/dashboard.html#quality"><picture><source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/quality.png"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/quality.gif?v=reference3d-20261028" width="100%" alt="Quality and Observability: CodeRabbit, LangSmith, Sentry Seer"/></picture></a>
+</td>
+<td width="50%" valign="top">
+<a href="https://zuhayer03.github.io/programming-journey/dashboard.html#design"><picture><source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/design.png"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/design.gif?v=reference3d-20261028" width="100%" alt="Design and Research: Figma, Notion, NotebookLM, Perplexity"/></picture></a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://zuhayer03.github.io/programming-journey/dashboard.html#practice"><picture><source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/practice.png"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/practice.gif?v=reference3d-20261028" width="100%" alt="Coding Practice: LeetCode, NeetCode"/></picture></a>
+</td>
+<td width="50%" valign="top">
+<a href="https://zuhayer03.github.io/programming-journey/dashboard.html#stack"><picture><source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/stack.png"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/stack.gif?v=reference3d-20261028" width="100%" alt="Stack Architect: frontend, backend, data, AI and infrastructure planning"/></picture></a>
+</td>
+</tr>
+<tr><td colspan="2" width="100%" valign="top">
+<a href="https://zuhayer03.github.io/programming-journey/dashboard.html#pipeline"><picture><source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/pipeline.png"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dashboard/pipeline.gif?v=reference3d-20261028" width="100%" alt="Development Pipeline: Code, Build, Test, Deploy, Ship"/></picture></a>
+</td></tr>
 </table>
 
 <div align="center">
 
-[**Open the interactive 3D tool dashboard →**](https://zuhayer03.github.io/programming-journey/dashboard.html)
+**[OPEN THE INTERACTIVE 3D DASHBOARD ↗](https://zuhayer03.github.io/programming-journey/dashboard.html)** · **[BUILD A CUSTOM STACK ↗](https://zuhayer03.github.io/programming-journey/#stack-lab)**
 
 </div>
 
 <details>
-<summary><strong>All 29 tools — individual links</strong></summary>
+<summary><strong>＋ Direct links to all 29 tools</strong></summary>
 
 **Programming & Development**
 
@@ -104,50 +211,92 @@ A visual directory of development tools, AI workflows, models, and research plat
 
 </details>
 
-<a id="arcade"></a>
-
-### 05 / Progress & play
-
 <details>
-<summary><strong>Snake and Pac-Man — contribution animations</strong></summary>
+<summary><strong>＋ BONUS / CONTRIBUTION ART STUDIO</strong></summary>
+
+
+
 <div align="center">
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/snake-dark.svg"/><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/snake.svg"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/snake.svg" width="100%" alt="Snake animating real public GitHub contributions"/></picture>
+<a href="https://zuhayer03.github.io/programming-journey/constellation.html">
+<img src="assets/contribution-constellation.svg" width="100%" alt="Original decorative ZF pixel art using a GitHub-style 53-week contribution grid, explicitly not a real activity graph"/>
+</a>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/pacman-contribution-graph-dark.svg"/><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/pacman-contribution-graph.svg"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/pacman-contribution-graph-dark.svg" width="100%" alt="Animated Pac-Man over actual GitHub contributions"/></picture>
+**[✳ OPEN THE INTERACTIVE PIXEL-ART STUDIO — DRAW YOUR OWN GRAPH ↗](https://zuhayer03.github.io/programming-journey/constellation.html)**
 
-[**Play the keyboard-controlled arcade game →**](https://zuhayer03.github.io/programming-journey/arcade.html)
-
-<sub>The images visualize real contribution activity. The playable mini-game runs on the linked website.</sub>
+<sub>Inspired by contribution graph art. The linked editor creates exportable SVG artwork; it never fabricates or backdates commits. Actual contribution data appears in the animated graphs below.</sub>
 
 </div>
-</details>
-
-<details>
-<summary><strong>Bonus / creative experiments</strong></summary>
-
-[**Contribution-inspired pixel-art studio →**](https://zuhayer03.github.io/programming-journey/constellation.html) — create original decorative artwork, not fake commits.
-
-<img src="assets/contribution-constellation.svg" width="100%" alt="Decorative contribution-inspired art, not an activity record"/>
-
-[**Animated coding console →**](https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dev-console.gif)
 
 </details>
 
-<a id="connect"></a>
+<a id="arcade"></a>
 
----
+### 05 / THE CONTRIBUTION ARCADE 🕹️
+
+**LEVEL 01 — THE CONTRIBUTION SNAKE**
 
 <div align="center">
 
-### Let's build something useful.
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/snake-dark.svg"/>
+<source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/snake.svg"/>
+<img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/snake.svg" width="100%" alt="Contribution snake animated from real public GitHub contributions"/>
+</picture>
 
-Interested in working together or discussing a software engineering / IT co-op?
+<sub>Generated from my public contribution graph by a scheduled GitHub Action.</sub>
 
-[**LinkedIn**](https://www.linkedin.com/in/zuhayer-alam-faiyaz-8bb1a3442/) &nbsp; · &nbsp; [**Project source**](https://github.com/zuhayer03/programming-journey) &nbsp; · &nbsp; [**Portfolio**](https://zuhayer03.github.io/programming-journey/)
+</div>
 
-<picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/signoff.svg"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/animated/signoff.gif?v=studio" width="100%" alt="Keep learning and make ideas real"/></picture>
+<div align="center">
 
-<sub>Z✳F / Creative Engineering · Michigan, USA</sub>
+**LEVEL 02 — PAC-MAN VS. MY GITHUB CONTRIBUTIONS 👻**
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/pacman-contribution-graph-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/pacman-contribution-graph.svg"/>
+  <img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/pacman-contribution-graph-dark.svg" width="100%" alt="Animated Pac-Man eats my real GitHub contribution graph while ghosts chase him"/>
+</picture>
+
+<sub>Automatically updated daily from my actual contributions. The GitHub graphic is an animation, not an embedded playable game.</sub>
+
+<br/>
+
+<a href="https://zuhayer03.github.io/programming-journey/arcade.html"><img src="https://img.shields.io/badge/🕹️_PLAY_MY_PAC--MAN--INSPIRED_MINI_GAME-OPEN_THE_ARCADE-D9FF65?style=for-the-badge&labelColor=17221a&color=D9FF65" alt="Play my original browser maze game using arrows, WASD or touch controls"/></a>
+
+**[PLAY THE REAL KEYBOARD & TOUCH-CONTROLLED MINI GAME ↗](https://zuhayer03.github.io/programming-journey/arcade.html)**
+
+<br/>
+
+**BONUS / ANIMATED CODING CONSOLE**
+
+<img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/dev-console.gif" width="100%" alt="Original animated coding terminal GIF, highlighting Java, Python and AI automation"/>
+
+</div>
+
+<details>
+<summary><strong>＋ OPEN GITHUB STATS</strong></summary>
+<br/>
+<div align="center">
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=zuhayer03&show_icons=true&hide_border=true&theme=default&title_color=33442b" alt="Public GitHub account activity"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=zuhayer03&layout=compact&hide_border=true&theme=default&title_color=33442b" alt="Languages in public repositories"/>
+</div>
+<sub>Statistics depend on third-party availability and do not measure programming proficiency.</sub>
+</details>
+
+<div align="center">
+
+### BUILD WITH PURPOSE. KEEP GETTING BETTER.
+
+If you're building useful software or recruiting for a software engineering / IT co-op, I'd love to connect.
+
+<a href="https://www.linkedin.com/in/zuhayer-alam-faiyaz-8bb1a3442/"><img src="https://img.shields.io/badge/LET'S_TALK-LINKEDIN-161C16?style=for-the-badge&logo=linkedin&logoColor=D9FF65" alt="Connect on LinkedIn"/></a>
+<a href="https://github.com/zuhayer03/programming-journey"><img src="https://img.shields.io/badge/EXPLORE-SOURCE_CODE-161C16?style=for-the-badge&logo=github&logoColor=D9FF65" alt="Explore programming journey"/></a>
+
+<br/><br/>
+
+<picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/signoff.svg"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/animated/signoff.gif?v=original-art-1" width="100%" alt="Keep learning. Make ideas real." /></picture>
+
+<sub>Z✳F / CREATIVE ENGINEERING · © Zuhayer Alam Faiyaz</sub>
 
 </div>
