@@ -1,23 +1,29 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="230" viewBox="0 0 1280 230" role="img" aria-labelledby="title desc">
-<title id="title">Current mission — coding, projects, collaboration</title><desc id="desc">Editorial engineering mission board focusing on Java and DSA, building project depth, and software co-op opportunities.</desc>
-<defs>
-<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#15211a"/><stop offset="1" stop-color="#101713"/></linearGradient>
-<linearGradient id="shine" x2="1" y2="0"><stop stop-color="#d9ff65"/><stop offset=".6" stop-color="#b8f8ce"/><stop offset="1" stop-color="#d9ff65"/></linearGradient>
-</defs><rect x="1" y="1" width="1278" height="228" rx="18" fill="url(#bg)" stroke="#5e8560" stroke-opacity=".66"/>
-<g font-family="Consolas,monospace">
-<circle cx="35" cy="38" r="6" fill="#d9ff65"><animate attributeName="opacity" values="1;.35;1" dur="3s" repeatCount="indefinite"/></circle>
-<text x="52" y="43" font-size="15" font-weight="bold" fill="#d9ff65">CURRENT MISSION // LIVE WORKSPACE</text>
-<text x="1245" y="43" font-size="13" fill="#aec6b2" text-anchor="end">AUTUMN 2026 / CS UNDERGRADUATE</text>
-<path d="M24 62H1256" stroke="#7d9d7b" stroke-opacity=".55"/>
-<path d="M426 78V212M855 78V212" stroke="#7d9d7b" stroke-opacity=".45"/>
-<g fill="#9daea4" font-size="13"><text x="30" y="96">01 / STUDY</text><text x="455" y="96">02 / BUILD</text><text x="885" y="96">03 / NEXT</text></g>
-<g font-family="Arial,Helvetica,sans-serif" font-size="32" font-weight="900" letter-spacing="-1" fill="#f3f5e8">
-<text x="30" y="140">JAVA &amp; DSA</text><text x="455" y="140">PROJECT DEPTH</text><text x="885" y="140">ENGINEERING CO-OP</text>
+<title id="title">Right now — learn, build, collaborate</title><desc id="desc">A three-column editorial snapshot of the developer's learning and career goals.</desc>
+<rect x="1" y="1" width="1278" height="228" rx="18" fill="#F4F0E6" stroke="#C9C9BE" stroke-width="2"/>
+<rect x="1" y="1" width="12" height="228" rx="6" fill="#8EAE9C"/>
+<g font-family="Consolas,'Courier New',monospace" font-size="13" letter-spacing="1.1">
+<text x="33" y="39" fill="#5C756B" font-weight="bold">A CURRENT SNAPSHOT</text>
+<text x="1244" y="39" text-anchor="end" fill="#65726E">LEARN  /  BUILD  /  COLLABORATE</text>
 </g>
-<g font-size="14" fill="#c7d3c8">
-<text x="30" y="171">Fundamentals and clean logic</text>
-<text x="455" y="171">Tests, documentation, usable code</text>
-<text x="885" y="171">Learn and contribute to a team</text>
+<path d="M32 57H1247" stroke="#C9D2C9" stroke-width="1.5"/>
+<path d="M427 79V207M849 79V207" stroke="#D4D6CF" stroke-width="2"/>
+<g font-family="Arial,Helvetica,sans-serif">
+<rect x="33" y="77" width="36" height="30" rx="8" fill="#E2D8EF"/><text x="51" y="99" font-size="16" text-anchor="middle" font-weight="bold" fill="#6A5782">01</text>
+<rect x="455" y="77" width="36" height="30" rx="8" fill="#C6DECE"/><text x="473" y="99" font-size="16" text-anchor="middle" font-weight="bold" fill="#3A6D5E">02</text>
+<rect x="878" y="77" width="36" height="30" rx="8" fill="#F0D6C5"/><text x="896" y="99" font-size="16" text-anchor="middle" font-weight="bold" fill="#95694E">03</text>
+<g fill="#25333A" font-weight="800" font-size="35">
+<text x="32" y="149">Learn the craft</text>
+<text x="454" y="149">Build useful things</text>
+<text x="878" y="149">Join a great team</text>
 </g>
-<g stroke="url(#shine)" stroke-width="4"><path d="M30 199H383"/><path d="M455 199H819"/><path d="M885 199H1234"/></g>
-</g></svg>
+<g fill="#56666B" font-size="17">
+<text x="33" y="179">Java, Python, algorithms</text>
+<text x="455" y="179">Real code, tests, documentation</text>
+<text x="879" y="179">Software and IT co-op</text>
+</g>
+</g>
+<path d="M33 199H386" stroke="#9B91BF" stroke-width="3" stroke-linecap="round"/>
+<path d="M455 199H805" stroke="#87BBA2" stroke-width="3" stroke-linecap="round"/>
+<path d="M879 199H1236" stroke="#D7A78B" stroke-width="3" stroke-linecap="round"/>
+</svg>
