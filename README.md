@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://zuhayer03.github.io/programming-journey/">
-<img src="assets/identity.svg" width="100%" alt="Cinematic 3D-inspired identity: Zuhayer Alam Faiyaz, creative engineering" />
+<picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/identity.svg"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/animated/identity.gif?v=original-art-1" width="100%" alt="Cinematic 3D-inspired identity: Zuhayer Alam Faiyaz, creative engineering" /></picture>
 </a>
 
 <br/>
@@ -58,7 +58,7 @@ location: Michigan, USA
 ### 01 / WHAT I'M WORKING TOWARD
 
 <div align="center">
-<img src="assets/current-mission.svg" width="100%" alt="Current mission: Java and DSA, deeper portfolio projects and engineering co-op" />
+<picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/current-mission.svg"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/animated/mission.gif?v=original-art-1" width="100%" alt="Current mission: Java and DSA, deeper portfolio projects and engineering co-op" /></picture>
 </div>
 
 ### 02 / SELECTED WORK — FOUR REAL BUILDS
@@ -68,21 +68,21 @@ location: Michigan, USA
 <table>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/zuhayer03/programming-journey/tree/main/projects/network-monitor"><img src="assets/feature-network-monitor.svg" width="100%" alt="Network Monitor — Python TCP connectivity checks and reports"/></a>
+<a href="https://github.com/zuhayer03/programming-journey/tree/main/projects/network-monitor"><picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/feature-network-monitor.svg"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/animated/network-monitor.gif?v=original-art-1" width="100%" alt="Network Monitor — Python TCP connectivity checks and reports"/></picture></a>
 <p><strong><a href="https://github.com/zuhayer03/programming-journey/tree/main/projects/network-monitor">SOURCE / TESTS →</a></strong> TCP connectivity, connection time, and CSV/JSON reports.</p>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/zuhayer03/programming-journey/tree/main/projects/finance-tracker"><img src="assets/feature-finance-tracker.svg" width="100%" alt="Finance Tracker — Python budget and expense summaries"/></a>
+<a href="https://github.com/zuhayer03/programming-journey/tree/main/projects/finance-tracker"><picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/feature-finance-tracker.svg"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/animated/finance-tracker.gif?v=original-art-1" width="100%" alt="Finance Tracker — Python budget and expense summaries"/></picture></a>
 <p><strong><a href="https://github.com/zuhayer03/programming-journey/tree/main/projects/finance-tracker">SOURCE / TESTS →</a></strong> Local expense summaries, budgeting, and SVG spending charts.</p>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/zuhayer03/programming-journey/tree/main/projects/algoarena"><img src="assets/feature-algoarena.svg" width="100%" alt="AlgoArena — Java sorting comparison in development"/></a>
+<a href="https://github.com/zuhayer03/programming-journey/tree/main/projects/algoarena"><picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/feature-algoarena.svg"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/animated/algoarena.gif?v=original-art-1" width="100%" alt="AlgoArena — Java sorting comparison in development"/></picture></a>
 <p><strong><a href="https://github.com/zuhayer03/programming-journey/tree/main/projects/algoarena">SOURCE / TESTS →</a></strong> Java sorting comparisons and educational timing tests. In development.</p>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/zuhayer03/programming-journey/tree/main/projects/threattrace"><img src="assets/feature-threattrace.svg" width="100%" alt="ThreatTrace — Java security log analyzer functional prototype"/></a>
+<a href="https://github.com/zuhayer03/programming-journey/tree/main/projects/threattrace"><picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/feature-threattrace.svg"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/animated/threattrace.gif?v=original-art-1" width="100%" alt="ThreatTrace — Java security log analyzer functional prototype"/></picture></a>
 <p><strong><a href="https://github.com/zuhayer03/programming-journey/tree/main/projects/threattrace">SOURCE / TESTS →</a></strong> Synthetic failed-login analysis and threshold alerts. Functional prototype.</p>
 </td>
 </tr>
@@ -102,10 +102,10 @@ location: Michigan, USA
 <table>
 <tr>
 <td width="50%" valign="top">
-<a href="https://zuhayer03.github.io/programming-journey/"><img src="assets/portal-portfolio.svg" width="100%" alt="Launch the 3D portfolio"/></a>
+<a href="https://zuhayer03.github.io/programming-journey/"><picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/portal-portfolio.svg"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/animated/portfolio.gif?v=original-art-1" width="100%" alt="Launch the 3D portfolio"/></picture></a>
 </td>
 <td width="50%" valign="top">
-<a href="https://zuhayer03.github.io/programming-journey/lab.html"><img src="assets/portal-lab.svg" width="100%" alt="Launch four interactive project experiments"/></a>
+<a href="https://zuhayer03.github.io/programming-journey/lab.html"><picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/portal-lab.svg"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/animated/lab.gif?v=original-art-1" width="100%" alt="Launch four interactive project experiments"/></picture></a>
 </td>
 </tr>
 </table>
@@ -280,7 +280,7 @@ If you're building useful software or recruiting for a software engineering / IT
 
 <br/><br/>
 
-<img src="assets/signoff.svg" width="100%" alt="Keep learning. Make ideas real." />
+<picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/signoff.svg"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/animated/signoff.gif?v=original-art-1" width="100%" alt="Keep learning. Make ideas real." /></picture>
 
 <sub>Z✳F / CREATIVE ENGINEERING · © Zuhayer Alam Faiyaz</sub>
 
