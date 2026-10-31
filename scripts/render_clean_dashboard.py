@@ -238,16 +238,25 @@ def pipeline(t):
     return image
 
 def save_gif(frames,path):
+    """Publish 2x retina assets with a full local palette per frame.
+
+    The README displays these at roughly half their encoded dimensions.
+    That gives GitHub substantially cleaner type/logo edges than the old
+    600px GIFs. Each frame gets its own 256-colour palette instead of being
+    forced into the first frame's palette, which prevents logo colour loss.
+    """
     path.parent.mkdir(parents=True,exist_ok=True)
-    frames[0].save(path.with_suffix(".png"))
-    palette=frames[0].quantize(colors=226,method=Image.Quantize.MEDIANCUT)
-    quantized=[frame.quantize(palette=palette,dither=Image.Dither.NONE) for frame in frames]
+    scale=2
+    retina=[frame.resize((frame.width*scale,frame.height*scale),Image.Resampling.LANCZOS) for frame in frames]
+    retina[0].save(path.with_suffix(".png"),optimize=True)
+    quantized=[frame.quantize(colors=256,method=Image.Quantize.MEDIANCUT,dither=Image.Dither.FLOYDSTEINBERG) for frame in retina]
     target=path.with_suffix(".gif")
     quantized[0].save(target,save_all=True,append_images=quantized[1:],duration=125,
-                      loop=0,optimize=True,disposal=2)
+                      loop=0,optimize=False,disposal=2)
     with Image.open(target) as test:
         assert test.n_frames>=9, (path,test.n_frames)
-    print(f"RENDER {target.name}: {target.stat().st_size:,} bytes",flush=True)
+        assert test.width>=1200, (path,test.size)
+    print(f"RETINA RENDER {target.name}: {retina[0].size[0]}x{retina[0].size[1]}, {target.stat().st_size:,} bytes",flush=True)
 
 def render_dashboard(tools,logos,target):
     assert len(tools)==29 and len(logos)==29
