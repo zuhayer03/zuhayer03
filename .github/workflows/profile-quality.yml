@@ -69,7 +69,7 @@ jobs:
               assert f"/animated/{key}.gif" in readme, f"Missing original-art GIF: {key}"
               assert f'srcset="{source}"' in readme, f"Missing static fallback: {source}"
               assert Path(source).is_file(), f"Missing original SVG: {source}"
-          assert len(re.findall(r"/animated/[a-z-]+\\.gif",readme)) == 9, "Expected exactly nine animated original-art images"
+          assert len(re.findall(r"/animated/[a-z-]+[.]gif",readme)) == 9, "Expected exactly nine animated original-art images"
           icon_files=list(Path("assets/icons").glob("*.svg"))
           assert len(icon_files) >= 13, f"Missing self-hosted vector logos: {len(icon_files)}"
           for icon in icon_files:
