@@ -280,11 +280,9 @@ My <a href="https://zuhayer03.github.io/programming-journey/">portfolio site</a>
 
 **NOW PLAYING / LOFI BEATS FOR FOCUS**
 
-<a href="https://open.spotify.com/playlist/37i9dQZF1DWWQRwui0ExPn"><img src="https://img.shields.io/badge/Spotify-PLAY_LOFI_BEATS-1DB954?style=for-the-badge&logo=spotify&logoColor=white&labelColor=10221A" alt="Listen to Spotify's public lofi beats playlist"/></a>
+<a href="https://open.spotify.com/playlist/37i9dQZF1DWWQRwui0ExPn" title="Click to open Spotify's lofi beats playlist"><picture><source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/spotify-lofi-player.png"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/spotify-lofi-player.gif" width="100%" alt="Animated Spotify-style lofi beats playlist preview: rotating vinyl record, moving equalizer, play symbol, and invitation to click to listen on Spotify"/></picture></a>
 
-[**🎧 Open Spotify's lofi beats playlist ↗**](https://open.spotify.com/playlist/37i9dQZF1DWWQRwui0ExPn)
-
-<sub>A public Spotify-curated playlist for studying and coding. Opens in Spotify; GitHub READMEs cannot host an embedded audio player.</sub>
+<sub>🎧 Click the animated player to open <a href="https://open.spotify.com/playlist/37i9dQZF1DWWQRwui0ExPn">Spotify's lofi beats playlist</a>. GIF preview only—audio plays on Spotify, not in this README.</sub>
 
 </div>
 
