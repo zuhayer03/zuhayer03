@@ -137,15 +137,24 @@ My <a href="https://zuhayer03.github.io/programming-journey/">portfolio site</a>
 
 <a id="toolkit"></a>
 
-### 04 / MY TOOLKIT — ANIMATED & INTERACTIVE
+### 04 / MY TOOLKIT — THE COMPACT TOOL UNIVERSE ✳
 
 <div align="center">
 
-**29 ORIGINAL LOGOS · 9 ANIMATED CARDS · 1 CLEAN DASHBOARD**
+<a href="https://zuhayer03.github.io/programming-journey/dashboard.html"><picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/tool-universe.svg"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/tool-reel.gif" width="100%" alt="Animated tool-universe reel cycling through core development, AI-assisted coding, agents, automation, infrastructure, quality, research, and coding practice"/></picture></a>
 
-<sub>Original product icons on white tiles. Gentle looping GIF motion, with still images for reduced-motion preferences.</sub>
+**29 TOOLS · 8 CATEGORIES · ONE INTERACTIVE DASHBOARD**
+
+<sub>Java · Python · Git · AI coding · Agents · Infrastructure · Design · Practice</sub>
+
+**[EXPLORE THE INTERACTIVE 3D DASHBOARD ↗](https://zuhayer03.github.io/programming-journey/dashboard.html)** · **[BUILD A CUSTOM STACK ↗](https://zuhayer03.github.io/programming-journey/#stack-lab)**
 
 </div>
+
+<details>
+<summary><strong>＋ Expand the 9 original animated tool cards (full visual collection)</strong></summary>
+
+<sub>All original logos and moving cards are preserved below. The gallery is collapsed by default to keep the profile easy to scan.</sub>
 
 <table width="100%">
 <tr>
@@ -185,11 +194,7 @@ My <a href="https://zuhayer03.github.io/programming-journey/">portfolio site</a>
 </td></tr>
 </table>
 
-<div align="center">
-
-**[OPEN THE INTERACTIVE 3D DASHBOARD ↗](https://zuhayer03.github.io/programming-journey/dashboard.html)** · **[BUILD A CUSTOM STACK ↗](https://zuhayer03.github.io/programming-journey/#stack-lab)**
-
-</div>
+</details>
 
 <details>
 <summary><strong>＋ Direct links to all 29 tools</strong></summary>
