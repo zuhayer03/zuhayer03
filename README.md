@@ -137,13 +137,13 @@ My <a href="https://zuhayer03.github.io/programming-journey/">portfolio site</a>
 
 <a id="toolkit"></a>
 
-### 04 / MY TOOLKIT — THE COMPACT TOOL UNIVERSE ✳
+### 04 / MY TOOLKIT — COLORFUL STACK ✳
 
 <div align="center">
 
 <a href="https://zuhayer03.github.io/programming-journey/dashboard.html"><picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/tool-universe.svg"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/tool-reel.gif" width="100%" alt="Animated tool-universe reel cycling through core development, AI-assisted coding, agents, automation, infrastructure, quality, research, and coding practice"/></picture></a>
 
-**29 TOOLS · ONE CLEAN ICON LINEUP · ONE INTERACTIVE DASHBOARD**
+**29 TOOLS · BIG COLORFUL ICONS · ANIMATED TOOL SHOWCASE**
 
 <sub>Java · Python · Git · AI coding · Agents · Infrastructure · Design · Practice</sub>
 
@@ -153,37 +153,47 @@ My <a href="https://zuhayer03.github.io/programming-journey/">portfolio site</a>
 
 <div align="center">
 
-<a href="https://www.java.com" title="Java"><img src="https://img.shields.io/badge/Java-202720?style=for-the-badge&logo=java&logoColor=white&labelColor=202720" alt="Java" height="30"/></a>
-<a href="https://www.python.org" title="Python"><img src="https://img.shields.io/badge/Python-202720?style=for-the-badge&logo=python&logoColor=white&labelColor=202720" alt="Python" height="30"/></a>
-<a href="https://git-scm.com" title="Git"><img src="https://img.shields.io/badge/Git-202720?style=for-the-badge&logo=git&logoColor=white&labelColor=202720" alt="Git" height="30"/></a>
-<a href="https://github.com" title="GitHub"><img src="https://img.shields.io/badge/GitHub-202720?style=for-the-badge&logo=github&logoColor=white&labelColor=202720" alt="GitHub" height="30"/></a>
-<a href="https://code.visualstudio.com" title="VS Code"><img src="https://img.shields.io/badge/VS_Code-202720?style=for-the-badge&logo=visualstudiocode&logoColor=white&labelColor=202720" alt="VS Code" height="30"/></a>
-<a href="https://www.jetbrains.com/idea/" title="IntelliJ IDEA"><img src="https://img.shields.io/badge/IntelliJ_IDEA-202720?style=for-the-badge&logo=intellijidea&logoColor=white&labelColor=202720" alt="IntelliJ IDEA" height="30"/></a>
-<a href="https://cursor.com" title="Cursor"><img src="https://img.shields.io/badge/Cursor-202720?style=for-the-badge&logo=cursor&logoColor=white&labelColor=202720" alt="Cursor" height="30"/></a>
-<a href="https://github.com/features/copilot" title="GitHub Copilot"><img src="https://img.shields.io/badge/GitHub_Copilot-202720?style=for-the-badge&logo=githubcopilot&logoColor=white&labelColor=202720" alt="GitHub Copilot" height="30"/></a>
-<a href="https://www.anthropic.com/claude-code" title="Claude Code"><img src="https://img.shields.io/badge/Claude_Code-202720?style=for-the-badge&logo=claude&logoColor=white&labelColor=202720" alt="Claude Code" height="30"/></a>
-<a href="https://antigravity.google" title="Google Antigravity"><img src="https://img.shields.io/badge/Google_Antigravity-202720?style=for-the-badge&logo=google&logoColor=white&labelColor=202720" alt="Google Antigravity" height="30"/></a>
-<a href="https://www.langchain.com/langgraph" title="LangGraph"><img src="https://img.shields.io/badge/LangGraph-202720?style=for-the-badge&logo=langchain&logoColor=white&labelColor=202720" alt="LangGraph" height="30"/></a>
-<a href="https://google.github.io/adk-docs/" title="Google ADK"><img src="https://img.shields.io/badge/Google_ADK-202720?style=for-the-badge&logo=google&logoColor=white&labelColor=202720" alt="Google ADK" height="30"/></a>
-<a href="https://livekit.io" title="LiveKit Agents"><img src="https://img.shields.io/badge/LiveKit_Agents-202720?style=for-the-badge&logo=livekit&logoColor=white&labelColor=202720" alt="LiveKit Agents" height="30"/></a>
-<a href="https://browser-use.com" title="Browser Use"><img src="https://img.shields.io/badge/Browser_Use-202720?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=202720" alt="Browser Use" height="30"/></a>
-<a href="https://composio.dev" title="Composio"><img src="https://img.shields.io/badge/Composio-202720?style=for-the-badge&logo=composio&logoColor=white&labelColor=202720" alt="Composio" height="30"/></a>
-<a href="https://paperclip.ing" title="Paperclip"><img src="https://img.shields.io/badge/Paperclip-202720?style=for-the-badge&logoColor=white&labelColor=202720" alt="Paperclip" height="30"/></a>
-<a href="https://huggingface.co" title="Hugging Face"><img src="https://img.shields.io/badge/Hugging_Face-202720?style=for-the-badge&logo=huggingface&logoColor=white&labelColor=202720" alt="Hugging Face" height="30"/></a>
-<a href="https://ollama.com" title="Ollama"><img src="https://img.shields.io/badge/Ollama-202720?style=for-the-badge&logo=ollama&logoColor=white&labelColor=202720" alt="Ollama" height="30"/></a>
-<a href="https://supabase.com" title="Supabase AI"><img src="https://img.shields.io/badge/Supabase_AI-202720?style=for-the-badge&logo=supabase&logoColor=white&labelColor=202720" alt="Supabase AI" height="30"/></a>
-<a href="https://e2b.dev" title="E2B"><img src="https://img.shields.io/badge/E2B-202720?style=for-the-badge&logoColor=white&labelColor=202720" alt="E2B" height="30"/></a>
-<a href="https://www.coderabbit.ai" title="CodeRabbit"><img src="https://img.shields.io/badge/CodeRabbit-202720?style=for-the-badge&logo=coderabbit&logoColor=white&labelColor=202720" alt="CodeRabbit" height="30"/></a>
-<a href="https://smith.langchain.com" title="LangSmith"><img src="https://img.shields.io/badge/LangSmith-202720?style=for-the-badge&logo=langchain&logoColor=white&labelColor=202720" alt="LangSmith" height="30"/></a>
-<a href="https://sentry.io" title="Sentry Seer"><img src="https://img.shields.io/badge/Sentry_Seer-202720?style=for-the-badge&logo=sentry&logoColor=white&labelColor=202720" alt="Sentry Seer" height="30"/></a>
-<a href="https://www.figma.com" title="Figma"><img src="https://img.shields.io/badge/Figma-202720?style=for-the-badge&logo=figma&logoColor=white&labelColor=202720" alt="Figma" height="30"/></a>
-<a href="https://www.notion.so" title="Notion"><img src="https://img.shields.io/badge/Notion-202720?style=for-the-badge&logo=notion&logoColor=white&labelColor=202720" alt="Notion" height="30"/></a>
-<a href="https://notebooklm.google.com" title="NotebookLM"><img src="https://img.shields.io/badge/NotebookLM-202720?style=for-the-badge&logo=google&logoColor=white&labelColor=202720" alt="NotebookLM" height="30"/></a>
-<a href="https://www.perplexity.ai" title="Perplexity"><img src="https://img.shields.io/badge/Perplexity-202720?style=for-the-badge&logo=perplexity&logoColor=white&labelColor=202720" alt="Perplexity" height="30"/></a>
-<a href="https://leetcode.com" title="LeetCode"><img src="https://img.shields.io/badge/LeetCode-202720?style=for-the-badge&logo=leetcode&logoColor=white&labelColor=202720" alt="LeetCode" height="30"/></a>
-<a href="https://neetcode.io" title="NeetCode"><img src="https://img.shields.io/badge/NeetCode-202720?style=for-the-badge&logo=leetcode&logoColor=white&labelColor=202720" alt="NeetCode" height="30"/></a>
+<a href="https://www.java.com" title="Java"><img src="https://skillicons.dev/icons?i=java&theme=light" width="58" height="58" alt="Java" /></a>
+<a href="https://www.python.org" title="Python"><img src="https://skillicons.dev/icons?i=python&theme=light" width="58" height="58" alt="Python" /></a>
+<a href="https://git-scm.com" title="Git"><img src="https://skillicons.dev/icons?i=git&theme=light" width="58" height="58" alt="Git" /></a>
+<a href="https://github.com" title="GitHub"><img src="https://skillicons.dev/icons?i=github&theme=light" width="58" height="58" alt="GitHub" /></a>
+<a href="https://code.visualstudio.com" title="VS Code"><img src="https://skillicons.dev/icons?i=vscode&theme=light" width="58" height="58" alt="VS Code" /></a>
+<a href="https://www.jetbrains.com/idea/" title="IntelliJ IDEA"><img src="https://skillicons.dev/icons?i=idea&theme=light" width="58" height="58" alt="IntelliJ IDEA" /></a>
+<a href="https://cursor.com" title="Cursor"><img src="https://cdn.simpleicons.org/cursor/D97706" width="58" height="58" alt="Cursor" /></a>
+<a href="https://github.com/features/copilot" title="GitHub Copilot"><img src="https://cdn.simpleicons.org/githubcopilot/EA2D2E" width="58" height="58" alt="GitHub Copilot" /></a>
 
-<sub>Tools I use, study, or explore at different levels — not a claim of expert mastery in all of them.</sub>
+<br/>
+
+<a href="https://www.anthropic.com/claude-code" title="Claude Code"><img src="https://cdn.simpleicons.org/claude/EA2D2E" width="58" height="58" alt="Claude Code" /></a>
+<a href="https://antigravity.google" title="Google Antigravity"><img src="https://skillicons.dev/icons?i=google&theme=light" width="58" height="58" alt="Google Antigravity" /></a>
+<a href="https://www.langchain.com/langgraph" title="LangGraph"><img src="https://cdn.simpleicons.org/langchain/F97316" width="58" height="58" alt="LangGraph" /></a>
+<a href="https://google.github.io/adk-docs/" title="Google ADK"><img src="https://skillicons.dev/icons?i=googlecloud&theme=light" width="58" height="58" alt="Google ADK" /></a>
+<a href="https://livekit.io" title="LiveKit Agents"><img src="https://cdn.simpleicons.org/livekit/22B8CF" width="58" height="58" alt="LiveKit Agents" /></a>
+<a href="https://browser-use.com" title="Browser Use"><img src="https://cdn.simpleicons.org/googlechrome/29A66A" width="58" height="58" alt="Browser Use" /></a>
+<a href="https://composio.dev" title="Composio"><img src="https://cdn.simpleicons.org/composio/D97706" width="58" height="58" alt="Composio" /></a>
+<a href="https://paperclip.ing" title="Paperclip"><img src="https://cdn.simpleicons.org/paperclip/EA2D2E" width="58" height="58" alt="Paperclip" /></a>
+
+<br/>
+
+<a href="https://huggingface.co" title="Hugging Face"><img src="https://cdn.simpleicons.org/huggingface/EA2D2E" width="58" height="58" alt="Hugging Face" /></a>
+<a href="https://ollama.com" title="Ollama"><img src="https://cdn.simpleicons.org/ollama/2F80ED" width="58" height="58" alt="Ollama" /></a>
+<a href="https://supabase.com" title="Supabase AI"><img src="https://skillicons.dev/icons?i=supabase&theme=light" width="58" height="58" alt="Supabase AI" /></a>
+<a href="https://e2b.dev" title="E2B"><img src="https://cdn.simpleicons.org/e2b/8257E6" width="58" height="58" alt="E2B" /></a>
+<a href="https://www.coderabbit.ai" title="CodeRabbit"><img src="https://cdn.simpleicons.org/coderabbit/22B8CF" width="58" height="58" alt="CodeRabbit" /></a>
+<a href="https://smith.langchain.com" title="LangSmith"><img src="https://cdn.simpleicons.org/langchain/29A66A" width="58" height="58" alt="LangSmith" /></a>
+<a href="https://sentry.io" title="Sentry Seer"><img src="https://skillicons.dev/icons?i=sentry&theme=light" width="58" height="58" alt="Sentry Seer" /></a>
+
+<br/>
+
+<a href="https://www.figma.com" title="Figma"><img src="https://skillicons.dev/icons?i=figma&theme=light" width="58" height="58" alt="Figma" /></a>
+<a href="https://www.notion.so" title="Notion"><img src="https://skillicons.dev/icons?i=notion&theme=light" width="58" height="58" alt="Notion" /></a>
+<a href="https://notebooklm.google.com" title="NotebookLM"><img src="https://cdn.simpleicons.org/googlenotebooklm/F97316" width="58" height="58" alt="NotebookLM" /></a>
+<a href="https://www.perplexity.ai" title="Perplexity"><img src="https://cdn.simpleicons.org/perplexity/8257E6" width="58" height="58" alt="Perplexity" /></a>
+<a href="https://leetcode.com" title="LeetCode"><img src="https://skillicons.dev/icons?i=leetcode&theme=light" width="58" height="58" alt="LeetCode" /></a>
+<a href="https://neetcode.io" title="NeetCode"><img src="https://skillicons.dev/icons?i=leetcode&theme=light" width="58" height="58" alt="NeetCode" /></a>
+
+<br/>
+<sub>Colorful developer icons · Click an icon to explore the tool · Tools I use, learn, or explore</sub>
 
 </div>
 
