@@ -143,11 +143,47 @@ My <a href="https://zuhayer03.github.io/programming-journey/">portfolio site</a>
 
 <a href="https://zuhayer03.github.io/programming-journey/dashboard.html"><picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/tool-universe.svg"/><img src="https://raw.githubusercontent.com/zuhayer03/zuhayer03/output/tool-reel.gif" width="100%" alt="Animated tool-universe reel cycling through core development, AI-assisted coding, agents, automation, infrastructure, quality, research, and coding practice"/></picture></a>
 
-**29 TOOLS · 8 CATEGORIES · ONE INTERACTIVE DASHBOARD**
+**29 TOOLS · ONE CLEAN ICON LINEUP · ONE INTERACTIVE DASHBOARD**
 
 <sub>Java · Python · Git · AI coding · Agents · Infrastructure · Design · Practice</sub>
 
 **[EXPLORE THE INTERACTIVE 3D DASHBOARD ↗](https://zuhayer03.github.io/programming-journey/dashboard.html)** · **[BUILD A CUSTOM STACK ↗](https://zuhayer03.github.io/programming-journey/#stack-lab)**
+
+</div>
+
+<div align="center">
+
+<a href="https://www.java.com" title="Java"><img src="https://img.shields.io/badge/Java-202720?style=for-the-badge&logo=java&logoColor=white&labelColor=202720" alt="Java" height="30"/></a>
+<a href="https://www.python.org" title="Python"><img src="https://img.shields.io/badge/Python-202720?style=for-the-badge&logo=python&logoColor=white&labelColor=202720" alt="Python" height="30"/></a>
+<a href="https://git-scm.com" title="Git"><img src="https://img.shields.io/badge/Git-202720?style=for-the-badge&logo=git&logoColor=white&labelColor=202720" alt="Git" height="30"/></a>
+<a href="https://github.com" title="GitHub"><img src="https://img.shields.io/badge/GitHub-202720?style=for-the-badge&logo=github&logoColor=white&labelColor=202720" alt="GitHub" height="30"/></a>
+<a href="https://code.visualstudio.com" title="VS Code"><img src="https://img.shields.io/badge/VS_Code-202720?style=for-the-badge&logo=visualstudiocode&logoColor=white&labelColor=202720" alt="VS Code" height="30"/></a>
+<a href="https://www.jetbrains.com/idea/" title="IntelliJ IDEA"><img src="https://img.shields.io/badge/IntelliJ_IDEA-202720?style=for-the-badge&logo=intellijidea&logoColor=white&labelColor=202720" alt="IntelliJ IDEA" height="30"/></a>
+<a href="https://cursor.com" title="Cursor"><img src="https://img.shields.io/badge/Cursor-202720?style=for-the-badge&logo=cursor&logoColor=white&labelColor=202720" alt="Cursor" height="30"/></a>
+<a href="https://github.com/features/copilot" title="GitHub Copilot"><img src="https://img.shields.io/badge/GitHub_Copilot-202720?style=for-the-badge&logo=githubcopilot&logoColor=white&labelColor=202720" alt="GitHub Copilot" height="30"/></a>
+<a href="https://www.anthropic.com/claude-code" title="Claude Code"><img src="https://img.shields.io/badge/Claude_Code-202720?style=for-the-badge&logo=claude&logoColor=white&labelColor=202720" alt="Claude Code" height="30"/></a>
+<a href="https://antigravity.google" title="Google Antigravity"><img src="https://img.shields.io/badge/Google_Antigravity-202720?style=for-the-badge&logo=google&logoColor=white&labelColor=202720" alt="Google Antigravity" height="30"/></a>
+<a href="https://www.langchain.com/langgraph" title="LangGraph"><img src="https://img.shields.io/badge/LangGraph-202720?style=for-the-badge&logo=langchain&logoColor=white&labelColor=202720" alt="LangGraph" height="30"/></a>
+<a href="https://google.github.io/adk-docs/" title="Google ADK"><img src="https://img.shields.io/badge/Google_ADK-202720?style=for-the-badge&logo=google&logoColor=white&labelColor=202720" alt="Google ADK" height="30"/></a>
+<a href="https://livekit.io" title="LiveKit Agents"><img src="https://img.shields.io/badge/LiveKit_Agents-202720?style=for-the-badge&logo=livekit&logoColor=white&labelColor=202720" alt="LiveKit Agents" height="30"/></a>
+<a href="https://browser-use.com" title="Browser Use"><img src="https://img.shields.io/badge/Browser_Use-202720?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=202720" alt="Browser Use" height="30"/></a>
+<a href="https://composio.dev" title="Composio"><img src="https://img.shields.io/badge/Composio-202720?style=for-the-badge&logo=composio&logoColor=white&labelColor=202720" alt="Composio" height="30"/></a>
+<a href="https://paperclip.ing" title="Paperclip"><img src="https://img.shields.io/badge/Paperclip-202720?style=for-the-badge&logoColor=white&labelColor=202720" alt="Paperclip" height="30"/></a>
+<a href="https://huggingface.co" title="Hugging Face"><img src="https://img.shields.io/badge/Hugging_Face-202720?style=for-the-badge&logo=huggingface&logoColor=white&labelColor=202720" alt="Hugging Face" height="30"/></a>
+<a href="https://ollama.com" title="Ollama"><img src="https://img.shields.io/badge/Ollama-202720?style=for-the-badge&logo=ollama&logoColor=white&labelColor=202720" alt="Ollama" height="30"/></a>
+<a href="https://supabase.com" title="Supabase AI"><img src="https://img.shields.io/badge/Supabase_AI-202720?style=for-the-badge&logo=supabase&logoColor=white&labelColor=202720" alt="Supabase AI" height="30"/></a>
+<a href="https://e2b.dev" title="E2B"><img src="https://img.shields.io/badge/E2B-202720?style=for-the-badge&logoColor=white&labelColor=202720" alt="E2B" height="30"/></a>
+<a href="https://www.coderabbit.ai" title="CodeRabbit"><img src="https://img.shields.io/badge/CodeRabbit-202720?style=for-the-badge&logo=coderabbit&logoColor=white&labelColor=202720" alt="CodeRabbit" height="30"/></a>
+<a href="https://smith.langchain.com" title="LangSmith"><img src="https://img.shields.io/badge/LangSmith-202720?style=for-the-badge&logo=langchain&logoColor=white&labelColor=202720" alt="LangSmith" height="30"/></a>
+<a href="https://sentry.io" title="Sentry Seer"><img src="https://img.shields.io/badge/Sentry_Seer-202720?style=for-the-badge&logo=sentry&logoColor=white&labelColor=202720" alt="Sentry Seer" height="30"/></a>
+<a href="https://www.figma.com" title="Figma"><img src="https://img.shields.io/badge/Figma-202720?style=for-the-badge&logo=figma&logoColor=white&labelColor=202720" alt="Figma" height="30"/></a>
+<a href="https://www.notion.so" title="Notion"><img src="https://img.shields.io/badge/Notion-202720?style=for-the-badge&logo=notion&logoColor=white&labelColor=202720" alt="Notion" height="30"/></a>
+<a href="https://notebooklm.google.com" title="NotebookLM"><img src="https://img.shields.io/badge/NotebookLM-202720?style=for-the-badge&logo=google&logoColor=white&labelColor=202720" alt="NotebookLM" height="30"/></a>
+<a href="https://www.perplexity.ai" title="Perplexity"><img src="https://img.shields.io/badge/Perplexity-202720?style=for-the-badge&logo=perplexity&logoColor=white&labelColor=202720" alt="Perplexity" height="30"/></a>
+<a href="https://leetcode.com" title="LeetCode"><img src="https://img.shields.io/badge/LeetCode-202720?style=for-the-badge&logo=leetcode&logoColor=white&labelColor=202720" alt="LeetCode" height="30"/></a>
+<a href="https://neetcode.io" title="NeetCode"><img src="https://img.shields.io/badge/NeetCode-202720?style=for-the-badge&logo=leetcode&logoColor=white&labelColor=202720" alt="NeetCode" height="30"/></a>
+
+<sub>Tools I use, study, or explore at different levels — not a claim of expert mastery in all of them.</sub>
 
 </div>
 
@@ -196,40 +232,7 @@ My <a href="https://zuhayer03.github.io/programming-journey/">portfolio site</a>
 
 </details>
 
-<details>
-<summary><strong>＋ Direct links to all 29 tools</strong></summary>
 
-**Programming & Development**
-
-[Java](https://www.java.com) · [Python](https://www.python.org) · [Git](https://git-scm.com) · [GitHub](https://github.com) · [VS Code](https://code.visualstudio.com) · [IntelliJ IDEA](https://www.jetbrains.com/idea/)
-
-**AI-Assisted Coding**
-
-[Cursor](https://cursor.com) · [GitHub Copilot](https://github.com/features/copilot) · [Claude Code](https://www.anthropic.com/claude-code) · [Google Antigravity](https://antigravity.google)
-
-**Agents & Automation**
-
-[LangGraph](https://www.langchain.com/langgraph) · [Google ADK](https://google.github.io/adk-docs/) · [LiveKit Agents](https://livekit.io) · [Browser Use](https://browser-use.com) · [Composio](https://composio.dev) · [Paperclip](https://paperclip.ing)
-
-**Models & Infrastructure**
-
-[Hugging Face](https://huggingface.co) · [Ollama](https://ollama.com) · [Supabase AI](https://supabase.com) · [E2B](https://e2b.dev)
-
-**Quality & Observability**
-
-[CodeRabbit](https://www.coderabbit.ai) · [LangSmith](https://smith.langchain.com) · [Sentry Seer](https://sentry.io)
-
-**Design & Research**
-
-[Figma](https://www.figma.com) · [Notion](https://www.notion.so) · [NotebookLM](https://notebooklm.google.com) · [Perplexity](https://www.perplexity.ai)
-
-**Coding Practice**
-
-[LeetCode](https://leetcode.com) · [NeetCode](https://neetcode.io)
-
-<sub>These are tools I use, study, or explore at different levels—not a claim of expert mastery in all of them. GIFs are illustrative; the original product logos and clickable tool links are preserved.</sub>
-
-</details>
 
 <details>
 <summary><strong>＋ BONUS / CONTRIBUTION ART STUDIO</strong></summary>
